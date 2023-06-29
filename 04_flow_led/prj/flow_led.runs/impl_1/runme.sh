@@ -11,9 +11,9 @@ echo "Please update the PATH and LD_LIBRARY_PATH variables below, before executi
 exit
 
 if [ -z "$PATH" ]; then
-  PATH=G:/Xilinx/Vitis/2020.2/bin;G:/Xilinx/Vivado/2020.2/ids_lite/ISE/bin/nt64;G:/Xilinx/Vivado/2020.2/ids_lite/ISE/lib/nt64:G:/Xilinx/Vivado/2020.2/bin
+  PATH=H:/FPGA/Xilinx/Vitis/2020.2/bin;H:/FPGA/Xilinx/Vivado/2020.2/ids_lite/ISE/bin/nt64;H:/FPGA/Xilinx/Vivado/2020.2/ids_lite/ISE/lib/nt64:H:/FPGA/Xilinx/Vivado/2020.2/bin
 else
-  PATH=G:/Xilinx/Vitis/2020.2/bin;G:/Xilinx/Vivado/2020.2/ids_lite/ISE/bin/nt64;G:/Xilinx/Vivado/2020.2/ids_lite/ISE/lib/nt64:G:/Xilinx/Vivado/2020.2/bin:$PATH
+  PATH=H:/FPGA/Xilinx/Vitis/2020.2/bin;H:/FPGA/Xilinx/Vivado/2020.2/ids_lite/ISE/bin/nt64;H:/FPGA/Xilinx/Vivado/2020.2/ids_lite/ISE/lib/nt64:H:/FPGA/Xilinx/Vivado/2020.2/bin:$PATH
 fi
 export PATH
 
@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='G:/FPGA/code/souce/04_flow_led/prj/flow_led.runs/impl_1'
+HD_PWD='H:/FPGA/souce/04_flow_led/prj/flow_led.runs/impl_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

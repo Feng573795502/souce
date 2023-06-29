@@ -17,7 +17,7 @@ proc create_report { reportName command } {
   }
 }
 namespace eval ::optrace {
-  variable script "G:/FPGA/code/souce/04_flow_led/prj/flow_led.runs/impl_1/flow_led.tcl"
+  variable script "H:/FPGA/souce/04_flow_led/prj/flow_led.runs/impl_1/flow_led.tcl"
   variable category "vivado_impl"
 }
 
@@ -115,8 +115,6 @@ proc step_failed { step } {
 OPTRACE "impl_1" END { }
 }
 
-set_msg_config -id {Synth 8-256} -limit 10000
-set_msg_config -id {Synth 8-638} -limit 10000
 
 OPTRACE "impl_1" START { ROLLUP_1 }
 OPTRACE "Phase: Init Design" START { ROLLUP_AUTO }
@@ -125,23 +123,21 @@ set ACTIVE_STEP init_design
 set rc [catch {
   create_msg_db init_design.pb
   set_param chipscope.maxJobs 4
-  set_param synth.incrementalSynthesisCache C:/Users/qq573/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-28488-Snail/incrSyn
-  set_param xicom.use_bs_reader 1
 OPTRACE "create in-memory project" START { }
   create_project -in_memory -part xc7z020clg484-2
   set_property design_mode GateLvl [current_fileset]
   set_param project.singleFileAddWarning.threshold 0
 OPTRACE "create in-memory project" END { }
 OPTRACE "set parameters" START { }
-  set_property webtalk.parent_dir G:/FPGA/code/souce/04_flow_led/prj/flow_led.cache/wt [current_project]
-  set_property parent.project_path G:/FPGA/code/souce/04_flow_led/prj/flow_led.xpr [current_project]
-  set_property ip_output_repo G:/FPGA/code/souce/04_flow_led/prj/flow_led.cache/ip [current_project]
+  set_property webtalk.parent_dir H:/FPGA/souce/04_flow_led/prj/flow_led.cache/wt [current_project]
+  set_property parent.project_path H:/FPGA/souce/04_flow_led/prj/flow_led.xpr [current_project]
+  set_property ip_output_repo H:/FPGA/souce/04_flow_led/prj/flow_led.cache/ip [current_project]
   set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "set parameters" END { }
 OPTRACE "add files" START { }
-  add_files -quiet G:/FPGA/code/souce/04_flow_led/prj/flow_led.runs/synth_1/flow_led.dcp
+  add_files -quiet H:/FPGA/souce/04_flow_led/prj/flow_led.runs/synth_1/flow_led.dcp
 OPTRACE "read constraints: implementation" START { }
-  read_xdc G:/FPGA/code/souce/04_flow_led/prj/flow_led.srcs/constrs_1/new/flow_led.xdc
+  read_xdc H:/FPGA/souce/04_flow_led/prj/flow_led.srcs/constrs_1/new/flow_led.xdc
 OPTRACE "read constraints: implementation" END { }
 OPTRACE "add files" END { }
 OPTRACE "link_design" START { }

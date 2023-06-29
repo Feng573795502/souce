@@ -1,4 +1,4 @@
-set_property SRC_FILE_INFO {cfile:G:/FPGA/code/souce/04_flow_led/prj/flow_led.srcs/constrs_1/new/flow_led.xdc rfile:../../../flow_led.srcs/constrs_1/new/flow_led.xdc id:1} [current_design]
+set_property SRC_FILE_INFO {cfile:H:/FPGA/souce/04_flow_led/prj/flow_led.srcs/constrs_1/new/flow_led.xdc rfile:../../../flow_led.srcs/constrs_1/new/flow_led.xdc id:1} [current_design]
 set_property src_info {type:XDC file:1 line:7 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN W17 [get_ports sys_clk]
 set_property src_info {type:XDC file:1 line:8 export:INPUT save:INPUT read:READ} [current_design]
