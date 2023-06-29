@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Jun 29 11:42:19 2023
+# Process ID: 13436
+# Current directory: H:/FPGA/souce/06_key_filte/key_filte.runs/impl_1
+# Command line: vivado.exe -log key_filte.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source key_filte.tcl -notrace
+# Log file: H:/FPGA/souce/06_key_filte/key_filte.runs/impl_1/key_filte.vdi
+# Journal file: H:/FPGA/souce/06_key_filte/key_filte.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source key_filte.tcl -notrace
