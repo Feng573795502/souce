@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Jun 29 14:53:52 2023
+# Process ID: 3084
+# Current directory: H:/FPGA/souce/07_pwm_led/pwm_led.runs/synth_1
+# Command line: vivado.exe -log pwm_led.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source pwm_led.tcl
+# Log file: H:/FPGA/souce/07_pwm_led/pwm_led.runs/synth_1/pwm_led.vds
+# Journal file: H:/FPGA/souce/07_pwm_led/pwm_led.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source pwm_led.tcl -notrace
