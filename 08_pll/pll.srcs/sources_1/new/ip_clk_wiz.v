@@ -42,9 +42,9 @@ clk_wiz_0 clk_wiz_0
     .clk_out3 (clk_50m),
     .clk_out4 (clk_25m),
     // Status and control signals
-     .reset (~sys_rst_n ), // input reset
+    .reset (~sys_rst_n ), // input reset
     .locked (locked), // output locked
     // Clock in ports
-    clk_in1 (sys_clk ) // input clk_in1
+    .clk_in1 (sys_clk ) // input clk_in1
 );
 endmodule
