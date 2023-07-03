@@ -1,0 +1,8 @@
+set_property PACKAGE_PIN AB14 [get_ports led]
+set_property IOSTANDARD LVCMOS33 [get_ports led]
+set_property PACKAGE_PIN W15 [get_ports sys_clk]
+set_property IOSTANDARD LVCMOS33 [get_ports sys_clk]
+set_property IOSTANDARD LVCMOS33 [get_ports sys_rst_n]
+set_property IOSTANDARD LVCMOS33 [get_ports uart_tx_serial]
+set_property PACKAGE_PIN V5 [get_ports sys_rst_n]
+set_property PACKAGE_PIN AB2 [get_ports uart_tx_serial]
