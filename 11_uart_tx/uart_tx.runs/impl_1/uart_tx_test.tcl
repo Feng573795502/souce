@@ -17,7 +17,7 @@ proc create_report { reportName command } {
   }
 }
 namespace eval ::optrace {
-  variable script "H:/FPGA/souce/11_uart_tx/uart_tx.runs/impl_1/uart_tx_test.tcl"
+  variable script "G:/FPGA/souce/11_uart_tx/uart_tx.runs/impl_1/uart_tx_test.tcl"
   variable category "vivado_impl"
 }
 
@@ -131,16 +131,16 @@ OPTRACE "create in-memory project" START { }
   set_param project.singleFileAddWarning.threshold 0
 OPTRACE "create in-memory project" END { }
 OPTRACE "set parameters" START { }
-  set_property webtalk.parent_dir H:/FPGA/souce/11_uart_tx/uart_tx.cache/wt [current_project]
-  set_property parent.project_path H:/FPGA/souce/11_uart_tx/uart_tx.xpr [current_project]
-  set_property ip_output_repo H:/FPGA/souce/11_uart_tx/uart_tx.cache/ip [current_project]
+  set_property webtalk.parent_dir G:/FPGA/souce/11_uart_tx/uart_tx.cache/wt [current_project]
+  set_property parent.project_path G:/FPGA/souce/11_uart_tx/uart_tx.xpr [current_project]
+  set_property ip_output_repo G:/FPGA/souce/11_uart_tx/uart_tx.cache/ip [current_project]
   set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "set parameters" END { }
 OPTRACE "add files" START { }
-  add_files -quiet H:/FPGA/souce/11_uart_tx/uart_tx.runs/synth_1/uart_tx_test.dcp
-  read_ip -quiet H:/FPGA/souce/11_uart_tx/uart_tx.srcs/sources_1/ip/vio_0/vio_0.xci
+  add_files -quiet G:/FPGA/souce/11_uart_tx/uart_tx.runs/synth_1/uart_tx_test.dcp
+  read_ip -quiet G:/FPGA/souce/11_uart_tx/uart_tx.srcs/sources_1/ip/vio_0/vio_0.xci
 OPTRACE "read constraints: implementation" START { }
-  read_xdc H:/FPGA/souce/11_uart_tx/uart_tx.srcs/constrs_1/new/uart_tx_test.xdc
+  read_xdc G:/FPGA/souce/11_uart_tx/uart_tx.srcs/constrs_1/new/uart_tx_test.xdc
 OPTRACE "read constraints: implementation" END { }
 OPTRACE "add files" END { }
 OPTRACE "link_design" START { }

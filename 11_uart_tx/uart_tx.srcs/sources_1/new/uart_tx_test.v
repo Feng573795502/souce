@@ -1,37 +1,12 @@
-`timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 2023/07/03 18:22:32
-// Design Name: 
-// Module Name: uart_tx_test
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
-
-
 module uart_tx_test(
     input sys_clk,
     input sys_rst_n,
-    
     output uart_tx_serial,
     output led
 );
 
-assign reset = ~sys_rst_n;
-
 wire send_en;            //发送使能
-wire [7:0]uart_tx_byte;  //数据线
+wire [7:0]data_byte;  //数据线
 wire test_en;            //按键标志信号
 reg  test_en_dly1;
 reg  test_en_dly2;
@@ -49,7 +24,7 @@ assign send_en = test_en_dly1 & !test_en_dly2;
 vio_0 vio_0(
     .clk(sys_clk),              //时钟输入
     .probe_out0(test_en),       //使能输出
-    .probe_out1(uart_tx_byte)   //数据wire
+    .probe_out1(data_byte)      //数据wire
 );
 
 //实例化uart发送模块

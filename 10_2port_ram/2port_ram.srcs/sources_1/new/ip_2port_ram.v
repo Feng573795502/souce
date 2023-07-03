@@ -22,9 +22,8 @@
 
 module ip_2port_ram(
     input sys_clk,
-    input sys_rst_n,
+    input sys_rst_n
     );
 
-wire 
-   
+
 endmodule
