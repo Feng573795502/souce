@@ -14,7 +14,7 @@ reg  test_en_dly2;
 //延时两个两个时钟周期
 always @(posedge sys_clk)begin
    test_en_dly1 <= test_en;
-   test_en_dly2 <= test_en_dly2;
+   test_en_dly2 <= test_en_dly1;
 end
 
 //vio输出使能信号 上升沿触发

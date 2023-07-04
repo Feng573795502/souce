@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7z020clg484-2" LaunchTime="1688398256">
+<GenRun Id="synth_1" LaunchPart="xc7z020clg484-2" LaunchTime="1688448957">
   <File Type="PA-TCL" Name="uart_tx_test.tcl"/>
   <File Type="RDS-PROPCONSTRS" Name="uart_tx_test_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="uart_tx_test_reports.tcl"/>

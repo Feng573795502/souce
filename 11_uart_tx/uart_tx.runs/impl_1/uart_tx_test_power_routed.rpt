@@ -1,7 +1,7 @@
 Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
-| Date             : Mon Jul  3 23:32:44 2023
+| Date             : Tue Jul  4 13:42:35 2023
 | Host             : Snail running 64-bit major release  (build 9200)
 | Command          : report_power -file uart_tx_test_power_routed.rpt -pb uart_tx_test_power_summary_routed.pb -rpx uart_tx_test_power_routed.rpx
 | Design           : uart_tx_test
@@ -33,7 +33,7 @@ Table of Contents
 | Total On-Chip Power (W)  | 0.107        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
-| Dynamic (W)              | 0.001        |
+| Dynamic (W)              | 0.002        |
 | Device Static (W)        | 0.106        |
 | Effective TJA (C/W)      | 11.5         |
 | Max Ambient (C)          | 83.8         |
@@ -53,15 +53,15 @@ Table of Contents
 | On-Chip                  | Power (W) | Used     | Available | Utilization (%) |
 +--------------------------+-----------+----------+-----------+-----------------+
 | Clocks                   |    <0.001 |        3 |       --- |             --- |
-| Slice Logic              |    <0.001 |     1889 |       --- |             --- |
-|   LUT as Logic           |    <0.001 |      558 |     53200 |            1.05 |
-|   Register               |    <0.001 |     1028 |    106400 |            0.97 |
+| Slice Logic              |    <0.001 |     1891 |       --- |             --- |
+|   LUT as Logic           |    <0.001 |      559 |     53200 |            1.05 |
+|   Register               |    <0.001 |     1029 |    106400 |            0.97 |
 |   CARRY4                 |    <0.001 |       18 |     13300 |            0.14 |
 |   BUFG                   |    <0.001 |        1 |        32 |            3.13 |
 |   LUT as Distributed RAM |    <0.001 |       24 |     17400 |            0.14 |
 |   F7/F8 Muxes            |    <0.001 |        1 |     53200 |           <0.01 |
 |   Others                 |     0.000 |      107 |       --- |             --- |
-| Signals                  |    <0.001 |     1350 |       --- |             --- |
+| Signals                  |    <0.001 |     1353 |       --- |             --- |
 | I/O                      |    <0.001 |        4 |       200 |            2.00 |
 | Static Power             |     0.106 |          |           |                 |
 | Total                    |     0.107 |          |           |                 |
@@ -150,7 +150,7 @@ Table of Contents
 +--------------------------+-----------+
 | Name                     | Power (W) |
 +--------------------------+-----------+
-| uart_tx_test             |     0.001 |
+| uart_tx_test             |     0.002 |
 |   dbg_hub                |     0.001 |
 |     inst                 |     0.001 |
 |       BSCANID.u_xsdbm_id |     0.001 |

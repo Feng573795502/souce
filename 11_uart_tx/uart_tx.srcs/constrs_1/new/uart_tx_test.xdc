@@ -5,5 +5,6 @@ set_property IOSTANDARD LVCMOS33 [get_ports sys_clk]
 set_property IOSTANDARD LVCMOS33 [get_ports led]
 set_property IOSTANDARD LVCMOS33 [get_ports sys_rst_n]
 
-set_property PACKAGE_PIN AA13 [get_ports uart_tx_serial]
+set_property PACKAGE_PIN Y9 [get_ports uart_tx_serial]
 set_property IOSTANDARD LVCMOS33 [get_ports uart_tx_serial]
+
