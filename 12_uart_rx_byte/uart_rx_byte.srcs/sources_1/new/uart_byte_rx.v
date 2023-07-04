@@ -27,6 +27,18 @@ reg [2:0]START_BIT;
 reg [2:0]STOP_BIT;
 reg [2:0]data_byte_pre [7:0];
 
+wire reset = ~sys_rst_n;
 
+// ±÷”Õ¨≤Ω
+always @(posedge clk)begin
+    if(reset)begin
+        uart_rx_sync1 <= 1'b0;
+        uart_rx_sync2 <= 1'b1;
+    end 
+    else begin 
+        uart_rx_sync1 <= uart_rx;
+        uart_rx_sync2 <= uart_rx_sync1;
+    end      
+end
 
 endmodule
