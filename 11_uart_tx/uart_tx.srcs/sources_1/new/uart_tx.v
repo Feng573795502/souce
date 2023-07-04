@@ -12,9 +12,9 @@ module uart_tx(
     );
     
 //参数定义
-	wire reset=~sys_rst_n;
-    localparam START_BIT = 1'b0;
-    localparam STOP_BIT  = 1'b1;
+wire reset=~sys_rst_n;
+localparam START_BIT = 1'b0;
+localparam STOP_BIT  = 1'b1;
 
 //参数定义
 reg[15:0] div_cnt;   //波特率计数
@@ -61,7 +61,7 @@ always@(posedge sys_clk or posedge reset)begin
     end
 end
 
-//div时钟
+//div时钟 波特率时钟啦
 always@(posedge sys_clk or posedge reset)begin
     if(reset)
         div_cnt <= 16'b0;
@@ -75,7 +75,7 @@ always@(posedge sys_clk or posedge reset)begin
         div_cnt <= 16'b0;
 end
 
-//发送标志
+//发送标志 类似10ms 状态机
 always@(posedge sys_clk or posedge reset)begin
     if(reset)
         bps_clk <= 1'b0;
@@ -85,7 +85,7 @@ always@(posedge sys_clk or posedge reset)begin
         bps_clk = 1'b0;
 end
 
-//发送计数
+//发送计数 1+8+1 最后一位预留
 always@(posedge sys_clk or posedge reset)begin
     if(reset)
         bps_cnt <= 4'd0;
@@ -97,7 +97,7 @@ always@(posedge sys_clk or posedge reset)begin
         bps_cnt <= bps_cnt;
 end
 
-//发送完成输出
+//发送完成输出  最后以为多出来的用来延长停止位 done
 always@(posedge sys_clk or posedge reset)begin
     if(reset)
         tx_done <= 1'b0;
@@ -106,7 +106,8 @@ always@(posedge sys_clk or posedge reset)begin
     else 
         tx_done <= 1'b0;
 end
-//发送数据
+
+//发送数据     并转串
 always@(posedge sys_clk or posedge reset)begin
     if(reset)
         uart_tx <= 1'b1;

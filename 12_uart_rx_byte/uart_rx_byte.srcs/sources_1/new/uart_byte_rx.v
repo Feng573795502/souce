@@ -30,15 +30,45 @@ reg [2:0]data_byte_pre [7:0];
 wire reset = ~sys_rst_n;
 
 //时钟同步
-always @(posedge clk)begin
+always @(posedge sys_clk)begin
     if(reset)begin
         uart_rx_sync1 <= 1'b0;
-        uart_rx_sync2 <= 1'b1;
+        uart_rx_sync2 <= 1'b0;
     end 
     else begin 
         uart_rx_sync1 <= uart_rx;
         uart_rx_sync2 <= uart_rx_sync1;
     end      
+end
+
+//数据获取
+always @(posedge sys_clk)begin
+    if(reset)begin
+        uart_rx_reg1 <= 1'b0;
+        uart_rx_reg1 <= 1'b0;
+    end
+    else
+        uart_rx_reg1 <= uart_rx_sync2;
+        uart_rx_reg2 <= uart_rx_reg1;
+end
+
+//上升沿计算
+assign uart_rx_nedge = !uart_rx_sync1 & uart_rx_sync2;
+
+//分频器计算
+always @(posedge sys_clk)begin
+    if(reset)
+        bps_DR = 16'd326;
+    else begin
+    case(baud_set)
+        0:bps_DR <= 16'd326;
+        1:bps_DR <= 16'd162;
+        2:bps_DR <= 16'd80;
+        3:bps_DR <= 16'd53;
+        4:bps_DR <= 16'd26;
+    default: bps_DR <= 16'd326;
+        endcase
+    end
 end
 
 endmodule
