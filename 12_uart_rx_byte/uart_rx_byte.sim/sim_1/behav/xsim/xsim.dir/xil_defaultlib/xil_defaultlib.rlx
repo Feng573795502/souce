@@ -1,0 +1,8 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+H:/FPGA/souce/12_uart_rx_byte/uart_rx_byte.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,
+H:/FPGA/souce/12_uart_rx_byte/uart_rx_byte.srcs/sim_1/new/uart_byte_rx_tb.v,1688528443,verilog,,,,uart_byte_rx_tb,,,,,,,,
+H:/FPGA/souce/12_uart_rx_byte/uart_rx_byte.srcs/sources_1/new/uart_byte_rx.v,1688535637,verilog,,H:/FPGA/souce/12_uart_rx_byte/uart_rx_byte.srcs/sources_1/new/uart_tx.v,,uart_byte_rx,,,,,,,,
+H:/FPGA/souce/12_uart_rx_byte/uart_rx_byte.srcs/sources_1/new/uart_tx.v,1688517850,verilog,,H:/FPGA/souce/12_uart_rx_byte/uart_rx_byte.srcs/sim_1/new/uart_byte_rx_tb.v,,uart_tx,,,,,,,,

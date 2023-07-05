@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Jul  5 14:11:53 2023
+# Process ID: 15448
+# Current directory: H:/FPGA/souce/12_uart_rx_byte/uart_rx_byte.runs/impl_1
+# Command line: vivado.exe -log uart_rx_test.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source uart_rx_test.tcl -notrace
+# Log file: H:/FPGA/souce/12_uart_rx_byte/uart_rx_byte.runs/impl_1/uart_rx_test.vdi
+# Journal file: H:/FPGA/souce/12_uart_rx_byte/uart_rx_byte.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source uart_rx_test.tcl -notrace

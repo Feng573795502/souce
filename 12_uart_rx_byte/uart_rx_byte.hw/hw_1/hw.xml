@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Product Version: Vivado v2020.2 (64-bit)                     -->
+<!--                                                              -->
+<!-- Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.        -->
+
+<hwsession version="1" minor="2">
+  <device name="xc7z020_1" gui_info=""/>
+  <ObjectList object_type="hw_device" gui_info="">
+    <Object name="xc7z020_1" gui_info="">
+      <Properties Property="FULL_PROBES.FILE" value="$_project_name_.runs/impl_1/uart_rx_test.ltx"/>
+      <Properties Property="PROBES.FILE" value="$_project_name_.runs/impl_1/uart_rx_test.ltx"/>
+      <Properties Property="PROGRAM.HW_BITSTREAM" value="$_project_name_.runs/impl_1/uart_rx_test.bit"/>
+      <Properties Property="SLR.COUNT" value="1"/>
+    </Object>
+  </ObjectList>
+  <ObjectList object_type="hw_probe" gui_info="">
+    <Object name="data_byte_reg[7:0]" gui_info="hw_vios/hw_vio_1=0"/>
+  </ObjectList>
+  <ObjectList object_type="hw_vio" gui_info="">
+    <Object name="hw_vio_1" gui_info="hw_vios/hw_vio_1/TablePreference=5	675	Name	0	2147483647	15	153	153	Value	1	2147483647	15	237	237	Activity	2	2147483647	15	158	158	Direction	3	2147483647	15	58	58	VIO	4	2147483647	15	69	69			1	6	1	Name	Value	Activity	Direction	VIO"/>
+  </ObjectList>
+  <probeset name="hw project" active="false">
+    <probe type="vio_input" busType="bus" source="netlist" spec="VIO_INPUT_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="ACTIVITY_PERSISTENCE" value="SHORT"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_VIO" value="hw_vio_1"/>
+        <Option Id="INPUT_VALUE_RADIX" value="HEX"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+      </probeOptions>
+      <nets>
+        <net name="data_byte_reg[7]"/>
+        <net name="data_byte_reg[6]"/>
+        <net name="data_byte_reg[5]"/>
+        <net name="data_byte_reg[4]"/>
+        <net name="data_byte_reg[3]"/>
+        <net name="data_byte_reg[2]"/>
+        <net name="data_byte_reg[1]"/>
+        <net name="data_byte_reg[0]"/>
+      </nets>
+    </probe>
+  </probeset>
+</hwsession>

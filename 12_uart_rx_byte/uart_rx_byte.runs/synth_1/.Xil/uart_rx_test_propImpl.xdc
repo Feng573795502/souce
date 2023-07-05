@@ -1,0 +1,7 @@
+set_property SRC_FILE_INFO {cfile:H:/FPGA/souce/12_uart_rx_byte/uart_rx_byte.srcs/constrs_1/new/uart_rx_byte_test.xdc rfile:../../../uart_rx_byte.srcs/constrs_1/new/uart_rx_byte_test.xdc id:1} [current_design]
+set_property src_info {type:XDC file:1 line:1 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN W17 [get_ports clk]
+set_property src_info {type:XDC file:1 line:3 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN V4 [get_ports reset_n]
+set_property src_info {type:XDC file:1 line:6 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN Y9 [get_ports uart_rx]
