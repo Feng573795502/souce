@@ -24,13 +24,13 @@ module hello(
     input clk,
     input reset_n,
     input [7:0]data_in,
-    inout data_valid,
+    input data_valid,
     
     output reg check_ok
 );
  
-wire reset;   
 reg [4:0] state;
+
 localparam
 CHECK_h  = 5'b0_0001,
 CHECK_e  = 5'b0_0010,
@@ -38,10 +38,8 @@ CHECK_l1 = 5'b0_0100,
 CHECK_l2 = 5'b0_1000,
 CHECK_o  = 5'b1_0000;
 
-assign reset = !reset_n;
-
-always @(posedge clk or posedge reset)begin
-    if(reset)begin
+always @(posedge clk or negedge reset_n)begin
+    if(!reset_n)begin
         state <= CHECK_h;
         check_ok <= 1'b0;
     end
@@ -49,11 +47,11 @@ always @(posedge clk or posedge reset)begin
         case(state)
         CHECK_h: 
         begin
-        check_ok <= 1'b0;
-        if(data_valid && data_in == "h")
-            state <= CHECK_e;
-        else 
-            state <= CHECK_h;
+            check_ok <= 1'b0;
+            if(data_valid && data_in == "h")
+                state <= CHECK_e;
+            else 
+                state <= CHECK_h;
         end
         
         CHECK_e: 
@@ -80,8 +78,18 @@ always @(posedge clk or posedge reset)begin
                 state <= CHECK_l1;
         end
         
-        
         CHECK_l2: 
+        begin
+            if(data_valid && data_in == "l")
+                state <= CHECK_o;
+            else if(data_valid && data_in == "h")
+                state <= CHECK_e;
+            else if(data_valid)
+                state <= CHECK_h;
+            else 
+                state <= CHECK_l2;
+        end
+        CHECK_o: 
         begin
             if(data_valid && data_in == "h")
                 state <= CHECK_e;

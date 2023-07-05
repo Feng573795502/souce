@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Jul  5 21:54:38 2023
+# Process ID: 13672
+# Current directory: G:/FPGA/souce/13_hello/hello/hello.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source G:/FPGA/souce/13_hello/hello/hello.sim/sim_1/behav/xsim/xsim.dir/fsm_hello_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: G:/FPGA/souce/13_hello/hello/hello.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: G:/FPGA/souce/13_hello/hello/hello.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source G:/FPGA/souce/13_hello/hello/hello.sim/sim_1/behav/xsim/xsim.dir/fsm_hello_tb_behav/webtalk/xsim_webtalk.tcl -notrace

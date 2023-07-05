@@ -1,6 +1,5 @@
 # compile verilog/system verilog design source files
 verilog xil_defaultlib  \
-"../../../../hello.srcs/sources_1/new/hello.v" \
 "../../../../hello.srcs/sim_1/new/tb_hello.v" \
 
 # compile glbl module
