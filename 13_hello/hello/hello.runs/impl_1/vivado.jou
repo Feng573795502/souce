@@ -2,11 +2,11 @@
 # Vivado v2020.2 (64-bit)
 # SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
 # IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
-# Start of session at: Wed Jul  5 22:55:44 2023
-# Process ID: 23360
-# Current directory: G:/FPGA/souce/13_hello/hello/hello.runs/impl_1
-# Command line: vivado.exe -log hello.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source hello.tcl -notrace
-# Log file: G:/FPGA/souce/13_hello/hello/hello.runs/impl_1/hello.vdi
-# Journal file: G:/FPGA/souce/13_hello/hello/hello.runs/impl_1\vivado.jou
+# Start of session at: Thu Jul  6 09:46:20 2023
+# Process ID: 13860
+# Current directory: H:/FPGA/souce/13_hello/hello/hello.runs/impl_1
+# Command line: vivado.exe -log hello_test.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source hello_test.tcl -notrace
+# Log file: H:/FPGA/souce/13_hello/hello/hello.runs/impl_1/hello_test.vdi
+# Journal file: H:/FPGA/souce/13_hello/hello/hello.runs/impl_1\vivado.jou
 #-----------------------------------------------------------
-source hello.tcl -notrace
+source hello_test.tcl -notrace

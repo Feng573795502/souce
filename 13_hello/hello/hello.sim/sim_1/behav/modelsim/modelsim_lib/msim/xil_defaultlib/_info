@@ -12,41 +12,53 @@ Z0 dG:/FPGA/souce/13_hello/hello/hello.sim/sim_1/behav/modelsim
 T_opt
 !s110 1688572317
 VJ2n[_cIM;]`87bDKd2NBe1
-04 8 4 work hello_tb fast 0
-04 4 4 work glbl fast 0
+Z1 04 8 4 work hello_tb fast 0
+Z2 04 4 4 work glbl fast 0
 =1-002b67a39f25-64a5919d-cd-5c6c
-o-quiet -auto_acc_if_foreign -work xil_defaultlib -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip +acc
-Z1 tCvgOpt 0
+Z3 o-quiet -auto_acc_if_foreign -work xil_defaultlib -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip +acc
+Z4 tCvgOpt 0
 n@_opt
-OL;O;2020.4;71
+Z5 OL;O;2020.4;71
+R0
+T_opt1
+!s110 1688607699
+VEHz2afI`?3dW]NoGNz4jI0
+R1
+R2
+=1-b42e99e5f4a9-64a61bd2-15e-285c
+R3
+R4
+n@_opt1
+R5
 vglbl
-Z2 !s110 1688572306
+!s110 1688607691
 !i10b 1
 !s100 ZHmTNm_h3dd`6mIQLzSUN3
-Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Z6 !s11b Dg1SIo80bB@j0V0VzS_@n1
 IJT>_:<WW6a7KP^k3<8E3=1
-R0
-w1605673889
+dH:/FPGA/souce/13_hello/hello/hello.sim/sim_1/behav/modelsim
+w1688604868
 8glbl.v
 Fglbl.v
-!i122 5
+!i122 6
 L0 6 78
-Z4 VDg1SIo80bB@j0V0VzS_@n1
-Z5 OL;L;2020.4;71
+Z7 VDg1SIo80bB@j0V0VzS_@n1
+Z8 OL;L;2020.4;71
 r1
 !s85 0
 31
-Z6 !s108 1688572306.000000
+!s108 1688607691.000000
 !s107 glbl.v|
 !s90 -work|xil_defaultlib|glbl.v|
 !i113 0
-Z7 o-work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-R1
+Z9 o-work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R4
 vhello
-R2
+Z10 !s10a 1688604869
+!s110 1688572306
 !i10b 1
 !s100 8eMUm0DD:PjA5Mn4jKd9K2
-R3
+R6
 IS?5H89fkiH=>j_Pc6hz?N1
 R0
 w1688572293
@@ -54,23 +66,23 @@ w1688572293
 F../../../../hello.srcs/sources_1/new/hello.v
 !i122 4
 L0 23 92
-R4
-R5
+R7
+R8
 r1
 !s85 0
 31
-R6
-Z8 !s107 ../../../../hello.srcs/sim_1/new/hello_tb.v|../../../../hello.srcs/sources_1/new/hello.v|
-Z9 !s90 -incr|-work|xil_defaultlib|../../../../hello.srcs/sources_1/new/hello.v|../../../../hello.srcs/sim_1/new/hello_tb.v|
+!s108 1688572306.000000
+Z11 !s107 ../../../../hello.srcs/sim_1/new/hello_tb.v|../../../../hello.srcs/sources_1/new/hello.v|
+Z12 !s90 -incr|-work|xil_defaultlib|../../../../hello.srcs/sources_1/new/hello.v|../../../../hello.srcs/sim_1/new/hello_tb.v|
 !i113 0
-R7
-R1
+R9
+R4
 vhello_tb
-!s10a 1688569115
+R10
 !s110 1688572057
 !i10b 1
 !s100 Gm>jHB1ca9ngz7PFAeS<k3
-R3
+R6
 I:D1Qe76l0PH3DE[_jlTZ^2
 R0
 w1688569115
@@ -78,14 +90,14 @@ w1688569115
 F../../../../hello.srcs/sim_1/new/hello_tb.v
 !i122 0
 L0 3 31
-R4
-R5
+R7
+R8
 r1
 !s85 0
 31
 !s108 1688572057.000000
-R8
-R9
+R11
+R12
 !i113 0
-R7
-R1
+R9
+R4

@@ -1,0 +1,8 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+H:/FPGA/souce/14_key_filter/key_filter.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,
+H:/FPGA/souce/14_key_filter/key_filter.srcs/sim_1/new/key_model.v,1688631211,verilog,,H:/FPGA/souce/14_key_filter/key_filter.srcs/sim_1/new/tb_key_filter.v,,key_model,,,,,,,,
+H:/FPGA/souce/14_key_filter/key_filter.srcs/sim_1/new/tb_key_filter.v,1688633217,verilog,,,,tb_key_filter,,,,,,,,
+H:/FPGA/souce/14_key_filter/key_filter.srcs/sources_1/new/key_filter.v,1688629234,verilog,,H:/FPGA/souce/14_key_filter/key_filter.srcs/sim_1/new/key_model.v,,key_filter,,,,,,,,

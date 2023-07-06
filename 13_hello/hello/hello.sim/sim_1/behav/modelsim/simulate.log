@@ -13,8 +13,8 @@
 # //
 # do {hello_tb_simulate.do}
 # vsim -voptargs=""+acc"" -coverage -fsmdebug -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -lib xil_defaultlib xil_defaultlib.hello_tb xil_defaultlib.glbl 
-# Start time: 23:51:56 on Jul 05,2023
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Start time: 09:41:38 on Jul 06,2023
+# ** Note: (vsim-3812) Design is being optimized...
 # ** Note: (vopt-143) Recognized 1 FSM in module "hello(fast)".
 # Loading work.hello_tb(fast)
 # Loading work.hello(fast)
@@ -28,5 +28,5 @@
 # ** Note: $stop    : ../../../../hello.srcs/sim_1/new/hello_tb.v(30)
 #    Time: 400 ns  Iteration: 0  Instance: /hello_tb
 # Break in Module hello_tb at ../../../../hello.srcs/sim_1/new/hello_tb.v line 30
-# End time: 23:52:40 on Jul 05,2023, Elapsed time: 0:00:44
+# End time: 09:42:37 on Jul 06,2023, Elapsed time: 0:00:59
 # Errors: 0, Warnings: 1

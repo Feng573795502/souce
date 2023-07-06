@@ -8,9 +8,9 @@ var WshShell = new ActiveXObject( "WScript.Shell" );
 var ProcEnv = WshShell.Environment( "Process" );
 var PathVal = ProcEnv("PATH");
 if ( PathVal.length == 0 ) {
-  PathVal = "G:/Xilinx/Vitis/2020.2/bin;G:/Xilinx/Vivado/2020.2/ids_lite/ISE/bin/nt64;G:/Xilinx/Vivado/2020.2/ids_lite/ISE/lib/nt64;G:/Xilinx/Vivado/2020.2/bin;";
+  PathVal = "H:/FPGA/Xilinx/Vitis/2020.2/bin;H:/FPGA/Xilinx/Vivado/2020.2/ids_lite/ISE/bin/nt64;H:/FPGA/Xilinx/Vivado/2020.2/ids_lite/ISE/lib/nt64;H:/FPGA/Xilinx/Vivado/2020.2/bin;";
 } else {
-  PathVal = "G:/Xilinx/Vitis/2020.2/bin;G:/Xilinx/Vivado/2020.2/ids_lite/ISE/bin/nt64;G:/Xilinx/Vivado/2020.2/ids_lite/ISE/lib/nt64;G:/Xilinx/Vivado/2020.2/bin;" + PathVal;
+  PathVal = "H:/FPGA/Xilinx/Vitis/2020.2/bin;H:/FPGA/Xilinx/Vivado/2020.2/ids_lite/ISE/bin/nt64;H:/FPGA/Xilinx/Vivado/2020.2/ids_lite/ISE/lib/nt64;H:/FPGA/Xilinx/Vivado/2020.2/bin;" + PathVal;
 }
 
 ProcEnv("PATH") = PathVal;
@@ -23,7 +23,7 @@ eval( EAInclude(ISEJScriptLib) );
 
 
 ISEStep( "vivado",
-         "-log hello.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source hello.tcl" );
+         "-log hello_test.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source hello_test.tcl" );
 
 
 
