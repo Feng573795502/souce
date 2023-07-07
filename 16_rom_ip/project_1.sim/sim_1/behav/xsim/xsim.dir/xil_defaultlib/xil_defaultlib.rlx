@@ -1,0 +1,8 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+H:/FPGA/souce/16_rom_ip/project_1.gen/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v,1688699951,verilog,,H:/FPGA/souce/16_rom_ip/project_1.srcs/sim_1/new/rom_tb.v,,blk_mem_gen_0,,,,,,,,
+H:/FPGA/souce/16_rom_ip/project_1.gen/sources_1/ip/dist_mem_gen_0/sim/dist_mem_gen_0.v,1688697546,verilog,,H:/FPGA/souce/16_rom_ip/project_1.srcs/sim_1/new/rom_tb.v,,dist_mem_gen_0,,,,,,,,
+H:/FPGA/souce/16_rom_ip/project_1.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,
+H:/FPGA/souce/16_rom_ip/project_1.srcs/sim_1/new/rom_tb.v,1688700094,verilog,,,,rom_tb,,,,,,,,
