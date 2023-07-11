@@ -1,0 +1,3 @@
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+$stop called at time : 23290 ns : File "H:/FPGA/souce/21_iic/iic/iic.srcs/sim_1/new/tb_iic_bit_shit.v" Line 39
