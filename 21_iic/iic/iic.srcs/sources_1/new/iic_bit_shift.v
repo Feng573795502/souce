@@ -164,14 +164,14 @@ module iic_bit_shift(
                             cnt <= 0;
                         else 
                             cnt <= cnt + 6'b1;
-                            
+        
                         case (cnt)
-                        0,4,8,12,16,20,24,28:begin  iic_clk <= 1'b0; iic_sda_od <= tx_data[7-cnt[4:2]]; iic_sda_oe <= 1'b1; end  //设置数据
-                        1,5,9,13,17,21,25,29:begin  iic_clk <= 1'b1; end
-                        2,6,10,14,18,22,26,30:begin iic_clk <= 1'b1; end //keep
-                        3,7,11,15,19,23,27,31:begin iic_clk <= 1'b0; end    
-                        default: begin iic_sda_od <= 1'b1; iic_clk <= 1'b1;  end
-                    endcase
+                            0,4,8,12,16,20,24,28:begin  iic_clk <= 1'b0; iic_sda_od <= tx_data[7-cnt[4:2]]; iic_sda_oe <= 1'b1; end  //设置数据
+                            1,5,9,13,17,21,25,29:begin  iic_clk <= 1'b1; end
+                            2,6,10,14,18,22,26,30:begin iic_clk <= 1'b1; end //keep
+                            3,7,11,15,19,23,27,31:begin iic_clk <= 1'b0; end    
+                            default: begin iic_sda_od <= 1'b1; iic_clk <= 1'b1;  end
+                        endcase
                         if(cnt == 8'd31)
                             state <= CHECK_ACK;
                         end
@@ -179,23 +179,73 @@ module iic_bit_shift(
                 
                 CHECK_ACK:begin
                     if(clk_plus)begin
-                        if(cnt == 6'd3)
+                        if(cnt == 3)
                             cnt <= 0;
                         else 
                             cnt <= cnt + 6'd1;
                         case (cnt)
-                        0:begin  iic_clk <= 1'b0; iic_sda_oe <= 1'b0; end  //设置数据
-                        1:begin  iic_clk <= 1'b1; end
-                        2:begin iic_clk <= 1'b1; ack_o <= iic_sda; end //keep
-                        3:begin iic_clk <= 1'b0; end    
+                            0:begin iic_clk <= 1'b0; iic_sda_oe <= 1'b0; end  //设置数据
+                            1:begin iic_clk <= 1'b1; end
+                            2:begin iic_clk <= 1'b1; ack_o <= iic_sda; end //keep
+                            3:begin iic_clk <= 1'b0; end    
+                            default: begin iic_sda_od <= 1'b1; iic_clk <= 1'b1; end
+                        endcase
+                        if(cnt == 3)begin
+                            if(cmd & STO)
+                                state <= GEN_STOP;
+                            else begin 
+                                trans_done <= 1;
+                                state <= IDLE;
+                            end  
+                         end
+                    end
+                end
+                
+                RD_DATA:begin
+                    if(clk_plus)begin
+                        if(cnt == 6'd31)  //32bit数据 8*4
+                            cnt <= 0;
+                        else 
+                            cnt <= cnt + 6'b1;
+                        case (cnt)
+                        0,4,8,12,16,20,24,28:begin  iic_clk <= 1'b0; iic_sda_oe <= 1'b0; end  //设置数据
+                        1,5,9,13,17,21,25,29:begin  iic_clk <= 1'b1; end
+                        2,6,10,14,18,22,26,30:begin iic_clk <= 1'b1; rx_data <= {rx_data[6:0], iic_sda}; end //
+                        3,7,11,15,19,23,27,31:begin iic_clk <= 1'b0; end    
                         default: begin iic_sda_od <= 1'b1; iic_clk <= 1'b1;  end
-                    if(cnt == 6'd3)begin
-                        if(cmd & STO)
-                            state <= GEN_STOP;
-                        else begin 
-                            trans_done <= 1;
-                            state <= IDLE;
-                        end  
+                    endcase
+                        if(cnt == 8'd31)
+                            state <= GEN_ACK;
+                        end
+                end
+                
+                GEN_ACK: begin
+                    if(clk_plus)begin
+                        if(cnt == 6'd3)
+                            cnt <= 0;
+                        else 
+                            cnt <= cnt + 6'd1;
+                        case(cnt)
+                        0:begin
+                            iic_sda_oe <= 1'b1;
+                            iic_clk <= 1'b0;
+                            if(cmd & ACK)  //应答下拉
+                                iic_sda_od <= 1'b0;
+                            else          //非应答上拉
+                                iic_sda_od <= 1'b1;
+                        end
+                        1:begin iic_clk <= 1'b1; end
+                        2:begin iic_clk <= 1'b1; end
+                        3:begin iic_clk <= 1'b0;end
+                        endcase
+                        if(cnt == 3)begin
+                            if(cmd & STO)
+                                state <= GEN_STOP;
+                            else begin
+                                state <= IDLE;
+                                trans_done <= 1'b1;
+                            end 
+                        end
                     end
                 end
                 
@@ -206,15 +256,18 @@ module iic_bit_shift(
                         else 
                             cnt <= cnt + 6'd1;
                         case(cnt)
-                        0:begin  iic_clk <= 1'b0; iic_sda_oe <= 1'b0; end  //设置数据
-                        1:begin  iic_clk <= 1'b1; end
-                        2:begin iic_clk <= 1'b1; ack_o <= iic_sda; end //keep
+                        0:begin iic_sda_od <= 1'b0; iic_sda_oe <= 1'b1; end  //设置数据__/--
+                        1:begin iic_clk <= 1'b1; end
+                        2:begin iic_sda_od <= 1'b1; end //keep
                         3:begin iic_clk <= 1'b0; end    
                         default: begin iic_sda_od <= 1'b1; iic_clk <= 1'b1;  end
+                        endcase
+                        if(cnt == 3)begin
+                            trans_done <= 1'b1;
+                            state <= IDLE;
+                        end
                     end
                 end
-                
-                
                 
                 default:state <= IDLE;
             endcase
