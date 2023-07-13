@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/FPGA/souce/21_iic/iic/iic.srcs/sources_1/new/iic_bit_shift.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module iic_bit_shift
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/FPGA/souce/21_iic/iic/iic.srcs/sources_1/new/iic_ctrl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module iic_ctrl
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/FPGA/souce/21_iic/iic/iic.srcs/sim_1/new/iic_ctrl_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module iic_ctrl_tb

@@ -1,0 +1,4 @@
+Breakpoint File Version 1.0
+190,true,"H:/FPGA/souce/21_iic/iic/iic.srcs/sources_1/new/iic_bit_shift.v"
+164,true,"H:/FPGA/souce/21_iic/iic/iic.srcs/sources_1/new/iic_bit_shift.v"
+122,true,"H:/FPGA/souce/21_iic/iic/iic.srcs/sources_1/new/iic_bit_shift.v"

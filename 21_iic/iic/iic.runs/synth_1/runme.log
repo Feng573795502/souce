@@ -1,0 +1,274 @@
+
+*** Running vivado
+    with args -log iic_ctrl.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source iic_ctrl.tcl
+
+
+
+****** Vivado v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source iic_ctrl.tcl -notrace
+Command: synth_design -top iic_ctrl -part xc7z020clg484-2
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 1428
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1140.727 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'iic_ctrl' [H:/FPGA/souce/21_iic/iic/iic.srcs/sources_1/new/iic_ctrl.v:23]
+	Parameter WR bound to: 6'b000001 
+	Parameter STA bound to: 6'b000010 
+	Parameter RD bound to: 6'b000100 
+	Parameter STO bound to: 6'b001000 
+	Parameter ACK bound to: 6'b010000 
+	Parameter NACK bound to: 6'b100000 
+	Parameter IDLE bound to: 5'b00001 
+	Parameter WR_REG bound to: 5'b00010 
+	Parameter WAIT_WR_DONE bound to: 5'b00100 
+	Parameter RD_REG bound to: 5'b01000 
+	Parameter WAIT_RD_DONE bound to: 5'b10000 
+INFO: [Synth 8-155] case statement is not full and has no default [H:/FPGA/souce/21_iic/iic/iic.srcs/sources_1/new/iic_ctrl.v:129]
+INFO: [Synth 8-155] case statement is not full and has no default [H:/FPGA/souce/21_iic/iic/iic.srcs/sources_1/new/iic_ctrl.v:169]
+INFO: [Synth 8-6157] synthesizing module 'iic_bit_shift' [H:/FPGA/souce/21_iic/iic/iic.srcs/sources_1/new/iic_bit_shift.v:23]
+	Parameter SYS_CLOCK bound to: 50000000 - type: integer 
+	Parameter SCL_CLOCK bound to: 400000 - type: integer 
+	Parameter SCL_CNT_M bound to: 30 - type: integer 
+	Parameter WR bound to: 6'b000001 
+	Parameter STA bound to: 6'b000010 
+	Parameter RD bound to: 6'b000100 
+	Parameter STO bound to: 6'b001000 
+	Parameter ACK bound to: 6'b010000 
+	Parameter NACK bound to: 6'b100000 
+	Parameter IDLE bound to: 8'b00000001 
+	Parameter GEN_STA bound to: 8'b00000010 
+	Parameter WR_DATA bound to: 8'b00000100 
+	Parameter RD_DATA bound to: 8'b00001000 
+	Parameter CHECK_ACK bound to: 8'b00010000 
+	Parameter GEN_ACK bound to: 8'b00100000 
+	Parameter GEN_STOP bound to: 8'b01000000 
+INFO: [Synth 8-226] default block is never used [H:/FPGA/souce/21_iic/iic/iic.srcs/sources_1/new/iic_bit_shift.v:170]
+INFO: [Synth 8-226] default block is never used [H:/FPGA/souce/21_iic/iic/iic.srcs/sources_1/new/iic_bit_shift.v:213]
+INFO: [Synth 8-155] case statement is not full and has no default [H:/FPGA/souce/21_iic/iic/iic.srcs/sources_1/new/iic_bit_shift.v:231]
+INFO: [Synth 8-6155] done synthesizing module 'iic_bit_shift' (1#1) [H:/FPGA/souce/21_iic/iic/iic.srcs/sources_1/new/iic_bit_shift.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'iic_ctrl' (2#1) [H:/FPGA/souce/21_iic/iic/iic.srcs/sources_1/new/iic_ctrl.v:23]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1140.727 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1140.727 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1140.727 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z020clg484-2
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'iic_bit_shift'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'iic_ctrl'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+                    IDLE |                         00000001 |                         00000001
+                 RD_DATA |                         00001000 |                         00001000
+                 GEN_ACK |                         00100000 |                         00100000
+                 GEN_STA |                         00000010 |                         00000010
+                 WR_DATA |                         00000100 |                         00000100
+               CHECK_ACK |                         00010000 |                         00010000
+                GEN_STOP |                         01000000 |                         01000000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'state_reg' in module 'iic_bit_shift'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+                    IDLE |                            00001 |                            00001
+                  RD_REG |                            01000 |                            01000
+            WAIT_WR_DONE |                            00100 |                            00100
+                  WR_REG |                            00010 |                            00010
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'state_reg' in module 'iic_ctrl'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1140.727 ; gain = 0.000
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input    5 Bit       Adders := 2     
++---Registers : 
+	               20 Bit    Registers := 1     
+	                8 Bit    Registers := 4     
+	                6 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                1 Bit    Registers := 9     
++---Muxes : 
+	   4 Input    8 Bit        Muxes := 2     
+	   2 Input    8 Bit        Muxes := 2     
+	   6 Input    8 Bit        Muxes := 3     
+	   8 Input    7 Bit        Muxes := 1     
+	   2 Input    7 Bit        Muxes := 6     
+	   2 Input    6 Bit        Muxes := 4     
+	   4 Input    6 Bit        Muxes := 1     
+	   6 Input    6 Bit        Muxes := 2     
+	   2 Input    5 Bit        Muxes := 8     
+	   8 Input    5 Bit        Muxes := 1     
+	   6 Input    5 Bit        Muxes := 2     
+	   5 Input    5 Bit        Muxes := 1     
+	   2 Input    4 Bit        Muxes := 10    
+	   5 Input    3 Bit        Muxes := 1     
+	   6 Input    3 Bit        Muxes := 1     
+	   2 Input    2 Bit        Muxes := 36    
+	   4 Input    1 Bit        Muxes := 20    
+	   2 Input    1 Bit        Muxes := 30    
+	   8 Input    1 Bit        Muxes := 13    
+	   6 Input    1 Bit        Muxes := 14    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1140.727 ; gain = 0.000
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1140.727 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1140.727 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1140.727 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1140.727 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1140.727 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1140.727 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1140.727 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1140.727 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+------+------+
+|      |Cell  |Count |
++------+------+------+
+|1     |BUFG  |     1|
+|2     |LUT1  |     3|
+|3     |LUT2  |    11|
+|4     |LUT3  |     8|
+|5     |LUT4  |    14|
+|6     |LUT5  |    25|
+|7     |LUT6  |    40|
+|8     |FDCE  |    24|
+|9     |FDPE  |     4|
+|10    |FDRE  |    12|
+|11    |IBUF  |    37|
+|12    |IOBUF |     1|
+|13    |OBUF  |    11|
++------+------+------+
+
+Report Instance Areas: 
++------+----------------+--------------+------+
+|      |Instance        |Module        |Cells |
++------+----------------+--------------+------+
+|1     |top             |              |   191|
+|2     |  iic_bit_shift |iic_bit_shift |    98|
++------+----------------+--------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1140.727 ; gain = 0.000
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1140.727 ; gain = 0.000
+Synthesis Optimization Complete : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1140.727 ; gain = 0.000
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1140.727 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1224.750 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 1 instance 
+
+INFO: [Common 17-83] Releasing license: Synthesis
+25 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 1224.750 ; gain = 84.023
+INFO: [Common 17-1381] The checkpoint 'H:/FPGA/souce/21_iic/iic/iic.runs/synth_1/iic_ctrl.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file iic_ctrl_utilization_synth.rpt -pb iic_ctrl_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Jul 13 08:46:10 2023...

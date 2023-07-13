@@ -20,21 +20,40 @@ module tb_iic_bit_shit(
     wire iic_clk;
     wire iic_sda;
 
+    localparam 
+        WR   = 6'b000001,   //写请求
+        STA  = 6'b000010,   //起始位请求
+        RD   = 6'b000100,   //读请求
+        STO  = 6'b001000,   //停止请求
+        ACK  = 6'b010000,   //应答请求
+        NACK = 6'b100000;   //无应答请求
+
     initial clk = 1;
     always #(`CLK_PERIOD/2) clk = ~clk;
-
+    
+	pullup PUP(iic_sda);
+	
 initial begin
     reset_n = 1'b0;
     go = 0;
-    #(`CLK_PERIOD *2)
+    #(`CLK_PERIOD *2);
     reset_n = 1'b1;
     
-    cmd = 6'b000011;  //启动+写
+    cmd = (WR | STA);  //启动+写
     tx_data = 8'hcc;
     go = 1;
     while(trans_done == 1'b0)
         #10;
     go = 0;
+    
+    #(`CLK_PERIOD *2);
+    cmd = (STA | RD | STO);  //启动+写
+    tx_data = 8'h11;
+    go = 1;
+    while(trans_done == 1'b0)
+        #10;
+    go = 0;
+    
     #200;
     $stop;
 end

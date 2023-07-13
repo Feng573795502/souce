@@ -1,0 +1,3 @@
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+$stop called at time : 5422 ns : File "H:/FPGA/souce/22_spi/SPI.srcs/sim_1/new/spi_tb.v" Line 86

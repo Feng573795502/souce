@@ -98,11 +98,12 @@ module iic_bit_shift(
             div_cnt <= 0;
     end
 
-    //iic测试
+    //iic各状态输出
     always@(posedge clk or posedge reset)begin
         if(reset)begin
             rx_data <= 8'b0;
             iic_sda_oe <= 1'b0;
+            iic_clk <= 1'b1;
             en_div_cnt <= 0;
             iic_sda_od <= 1;
             trans_done <= 1'b0;
@@ -113,12 +114,12 @@ module iic_bit_shift(
         else begin
             case(state)
                 IDLE:begin
-                    trans_done <= 1'b0;
-                    iic_sda_oe <= 1'b1;
+                    trans_done <= 1'b0;   //设置为未完成状态
+                    iic_sda_oe <= 1'b1;   //默认上拉
                     
-                    if(go)begin
-                        en_div_cnt <= 1;
-                        if(cmd & STA)
+                    if(go)begin           //收到发送操作
+                        en_div_cnt <= 1;  //启动计数器
+                        if(cmd & STA)     //根据设置跳转状态
                             state = GEN_STA;
                         else if(cmd & WR)
                             state <= WR_DATA;
@@ -139,16 +140,17 @@ module iic_bit_shift(
                             cnt <= 0;
                         else 
                             cnt <= cnt + 6'b1;
-                        case (cnt)
+                        case (cnt) //SDA由高到低为起始信号  SCL永远从低起，保证最后一位高完整
                             0:begin iic_sda_oe <= 1'b1; iic_sda_od <= 1'b1; end //SDA 输出高
                             1:begin iic_clk <= 1; end                           //SCL输出高
-                            2:begin iic_clk <= 1; iic_sda_od <= 1'b0; end       //SDA输出低
+                            2:begin iic_sda_od <= 1'b0; end       //SDA输出低
                             3:begin iic_clk <= 0; end                           //SCL输出低
+                            //自己改的
                             default:begin iic_sda_od <= 1'b1; iic_clk <= 1'b1; end
                         endcase
                         
                          if(cnt == 3)begin
-                            if(cmd & WR)
+                            if(cmd & WR)  //STA转到写/读
                                 state <= WR_DATA;
                            else if(cmd & RD)
                                 state <= RD_DATA;
@@ -166,10 +168,11 @@ module iic_bit_shift(
                             cnt <= cnt + 6'b1;
         
                         case (cnt)
-                            0,4,8,12,16,20,24,28:begin  iic_clk <= 1'b0; iic_sda_od <= tx_data[7-cnt[4:2]]; iic_sda_oe <= 1'b1; end  //设置数据
-                            1,5,9,13,17,21,25,29:begin  iic_clk <= 1'b1; end
-                            2,6,10,14,18,22,26,30:begin iic_clk <= 1'b1; end //keep
-                            3,7,11,15,19,23,27,31:begin iic_clk <= 1'b0; end    
+                            0,4,8,12,16,20,24,28: begin  iic_clk <= 1'b0; iic_sda_od <= tx_data[7-cnt[4:2]]; iic_sda_oe <= 1'b1; end  //设置数据
+                            1,5,9,13,17,21,25,29: begin  iic_clk <= 1'b1; end
+                            2,6,10,14,18,22,26,30:begin  end //keep
+                            3,7,11,15,19,23,27,31:begin iic_clk <= 1'b0; end
+
                             default: begin iic_sda_od <= 1'b1; iic_clk <= 1'b1;  end
                         endcase
                         if(cnt == 8'd31)
@@ -187,8 +190,8 @@ module iic_bit_shift(
                             0:begin iic_clk <= 1'b0; iic_sda_oe <= 1'b0; end  //设置数据
                             1:begin iic_clk <= 1'b1; end
                             2:begin iic_clk <= 1'b1; ack_o <= iic_sda; end //keep
-                            3:begin iic_clk <= 1'b0; end    
-                            default: begin iic_sda_od <= 1'b1; iic_clk <= 1'b1; end
+                            3:begin iic_clk <= 1'b0; end
+                            default: begin iic_sda_od <= 1'b0; iic_clk <= 1'b1; end
                         endcase
                         if(cnt == 3)begin
                             if(cmd & STO)
@@ -256,10 +259,10 @@ module iic_bit_shift(
                         else 
                             cnt <= cnt + 6'd1;
                         case(cnt)
-                        0:begin iic_sda_od <= 1'b0; iic_sda_oe <= 1'b1; end  //设置数据__/--
+                        0:begin iic_sda_od <= 1'b0; iic_sda_oe <= 1'b1; end  //设置数据__/-- 
                         1:begin iic_clk <= 1'b1; end
                         2:begin iic_sda_od <= 1'b1; end //keep
-                        3:begin iic_clk <= 1'b0; end    
+                        3:begin  end    
                         default: begin iic_sda_od <= 1'b1; iic_clk <= 1'b1;  end
                         endcase
                         if(cnt == 3)begin
