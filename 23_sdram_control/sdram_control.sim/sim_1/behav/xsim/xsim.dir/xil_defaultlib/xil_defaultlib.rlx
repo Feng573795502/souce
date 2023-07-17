@@ -1,0 +1,10 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+H:/FPGA/souce/23_sdram_control/sdram_control.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,
+H:/FPGA/souce/23_sdram_control/sdram_control.srcs/sim_1/new/sdr.v,1689407853,verilog,,H:/FPGA/souce/23_sdram_control/sdram_control.srcs/sources_1/new/sdram_init.v,H:/FPGA/souce/23_sdram_control/sdram_control.srcs/sim_1/new/sdr_paramters.h,sdr,,,../../../../sdram_control.srcs/sim_1/new;../../../../sdram_control.srcs/sources_1/new,,,,,
+H:/FPGA/souce/23_sdram_control/sdram_control.srcs/sim_1/new/sdr_paramters.h,1689402855,verilog,,,,,,,,,,,,
+H:/FPGA/souce/23_sdram_control/sdram_control.srcs/sim_1/new/sdram_init_tb.v,1689409969,verilog,,,,sdram_init_tb,,,../../../../sdram_control.srcs/sim_1/new;../../../../sdram_control.srcs/sources_1/new,,,,,
+H:/FPGA/souce/23_sdram_control/sdram_control.srcs/sources_1/new/sdram_init.v,1689409695,verilog,,H:/FPGA/souce/23_sdram_control/sdram_control.srcs/sim_1/new/sdram_init_tb.v,H:/FPGA/souce/23_sdram_control/sdram_control.srcs/sources_1/new/sdram_params.h,sdram_init,,,../../../../sdram_control.srcs/sim_1/new;../../../../sdram_control.srcs/sources_1/new,,,,,
+H:/FPGA/souce/23_sdram_control/sdram_control.srcs/sources_1/new/sdram_params.h,1689409695,verilog,,,,,,,,,,,,

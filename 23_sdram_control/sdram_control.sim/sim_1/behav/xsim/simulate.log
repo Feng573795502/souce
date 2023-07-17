@@ -1,0 +1,6 @@
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+Stopped at time : 2001 ns : File "H:/FPGA/souce/23_sdram_control/sdram_control.srcs/sim_1/new/sdram_init_tb.v" Line 54
+$stop called at time : 204250 ns : File "H:/FPGA/souce/23_sdram_control/sdram_control.srcs/sim_1/new/sdram_init_tb.v" Line 58
+Stopped at time : 202040 ns : File "H:/FPGA/souce/23_sdram_control/sdram_control.srcs/sources_1/new/sdram_init.v" Line 52
+$stop called at time : 204250 ns : File "H:/FPGA/souce/23_sdram_control/sdram_control.srcs/sim_1/new/sdram_init_tb.v" Line 58

@@ -61,6 +61,7 @@ spi spi_inst(
     
     initial begin
     reset_n = 0;
+    spi_en <= 0;
     #(`CLK_PROID * 5);
     spi_en = 1;
     tx_data <= 8'hc3;

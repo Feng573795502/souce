@@ -39,7 +39,7 @@ module spi(
     wire reset;
     
     assign reset = ~reset_n;
-    assign scl_plus = (div_cnt == CNT_MAX - 1'b1);
+    assign scl_plus = (div_cnt == CNT_MAX - 1'b1); //变位和
     
     //分频计数
     always @(posedge clk or posedge reset)begin
@@ -59,6 +59,20 @@ module spi(
             div_cnt <= 23'd0;
         end
     end
+    //cnt计数
+    always @(posedge clk or posedge reset)begin
+        if(reset) begin
+            cnt <= 0;
+        end
+        else if(scl_plus) begin
+            if(cnt == 8'd31)
+                cnt <= 0;
+            else
+                cnt <= cnt + 1;
+         end
+         else 
+            cnt <= cnt;
+    end
     
     //SPI时钟计数
     always @(posedge clk or posedge reset)begin
@@ -70,10 +84,10 @@ module spi(
             rx_data <= 8'b0;
         end
         else if(scl_plus) begin
-            if(cnt == 8'd31)
-                cnt <= 0;
-            else
-                cnt <= cnt + 1;
+//            if(cnt == 8'd31)
+//                cnt <= 0;
+//            else
+//                cnt <= cnt + 1;
             case (cnt)
                 0,4,8,12,16,20,24,28: begin
                     spi_clk <= 0;
@@ -95,7 +109,6 @@ module spi(
         end
         else begin
             wr_done <= 0;
-            cnt <= cnt;
         end
     end
     
