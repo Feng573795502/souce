@@ -1,1 +1,3 @@
 Breakpoint File Version 1.0
+185,true,"H:/FPGA/souce/23_sdram_control/sdram_control.srcs/sim_1/new/sdr.v"
+181,true,"H:/FPGA/souce/23_sdram_control/sdram_control.srcs/sim_1/new/sdr.v"

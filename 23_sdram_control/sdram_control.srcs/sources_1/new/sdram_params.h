@@ -1,4 +1,7 @@
-
+// 地址和数据位宽
+`define  ASIZE   13   //SDRAM地址位宽
+`define  DSIZE   16   //SDRAM数据位宽
+`define  BSIZE   2    //SDRAM的bank地址位宽
 //操作命令{CS_N,RAS_N,CAS_N,WE}
 parameter   C_NOP  = 4'b0111;  //空操作命令
 parameter   C_PRE  = 4'b0010;  //预充电命令
