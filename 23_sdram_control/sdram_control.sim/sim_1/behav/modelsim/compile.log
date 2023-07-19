@@ -1,0 +1,43 @@
+# do {sdram_init_tb_compile.do}
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap xil_defaultlib modelsim_lib/msim/xil_defaultlib 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 10:08:03 on Jul 19,2023
+# vlog -incr -work xil_defaultlib "+incdir+../../../../sdram_control.srcs/sources_1/new" "+incdir+../../../../sdram_control.srcs/sim_1/new" ../../../../sdram_control.srcs/sim_1/new/sdr.v ../../../../sdram_control.srcs/sources_1/new/sdram_init.v ../../../../sdram_control.srcs/sim_1/new/sdram_init_tb.v 
+# ** Error (suppressible): (vlog-2902) ../../../../sdram_control.srcs/sim_1/new/sdr_paramters.h(78): A `define was found on the same line as a SystemVerilog `ifdef, `ifndef, `elsif, or `else.
+# ** Error (suppressible): (vlog-2902) ../../../../sdram_control.srcs/sim_1/new/sdr_paramters.h(118): A `define was found on the same line as a SystemVerilog `ifdef, `ifndef, `elsif, or `else.
+# ** Error (suppressible): (vlog-2902) ../../../../sdram_control.srcs/sim_1/new/sdr_paramters.h(141): A `define was found on the same line as a SystemVerilog `ifdef, `ifndef, `elsif, or `else.
+# ** Error (suppressible): ** while parsing file included at ../../../../sdram_control.srcs/sim_1/new/sdr.v(61)
+# ** at ../../../../sdram_control.srcs/sim_1/new/sdr_paramters.h(164): (vlog-13388) A macro defintion has been found on the same line as a conditional compilation directive.
+# ** Error (suppressible): (vlog-2902) ../../../../sdram_control.srcs/sim_1/new/sdr_paramters.h(172): A `define was found on the same line as a SystemVerilog `ifdef, `ifndef, `elsif, or `else.
+# ** Error (suppressible): (vlog-2902) ../../../../sdram_control.srcs/sim_1/new/sdr_paramters.h(187): A `define was found on the same line as a SystemVerilog `ifdef, `ifndef, `elsif, or `else.
+# -- Compiling module sdram_init
+# -- Compiling module sdram_init_tb
+# End time: 10:08:03 on Jul 19,2023, Elapsed time: 0:00:00
+# Errors: 6, Warnings: 0
+# child process exited abnormally
+# Error in macro ./sdram_init_tb_compile.do line 20
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 10:08:03 on Jul 19,2023
+# vlog -incr -work xil_defaultlib "+incdir+../../../../sdram_control.srcs/sources_1/new" "+incdir+../../../../sdram_control.srcs/sim_1/new" ../../../../sdram_control.srcs/sim_1/new/sdr.v ../../../../sdram_control.srcs/sources_1/new/sdram_init.v ../../../../sdram_control.srcs/sim_1/new/sdram_init_tb.v 
+# ** Error (suppressible): (vlog-2902) ../../../../sdram_control.srcs/sim_1/new/sdr_paramters.h(78): A `define was found on the same line as a SystemVerilog `ifdef, `ifndef, `elsif, or `else.
+# ** Error (suppressible): (vlog-2902) ../../../../sdram_control.srcs/sim_1/new/sdr_paramters.h(118): A `define was found on the same line as a SystemVerilog `ifdef, `ifndef, `elsif, or `else.
+# ** Error (suppressible): (vlog-2902) ../../../../sdram_control.srcs/sim_1/new/sdr_paramters.h(141): A `define was found on the same line as a SystemVerilog `ifdef, `ifndef, `elsif, or `else.
+# ** Error (suppressible): ** while parsing file included at ../../../../sdram_control.srcs/sim_1/new/sdr.v(61)
+# ** at ../../../../sdram_control.srcs/sim_1/new/sdr_paramters.h(164): (vlog-13388) A macro defintion has been found on the same line as a conditional compilation directive.
+# ** Error (suppressible): (vlog-2902) ../../../../sdram_control.srcs/sim_1/new/sdr_paramters.h(172): A `define was found on the same line as a SystemVerilog `ifdef, `ifndef, `elsif, or `else.
+# ** Error (suppressible): (vlog-2902) ../../../../sdram_control.srcs/sim_1/new/sdr_paramters.h(187): A `define was found on the same line as a SystemVerilog `ifdef, `ifndef, `elsif, or `else.
+# -- Compiling module sdram_init
+# -- Compiling module sdram_init_tb
+# End time: 10:08:03 on Jul 19,2023, Elapsed time: 0:00:00
+# Errors: 6, Warnings: 0
+# child process exited abnormally
+#     while executing
+# "exec <nul: {H:\soft\modeltech64_2020.4\win64\vlog.EXE} -incr -work xil_defaultlib +incdir+../../../../sdram_control.srcs/sources_1/new +incdir+../../...."
+#     ("uplevel" body line 1)
+#     invoked from within
+# "uplevel 1 exec $redir $new [lrange $args 1 end]"
+#     (procedure "::unknown" line 47)
+#     invoked from within
+# "H:\\soft\\modeltech64_2020.4\\win64\\vlog  -incr -work xil_defaultlib  "+incdir+../../../../sdram_control.srcs/sources_1/new" "+incdir+../../../../sdr..."

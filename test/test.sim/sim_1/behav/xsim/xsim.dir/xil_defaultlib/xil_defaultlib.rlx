@@ -1,0 +1,12 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+H:/FPGA/souce/test/srv/Sdram_Params.h,1689647314,verilog,,,,,,,,,,,,
+H:/FPGA/souce/test/srv/sdr.v,1490270024,verilog,,H:/FPGA/souce/test/srv/sdram_control.v,H:/FPGA/souce/test/srv/sdr_parameters.h,sdr,,,../../../../srv,,,,,
+H:/FPGA/souce/test/srv/sdr_parameters.h,1490413105,verilog,,,,,,,,,,,,
+H:/FPGA/souce/test/srv/sdram_control.v,1689577582,verilog,,H:/FPGA/souce/test/srv/sdram_init.v,H:/FPGA/souce/test/srv/Sdram_Params.h,sdram_control,,,../../../../srv,,,,,
+H:/FPGA/souce/test/srv/sdram_control_tb.v,1689757003,verilog,,,H:/FPGA/souce/test/srv/Sdram_Params.h,sdram_control_tb,,,../../../../srv,,,,,
+H:/FPGA/souce/test/srv/sdram_init.v,1491035798,verilog,,H:/FPGA/souce/test/srv/sdram_control_tb.v,H:/FPGA/souce/test/srv/Sdram_Params.h,sdram_init,,,../../../../srv,,,,,
+H:/FPGA/souce/test/srv/sdram_init_tb.v,1689733098,verilog,,,H:/FPGA/souce/test/srv/Sdram_Params.h,sdram_init_tb,,,../../../../srv,,,,,
+H:/FPGA/souce/test/test.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,

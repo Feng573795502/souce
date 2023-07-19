@@ -1,0 +1,60 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dH:/FPGA/souce/23_sdram_control/sdram_control.sim/sim_1/behav/modelsim
+vsdram_init
+Z1 !s110 1689732483
+!i10b 1
+!s100 aEMW<LOF4JDLP78R74]^E1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I:SgDcNnh04n?R=9IF33A33
+R0
+w1689673648
+8../../../../sdram_control.srcs/sources_1/new/sdram_init.v
+F../../../../sdram_control.srcs/sources_1/new/sdram_init.v
+F../../../../sdram_control.srcs/sources_1/new/sdram_params.h
+!i122 0
+L0 1 109
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z5 !s108 1689732483.000000
+!s107 ../../../../sdram_control.srcs/sources_1/new/../../sources_1/new/sdram_params.h|../../../../sdram_control.srcs/sources_1/new/sdram_params.h|../../../../sdram_control.srcs/sim_1/new/sdr_paramters.h|../../../../sdram_control.srcs/sim_1/new/sdram_init_tb.v|../../../../sdram_control.srcs/sources_1/new/sdram_init.v|../../../../sdram_control.srcs/sim_1/new/sdr.v|
+Z6 !s90 -incr|-work|xil_defaultlib|+incdir+../../../../sdram_control.srcs/sources_1/new|+incdir+../../../../sdram_control.srcs/sim_1/new|../../../../sdram_control.srcs/sim_1/new/sdr.v|../../../../sdram_control.srcs/sources_1/new/sdram_init.v|../../../../sdram_control.srcs/sim_1/new/sdram_init_tb.v|
+!i113 0
+Z7 o-work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z8 !s92 -work xil_defaultlib +incdir+../../../../sdram_control.srcs/sources_1/new +incdir+../../../../sdram_control.srcs/sim_1/new -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z9 tCvgOpt 0
+vsdram_init_tb
+R1
+!i10b 1
+!s100 0H4Do_@5=G]^jn=oZakQi1
+R2
+IMY;b:8OVF0L03_<AC9hIh2
+R0
+w1689728264
+8../../../../sdram_control.srcs/sim_1/new/sdram_init_tb.v
+F../../../../sdram_control.srcs/sim_1/new/sdram_init_tb.v
+F../../../../sdram_control.srcs/sources_1/new/../../sources_1/new/sdram_params.h
+!i122 0
+L0 4 97
+R3
+R4
+r1
+!s85 0
+31
+R5
+Z10 !s107 ../../../../sdram_control.srcs/sources_1/new/../../sources_1/new/sdram_params.h|../../../../sdram_control.srcs/sources_1/new/sdram_params.h|../../../../sdram_control.srcs/sim_1/new/sdr_paramters.h|../../../../sdram_control.srcs/sim_1/new/sdram_init_tb.v|../../../../sdram_control.srcs/sources_1/new/sdram_init.v|../../../../sdram_control.srcs/sim_1/new/sdr.v|
+R6
+!i113 0
+R7
+R8
+R9

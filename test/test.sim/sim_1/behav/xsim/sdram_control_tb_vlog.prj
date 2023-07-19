@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../srv" \
+"../../../../srv/sdr.v" \
+"../../../../srv/sdram_control.v" \
+"../../../../srv/sdram_init.v" \
+"../../../../srv/sdram_control_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

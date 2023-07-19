@@ -20,7 +20,7 @@ parameter	AUTO_REF	= 1560; //自动刷新周期<64ms/4096=15625ns
 parameter	LMR_ACT     = 2;     //装载模式寄存器到可激活延时
 parameter	WR_PRE      = 2;      //写操作写数据完成到预充电时间间隔
 parameter	SC_RCD      = 3;      //激活到读命令或写命令延时tRCD>18ns
-parameter	SC_CL	    = 3;       //列选通潜伏期
+parameter	SC_CL	    = 2;       //列选通潜伏期
 parameter	SC_BL	    = 8;       //突发长度设置，1,2,4,8可选 
 
 //	SDRAM模式寄存器参数化表示

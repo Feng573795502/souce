@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/FPGA/souce/test/srv/sdram_control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sdram_control
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/FPGA/souce/test/srv/sdram_control_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sdram_control_tb

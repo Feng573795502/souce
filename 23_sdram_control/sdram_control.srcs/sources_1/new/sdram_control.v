@@ -58,7 +58,7 @@ module sdram_control(
     input [`ASIZE-1:0]r_addr;       //写SDRAM时行地址
     input [`BSIZE-1:0]b_addr;       //写SDRAM时BADDR地址
     input [`DSIZE-1:0]wr_data;      //写入数据
-    input [`DSIZE-1:0]rd_data;      //读取数据
+    output [`DSIZE-1:0]rd_data;      //读取数据
     output reg rd_data_vaild;      //读sdram时数据有效区
     output reg wr_data_vaild;      //写sdram时数据有效区
     output w_data_done;        //一次写突发完成标志
@@ -120,7 +120,12 @@ module sdram_control(
     //SDRAM指令组合
     assign {cs_n, ras_n, cas_n, we_n} = command;
     	
-
+	//SDRAM数据线，采用三态输出
+	assign dq = wr_data_vaild ? wr_data:16'bz;
+	
+	//数据掩码，采用16位数据，掩码为全零
+	assign dqm = 2'b00;	
+	
     //主状态机状态
     localparam 
         IDLE   = 4'b0001,  //空闲
@@ -213,7 +218,7 @@ module sdram_control(
                 if(FF == 1'b0)
                     read_data;
                  else begin
-                    if(ref_req)begin
+                    if(ref_req == 1'b1)begin
                         main_state <= AREF;
                         FF <= 1'b0;
                     end
@@ -228,7 +233,7 @@ module sdram_control(
                     else if(rd_opt_done & !wr_req & !rd_req) //操作完成，并且没有新的读写请求 跳转回去
                         main_state <= AREF;
                     else 
-                        main_state <= WRITE;
+                        main_state <= READ;
                  end
             end
         endcase
@@ -347,9 +352,9 @@ module sdram_control(
     if(!rst_n)
         wr_opt_done <= 1'b0;
      else if(wr_cnt == WR_END_TIME)
-        wr_opt_done <= 1;
+        wr_opt_done <= 1'b1;
      else 
-        wr_opt_done <= 0;
+        wr_opt_done <= 1'b0;
    end
    
    //写操作过程
@@ -368,7 +373,7 @@ module sdram_control(
     always@(posedge clk or negedge rst_n)begin
         if(!rst_n)
             wr_data_vaild <= 1'b0;
-        else if(wr_cnt > SC_RCD && wr_cnt <= SC_RCD + SC_BL)
+        else if((wr_cnt > SC_RCD)&&(wr_cnt <= SC_RCD + SC_BL))
             wr_data_vaild <= 1'b1;
         else
             wr_data_vaild <= 1'b0; 
@@ -417,20 +422,20 @@ module sdram_control(
     //过程计数
     always@(posedge clk or negedge rst_n)begin
         if(!rst_n)
-            rd_cnt <= 0;
-        else if(rd_cnt <= RD_END_TIME)
-            rd_cnt <= 0;
+            rd_cnt <= 16'd0;
+        else if(rd_cnt == RD_END_TIME)
+            rd_cnt <= 16'd0;
         else if(rd_req || rd_cnt > 0)
             rd_cnt <= rd_cnt + 16'd1;
         else 
-            rd_cnt <= 0;
+            rd_cnt <= 16'd0;
     end
     
     //完成统计
     always@(posedge clk or negedge rst_n)begin
         if(!rst_n)
             rd_opt_done <= 1'b0;
-        else if(rd_cnt <= RD_END_TIME)
+        else if(rd_cnt == RD_END_TIME)
             rd_opt_done <= 1'b1;
         else 
             rd_opt_done <= 1'b0;
@@ -442,7 +447,7 @@ module sdram_control(
             rd_opt <= 1'b0;
         else if(rd_req == 1'b1)
             rd_opt <= 1'b1;
-        else if(rd_cnt == rd_opt_done)//用done会延迟一个clk
+        else if(rd_opt_done == 1'b1)//用done会延迟一个clk
             rd_opt <= 1'b0;
         else 
             rd_opt <= rd_opt;
@@ -510,25 +515,25 @@ module sdram_control(
 			AREF:begin
 			//刷新标志到了 继续启动刷新
 			 if(ref_time_flag)
-			     ref_req <= 1'b1;
+			     ref_req = 1'b1;
 			 else 
-			     ref_req <= 1'b0;
+			     ref_req = 1'b0;
 			end
 			
 			WRITE:begin
 			//写完成和操作过程中有刷新请求
 		      if(wr_opt_done && ref_break_wr)
-		          ref_req <= 1'b1;
+		          ref_req = 1'b1;
 		      else 
-		          ref_req <= 1'b0;
+		          ref_req = 1'b0;
 			end
 			
 			READ:begin
 			//读取完成并且有备份请求
 		      if(rd_opt_done && ref_break_rd)
-		          ref_req <= 1'b1;
+		          ref_req = 1'b1;
 		      else 
-		          ref_req <= 1'b0;
+		          ref_req = 1'b0;
 			end
 			
 			default:
@@ -543,12 +548,12 @@ module sdram_control(
 			AREF:begin
 			    //没有更新过程中写请求，wr和没有更新flag
                 if((!wr_break_ref)&& wr &&!ref_time_flag)
-                    wr_req <= 1'b1;
+                    wr_req = 1'b1;
                 //有写备份在刷新过程中,刷新完成
                 else if(wr_break_ref && ref_opt_done)   
-                    wr_req <= 1'b1;
+                    wr_req = 1'b1;
                 else 
-                    wr_req <= 1'b0;
+                    wr_req = 1'b0;
 			end
 			
 			WRITE:begin
@@ -561,7 +566,7 @@ module sdram_control(
 			
 			READ:begin
 			//操作完成，wr和没有刷新备份
-				if(rd_opt_done && wr && !ref_break_wr)
+				if(rd_opt_done && wr && !ref_break_rd)
 					wr_req = 1'b1;
 				else
 					wr_req = 1'b0;
@@ -578,12 +583,12 @@ module sdram_control(
 			AREF:begin
                 //读取条件，没有写请求，没有刷新请求,没有刷新过程中的读和写请求,不需要考虑done因为rd_break_ref已经做过处理了
                 if((!rd_break_ref) && (!wr_break_ref) && (!ref_time_flag) && rd && !wr)
-                    rd_req <= 1'b1;
+                    rd_req = 1'b1;
                 //刷新过程读,没有写请求，操作完成
                 else if(rd_break_ref && ref_opt_done && !wr_break_ref) 
-                    rd_req <= 1'b1;
+                    rd_req = 1'b1;
                 else 
-                    rd_req <= 1'b0;
+                    rd_req = 1'b0;
 			end
 			
 			WRITE:begin
@@ -602,7 +607,7 @@ module sdram_control(
 					rd_req = 1'b0;
 			end
 			default:
-			 rd_req <= 1'b0;
+			 rd_req = 1'b0;
 	   endcase
 	end
 endmodule

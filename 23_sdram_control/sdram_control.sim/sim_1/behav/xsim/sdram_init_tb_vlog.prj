@@ -1,5 +1,6 @@
 # compile verilog/system verilog design source files
 verilog xil_defaultlib  --include "../../../../sdram_control.srcs/sources_1/new" --include "../../../../sdram_control.srcs/sim_1/new" \
+"../../../../sdram_control.srcs/sim_1/new/sdr.v" \
 "../../../../sdram_control.srcs/sources_1/new/sdram_init.v" \
 "../../../../sdram_control.srcs/sim_1/new/sdram_init_tb.v" \
 

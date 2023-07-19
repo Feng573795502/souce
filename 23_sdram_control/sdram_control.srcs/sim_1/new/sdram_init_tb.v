@@ -17,7 +17,7 @@ wire ras_n;
 wire cas_n;
 wire we_n;
 
-sdram_init sdram_init_inst(
+sdram_init sdram_init(
     .clk(clk),
     .rst_n(rst_n),
     
@@ -31,17 +31,18 @@ assign {cs_n, ras_n, cas_n, we_n} = command;
 assign sd_clk = ~clk;
 
 //sdram模型实例化
-//sdr sdram(
-//    .Dq(),
-//    .Addr(saddr),
-//    .Ba(),
-//    .Clk(sd_clk),
-//    .Cke(rst_n),
-//    .Cs_n(cs_n),
-//    .Ras_n(ras_n),
-//    .We_n(we_n),
-//    .Dqm()
-//);
+sdr sdram(
+    .Dq(),
+    .Addr(saddr),
+    .Ba(),
+    .Clk(sd_clk),
+    .Cke(rst_n),
+    .Cs_n(cs_n),
+    .Ras_n(ras_n),
+    .Cas_n(cas_n),
+    .We_n(we_n),
+    .Dqm()
+);
 
 //系统时钟产生
 initial clk = 1'b1;

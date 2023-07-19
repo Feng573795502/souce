@@ -1,2 +1,1920 @@
 Vivado Simulator 2020.2
 Time resolution is 1 ps
+sdram_control_tb.sdram_model : at time  202055.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  202155.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  202255.0 ns LMR  : Load Mode Register
+sdram_control_tb.sdram_model :                             CAS Latency      = 2
+sdram_control_tb.sdram_model :                             Burst Length     = 8
+sdram_control_tb.sdram_model :                             Burst Type       = Sequential
+sdram_control_tb.sdram_model :                             Write Burst Mode = Programmed Burst Length
+sdram_control_tb.sdram_model : at time  204265.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  204295.0 ns WRITE: Bank = 2 Row =    0, Col =   0, Data = 0000
+sdram_control_tb.sdram_model : at time  204305.0 ns WRITE: Bank = 2 Row =    0, Col =   1, Data = 0001
+sdram_control_tb.sdram_model : at time  204315.0 ns WRITE: Bank = 2 Row =    0, Col =   2, Data = 0002
+sdram_control_tb.sdram_model : at time  204325.0 ns WRITE: Bank = 2 Row =    0, Col =   3, Data = 0003
+sdram_control_tb.sdram_model : at time  204335.0 ns WRITE: Bank = 2 Row =    0, Col =   4, Data = 0004
+sdram_control_tb.sdram_model : at time  204345.0 ns WRITE: Bank = 2 Row =    0, Col =   5, Data = 0005
+sdram_control_tb.sdram_model : at time  204355.0 ns WRITE: Bank = 2 Row =    0, Col =   6, Data = 0006
+sdram_control_tb.sdram_model : at time  204365.0 ns WRITE: Bank = 2 Row =    0, Col =   7, Data = 0007
+sdram_control_tb.sdram_model : at time  209275.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  209305.0 ns WRITE: Bank = 2 Row =    0, Col =   8, Data = 0008
+sdram_control_tb.sdram_model : at time  209315.0 ns WRITE: Bank = 2 Row =    0, Col =   9, Data = 0009
+sdram_control_tb.sdram_model : at time  209325.0 ns WRITE: Bank = 2 Row =    0, Col =  10, Data = 000a
+sdram_control_tb.sdram_model : at time  209335.0 ns WRITE: Bank = 2 Row =    0, Col =  11, Data = 000b
+sdram_control_tb.sdram_model : at time  209345.0 ns WRITE: Bank = 2 Row =    0, Col =  12, Data = 000c
+sdram_control_tb.sdram_model : at time  209355.0 ns WRITE: Bank = 2 Row =    0, Col =  13, Data = 000d
+sdram_control_tb.sdram_model : at time  209365.0 ns WRITE: Bank = 2 Row =    0, Col =  14, Data = 000e
+sdram_control_tb.sdram_model : at time  209375.0 ns WRITE: Bank = 2 Row =    0, Col =  15, Data = 000f
+sdram_control_tb.sdram_model : at time  214285.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  214315.0 ns WRITE: Bank = 2 Row =    0, Col =  16, Data = 0010
+sdram_control_tb.sdram_model : at time  214325.0 ns WRITE: Bank = 2 Row =    0, Col =  17, Data = 0011
+sdram_control_tb.sdram_model : at time  214335.0 ns WRITE: Bank = 2 Row =    0, Col =  18, Data = 0012
+sdram_control_tb.sdram_model : at time  214345.0 ns WRITE: Bank = 2 Row =    0, Col =  19, Data = 0013
+sdram_control_tb.sdram_model : at time  214355.0 ns WRITE: Bank = 2 Row =    0, Col =  20, Data = 0014
+sdram_control_tb.sdram_model : at time  214365.0 ns WRITE: Bank = 2 Row =    0, Col =  21, Data = 0015
+sdram_control_tb.sdram_model : at time  214375.0 ns WRITE: Bank = 2 Row =    0, Col =  22, Data = 0016
+sdram_control_tb.sdram_model : at time  214385.0 ns WRITE: Bank = 2 Row =    0, Col =  23, Data = 0017
+sdram_control_tb.sdram_model : at time  217905.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  218005.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  219295.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  219325.0 ns WRITE: Bank = 2 Row =    0, Col =  24, Data = 0018
+sdram_control_tb.sdram_model : at time  219335.0 ns WRITE: Bank = 2 Row =    0, Col =  25, Data = 0019
+sdram_control_tb.sdram_model : at time  219345.0 ns WRITE: Bank = 2 Row =    0, Col =  26, Data = 001a
+sdram_control_tb.sdram_model : at time  219355.0 ns WRITE: Bank = 2 Row =    0, Col =  27, Data = 001b
+sdram_control_tb.sdram_model : at time  219365.0 ns WRITE: Bank = 2 Row =    0, Col =  28, Data = 001c
+sdram_control_tb.sdram_model : at time  219375.0 ns WRITE: Bank = 2 Row =    0, Col =  29, Data = 001d
+sdram_control_tb.sdram_model : at time  219385.0 ns WRITE: Bank = 2 Row =    0, Col =  30, Data = 001e
+sdram_control_tb.sdram_model : at time  219395.0 ns WRITE: Bank = 2 Row =    0, Col =  31, Data = 001f
+sdram_control_tb.sdram_model : at time  224305.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  224335.0 ns WRITE: Bank = 2 Row =    0, Col =  32, Data = 0020
+sdram_control_tb.sdram_model : at time  224345.0 ns WRITE: Bank = 2 Row =    0, Col =  33, Data = 0021
+sdram_control_tb.sdram_model : at time  224355.0 ns WRITE: Bank = 2 Row =    0, Col =  34, Data = 0022
+sdram_control_tb.sdram_model : at time  224365.0 ns WRITE: Bank = 2 Row =    0, Col =  35, Data = 0023
+sdram_control_tb.sdram_model : at time  224375.0 ns WRITE: Bank = 2 Row =    0, Col =  36, Data = 0024
+sdram_control_tb.sdram_model : at time  224385.0 ns WRITE: Bank = 2 Row =    0, Col =  37, Data = 0025
+sdram_control_tb.sdram_model : at time  224395.0 ns WRITE: Bank = 2 Row =    0, Col =  38, Data = 0026
+sdram_control_tb.sdram_model : at time  224405.0 ns WRITE: Bank = 2 Row =    0, Col =  39, Data = 0027
+sdram_control_tb.sdram_model : at time  229315.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  229345.0 ns WRITE: Bank = 2 Row =    0, Col =  40, Data = 0028
+sdram_control_tb.sdram_model : at time  229355.0 ns WRITE: Bank = 2 Row =    0, Col =  41, Data = 0029
+sdram_control_tb.sdram_model : at time  229365.0 ns WRITE: Bank = 2 Row =    0, Col =  42, Data = 002a
+sdram_control_tb.sdram_model : at time  229375.0 ns WRITE: Bank = 2 Row =    0, Col =  43, Data = 002b
+sdram_control_tb.sdram_model : at time  229385.0 ns WRITE: Bank = 2 Row =    0, Col =  44, Data = 002c
+sdram_control_tb.sdram_model : at time  229395.0 ns WRITE: Bank = 2 Row =    0, Col =  45, Data = 002d
+sdram_control_tb.sdram_model : at time  229405.0 ns WRITE: Bank = 2 Row =    0, Col =  46, Data = 002e
+sdram_control_tb.sdram_model : at time  229415.0 ns WRITE: Bank = 2 Row =    0, Col =  47, Data = 002f
+sdram_control_tb.sdram_model : at time  233505.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  233605.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  234325.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  234355.0 ns WRITE: Bank = 2 Row =    0, Col =  48, Data = 0030
+sdram_control_tb.sdram_model : at time  234365.0 ns WRITE: Bank = 2 Row =    0, Col =  49, Data = 0031
+sdram_control_tb.sdram_model : at time  234375.0 ns WRITE: Bank = 2 Row =    0, Col =  50, Data = 0032
+sdram_control_tb.sdram_model : at time  234385.0 ns WRITE: Bank = 2 Row =    0, Col =  51, Data = 0033
+sdram_control_tb.sdram_model : at time  234395.0 ns WRITE: Bank = 2 Row =    0, Col =  52, Data = 0034
+sdram_control_tb.sdram_model : at time  234405.0 ns WRITE: Bank = 2 Row =    0, Col =  53, Data = 0035
+sdram_control_tb.sdram_model : at time  234415.0 ns WRITE: Bank = 2 Row =    0, Col =  54, Data = 0036
+sdram_control_tb.sdram_model : at time  234425.0 ns WRITE: Bank = 2 Row =    0, Col =  55, Data = 0037
+sdram_control_tb.sdram_model : at time  239335.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  239365.0 ns WRITE: Bank = 2 Row =    0, Col =  56, Data = 0038
+sdram_control_tb.sdram_model : at time  239375.0 ns WRITE: Bank = 2 Row =    0, Col =  57, Data = 0039
+sdram_control_tb.sdram_model : at time  239385.0 ns WRITE: Bank = 2 Row =    0, Col =  58, Data = 003a
+sdram_control_tb.sdram_model : at time  239395.0 ns WRITE: Bank = 2 Row =    0, Col =  59, Data = 003b
+sdram_control_tb.sdram_model : at time  239405.0 ns WRITE: Bank = 2 Row =    0, Col =  60, Data = 003c
+sdram_control_tb.sdram_model : at time  239415.0 ns WRITE: Bank = 2 Row =    0, Col =  61, Data = 003d
+sdram_control_tb.sdram_model : at time  239425.0 ns WRITE: Bank = 2 Row =    0, Col =  62, Data = 003e
+sdram_control_tb.sdram_model : at time  239435.0 ns WRITE: Bank = 2 Row =    0, Col =  63, Data = 003f
+sdram_control_tb.sdram_model : at time  244345.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  244375.0 ns WRITE: Bank = 2 Row =    0, Col =  64, Data = 0040
+sdram_control_tb.sdram_model : at time  244385.0 ns WRITE: Bank = 2 Row =    0, Col =  65, Data = 0041
+sdram_control_tb.sdram_model : at time  244395.0 ns WRITE: Bank = 2 Row =    0, Col =  66, Data = 0042
+sdram_control_tb.sdram_model : at time  244405.0 ns WRITE: Bank = 2 Row =    0, Col =  67, Data = 0043
+sdram_control_tb.sdram_model : at time  244415.0 ns WRITE: Bank = 2 Row =    0, Col =  68, Data = 0044
+sdram_control_tb.sdram_model : at time  244425.0 ns WRITE: Bank = 2 Row =    0, Col =  69, Data = 0045
+sdram_control_tb.sdram_model : at time  244435.0 ns WRITE: Bank = 2 Row =    0, Col =  70, Data = 0046
+sdram_control_tb.sdram_model : at time  244445.0 ns WRITE: Bank = 2 Row =    0, Col =  71, Data = 0047
+sdram_control_tb.sdram_model : at time  249105.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  249205.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  249355.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  249385.0 ns WRITE: Bank = 2 Row =    0, Col =  72, Data = 0048
+sdram_control_tb.sdram_model : at time  249395.0 ns WRITE: Bank = 2 Row =    0, Col =  73, Data = 0049
+sdram_control_tb.sdram_model : at time  249405.0 ns WRITE: Bank = 2 Row =    0, Col =  74, Data = 004a
+sdram_control_tb.sdram_model : at time  249415.0 ns WRITE: Bank = 2 Row =    0, Col =  75, Data = 004b
+sdram_control_tb.sdram_model : at time  249425.0 ns WRITE: Bank = 2 Row =    0, Col =  76, Data = 004c
+sdram_control_tb.sdram_model : at time  249435.0 ns WRITE: Bank = 2 Row =    0, Col =  77, Data = 004d
+sdram_control_tb.sdram_model : at time  249445.0 ns WRITE: Bank = 2 Row =    0, Col =  78, Data = 004e
+sdram_control_tb.sdram_model : at time  249455.0 ns WRITE: Bank = 2 Row =    0, Col =  79, Data = 004f
+sdram_control_tb.sdram_model : at time  254365.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  254395.0 ns WRITE: Bank = 2 Row =    0, Col =  80, Data = 0050
+sdram_control_tb.sdram_model : at time  254405.0 ns WRITE: Bank = 2 Row =    0, Col =  81, Data = 0051
+sdram_control_tb.sdram_model : at time  254415.0 ns WRITE: Bank = 2 Row =    0, Col =  82, Data = 0052
+sdram_control_tb.sdram_model : at time  254425.0 ns WRITE: Bank = 2 Row =    0, Col =  83, Data = 0053
+sdram_control_tb.sdram_model : at time  254435.0 ns WRITE: Bank = 2 Row =    0, Col =  84, Data = 0054
+sdram_control_tb.sdram_model : at time  254445.0 ns WRITE: Bank = 2 Row =    0, Col =  85, Data = 0055
+sdram_control_tb.sdram_model : at time  254455.0 ns WRITE: Bank = 2 Row =    0, Col =  86, Data = 0056
+sdram_control_tb.sdram_model : at time  254465.0 ns WRITE: Bank = 2 Row =    0, Col =  87, Data = 0057
+sdram_control_tb.sdram_model : at time  259375.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  259405.0 ns WRITE: Bank = 2 Row =    0, Col =  88, Data = 0058
+sdram_control_tb.sdram_model : at time  259415.0 ns WRITE: Bank = 2 Row =    0, Col =  89, Data = 0059
+sdram_control_tb.sdram_model : at time  259425.0 ns WRITE: Bank = 2 Row =    0, Col =  90, Data = 005a
+sdram_control_tb.sdram_model : at time  259435.0 ns WRITE: Bank = 2 Row =    0, Col =  91, Data = 005b
+sdram_control_tb.sdram_model : at time  259445.0 ns WRITE: Bank = 2 Row =    0, Col =  92, Data = 005c
+sdram_control_tb.sdram_model : at time  259455.0 ns WRITE: Bank = 2 Row =    0, Col =  93, Data = 005d
+sdram_control_tb.sdram_model : at time  259465.0 ns WRITE: Bank = 2 Row =    0, Col =  94, Data = 005e
+sdram_control_tb.sdram_model : at time  259475.0 ns WRITE: Bank = 2 Row =    0, Col =  95, Data = 005f
+sdram_control_tb.sdram_model : at time  264385.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  264415.0 ns WRITE: Bank = 2 Row =    0, Col =  96, Data = 0060
+sdram_control_tb.sdram_model : at time  264425.0 ns WRITE: Bank = 2 Row =    0, Col =  97, Data = 0061
+sdram_control_tb.sdram_model : at time  264435.0 ns WRITE: Bank = 2 Row =    0, Col =  98, Data = 0062
+sdram_control_tb.sdram_model : at time  264445.0 ns WRITE: Bank = 2 Row =    0, Col =  99, Data = 0063
+sdram_control_tb.sdram_model : at time  264455.0 ns WRITE: Bank = 2 Row =    0, Col = 100, Data = 0064
+sdram_control_tb.sdram_model : at time  264465.0 ns WRITE: Bank = 2 Row =    0, Col = 101, Data = 0065
+sdram_control_tb.sdram_model : at time  264475.0 ns WRITE: Bank = 2 Row =    0, Col = 102, Data = 0066
+sdram_control_tb.sdram_model : at time  264485.0 ns WRITE: Bank = 2 Row =    0, Col = 103, Data = 0067
+sdram_control_tb.sdram_model : at time  264705.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  264805.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  269395.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  269425.0 ns WRITE: Bank = 2 Row =    0, Col = 104, Data = 0068
+sdram_control_tb.sdram_model : at time  269435.0 ns WRITE: Bank = 2 Row =    0, Col = 105, Data = 0069
+sdram_control_tb.sdram_model : at time  269445.0 ns WRITE: Bank = 2 Row =    0, Col = 106, Data = 006a
+sdram_control_tb.sdram_model : at time  269455.0 ns WRITE: Bank = 2 Row =    0, Col = 107, Data = 006b
+sdram_control_tb.sdram_model : at time  269465.0 ns WRITE: Bank = 2 Row =    0, Col = 108, Data = 006c
+sdram_control_tb.sdram_model : at time  269475.0 ns WRITE: Bank = 2 Row =    0, Col = 109, Data = 006d
+sdram_control_tb.sdram_model : at time  269485.0 ns WRITE: Bank = 2 Row =    0, Col = 110, Data = 006e
+sdram_control_tb.sdram_model : at time  269495.0 ns WRITE: Bank = 2 Row =    0, Col = 111, Data = 006f
+sdram_control_tb.sdram_model : at time  274405.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  274435.0 ns WRITE: Bank = 2 Row =    0, Col = 112, Data = 0070
+sdram_control_tb.sdram_model : at time  274445.0 ns WRITE: Bank = 2 Row =    0, Col = 113, Data = 0071
+sdram_control_tb.sdram_model : at time  274455.0 ns WRITE: Bank = 2 Row =    0, Col = 114, Data = 0072
+sdram_control_tb.sdram_model : at time  274465.0 ns WRITE: Bank = 2 Row =    0, Col = 115, Data = 0073
+sdram_control_tb.sdram_model : at time  274475.0 ns WRITE: Bank = 2 Row =    0, Col = 116, Data = 0074
+sdram_control_tb.sdram_model : at time  274485.0 ns WRITE: Bank = 2 Row =    0, Col = 117, Data = 0075
+sdram_control_tb.sdram_model : at time  274495.0 ns WRITE: Bank = 2 Row =    0, Col = 118, Data = 0076
+sdram_control_tb.sdram_model : at time  274505.0 ns WRITE: Bank = 2 Row =    0, Col = 119, Data = 0077
+sdram_control_tb.sdram_model : at time  279415.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  279445.0 ns WRITE: Bank = 2 Row =    0, Col = 120, Data = 0078
+sdram_control_tb.sdram_model : at time  279455.0 ns WRITE: Bank = 2 Row =    0, Col = 121, Data = 0079
+sdram_control_tb.sdram_model : at time  279465.0 ns WRITE: Bank = 2 Row =    0, Col = 122, Data = 007a
+sdram_control_tb.sdram_model : at time  279475.0 ns WRITE: Bank = 2 Row =    0, Col = 123, Data = 007b
+sdram_control_tb.sdram_model : at time  279485.0 ns WRITE: Bank = 2 Row =    0, Col = 124, Data = 007c
+sdram_control_tb.sdram_model : at time  279495.0 ns WRITE: Bank = 2 Row =    0, Col = 125, Data = 007d
+sdram_control_tb.sdram_model : at time  279505.0 ns WRITE: Bank = 2 Row =    0, Col = 126, Data = 007e
+sdram_control_tb.sdram_model : at time  279515.0 ns WRITE: Bank = 2 Row =    0, Col = 127, Data = 007f
+sdram_control_tb.sdram_model : at time  280305.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  280405.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  284425.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  284455.0 ns WRITE: Bank = 2 Row =    0, Col = 128, Data = 0080
+sdram_control_tb.sdram_model : at time  284465.0 ns WRITE: Bank = 2 Row =    0, Col = 129, Data = 0081
+sdram_control_tb.sdram_model : at time  284475.0 ns WRITE: Bank = 2 Row =    0, Col = 130, Data = 0082
+sdram_control_tb.sdram_model : at time  284485.0 ns WRITE: Bank = 2 Row =    0, Col = 131, Data = 0083
+sdram_control_tb.sdram_model : at time  284495.0 ns WRITE: Bank = 2 Row =    0, Col = 132, Data = 0084
+sdram_control_tb.sdram_model : at time  284505.0 ns WRITE: Bank = 2 Row =    0, Col = 133, Data = 0085
+sdram_control_tb.sdram_model : at time  284515.0 ns WRITE: Bank = 2 Row =    0, Col = 134, Data = 0086
+sdram_control_tb.sdram_model : at time  284525.0 ns WRITE: Bank = 2 Row =    0, Col = 135, Data = 0087
+sdram_control_tb.sdram_model : at time  289435.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  289465.0 ns WRITE: Bank = 2 Row =    0, Col = 136, Data = 0088
+sdram_control_tb.sdram_model : at time  289475.0 ns WRITE: Bank = 2 Row =    0, Col = 137, Data = 0089
+sdram_control_tb.sdram_model : at time  289485.0 ns WRITE: Bank = 2 Row =    0, Col = 138, Data = 008a
+sdram_control_tb.sdram_model : at time  289495.0 ns WRITE: Bank = 2 Row =    0, Col = 139, Data = 008b
+sdram_control_tb.sdram_model : at time  289505.0 ns WRITE: Bank = 2 Row =    0, Col = 140, Data = 008c
+sdram_control_tb.sdram_model : at time  289515.0 ns WRITE: Bank = 2 Row =    0, Col = 141, Data = 008d
+sdram_control_tb.sdram_model : at time  289525.0 ns WRITE: Bank = 2 Row =    0, Col = 142, Data = 008e
+sdram_control_tb.sdram_model : at time  289535.0 ns WRITE: Bank = 2 Row =    0, Col = 143, Data = 008f
+sdram_control_tb.sdram_model : at time  294445.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  294475.0 ns WRITE: Bank = 2 Row =    0, Col = 144, Data = 0090
+sdram_control_tb.sdram_model : at time  294485.0 ns WRITE: Bank = 2 Row =    0, Col = 145, Data = 0091
+sdram_control_tb.sdram_model : at time  294495.0 ns WRITE: Bank = 2 Row =    0, Col = 146, Data = 0092
+sdram_control_tb.sdram_model : at time  294505.0 ns WRITE: Bank = 2 Row =    0, Col = 147, Data = 0093
+sdram_control_tb.sdram_model : at time  294515.0 ns WRITE: Bank = 2 Row =    0, Col = 148, Data = 0094
+sdram_control_tb.sdram_model : at time  294525.0 ns WRITE: Bank = 2 Row =    0, Col = 149, Data = 0095
+sdram_control_tb.sdram_model : at time  294535.0 ns WRITE: Bank = 2 Row =    0, Col = 150, Data = 0096
+sdram_control_tb.sdram_model : at time  294545.0 ns WRITE: Bank = 2 Row =    0, Col = 151, Data = 0097
+sdram_control_tb.sdram_model : at time  295905.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  296005.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  299455.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  299485.0 ns WRITE: Bank = 2 Row =    0, Col = 152, Data = 0098
+sdram_control_tb.sdram_model : at time  299495.0 ns WRITE: Bank = 2 Row =    0, Col = 153, Data = 0099
+sdram_control_tb.sdram_model : at time  299505.0 ns WRITE: Bank = 2 Row =    0, Col = 154, Data = 009a
+sdram_control_tb.sdram_model : at time  299515.0 ns WRITE: Bank = 2 Row =    0, Col = 155, Data = 009b
+sdram_control_tb.sdram_model : at time  299525.0 ns WRITE: Bank = 2 Row =    0, Col = 156, Data = 009c
+sdram_control_tb.sdram_model : at time  299535.0 ns WRITE: Bank = 2 Row =    0, Col = 157, Data = 009d
+sdram_control_tb.sdram_model : at time  299545.0 ns WRITE: Bank = 2 Row =    0, Col = 158, Data = 009e
+sdram_control_tb.sdram_model : at time  299555.0 ns WRITE: Bank = 2 Row =    0, Col = 159, Data = 009f
+sdram_control_tb.sdram_model : at time  304465.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  304495.0 ns WRITE: Bank = 2 Row =    0, Col = 160, Data = 00a0
+sdram_control_tb.sdram_model : at time  304505.0 ns WRITE: Bank = 2 Row =    0, Col = 161, Data = 00a1
+sdram_control_tb.sdram_model : at time  304515.0 ns WRITE: Bank = 2 Row =    0, Col = 162, Data = 00a2
+sdram_control_tb.sdram_model : at time  304525.0 ns WRITE: Bank = 2 Row =    0, Col = 163, Data = 00a3
+sdram_control_tb.sdram_model : at time  304535.0 ns WRITE: Bank = 2 Row =    0, Col = 164, Data = 00a4
+sdram_control_tb.sdram_model : at time  304545.0 ns WRITE: Bank = 2 Row =    0, Col = 165, Data = 00a5
+sdram_control_tb.sdram_model : at time  304555.0 ns WRITE: Bank = 2 Row =    0, Col = 166, Data = 00a6
+sdram_control_tb.sdram_model : at time  304565.0 ns WRITE: Bank = 2 Row =    0, Col = 167, Data = 00a7
+sdram_control_tb.sdram_model : at time  309475.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  309505.0 ns WRITE: Bank = 2 Row =    0, Col = 168, Data = 00a8
+sdram_control_tb.sdram_model : at time  309515.0 ns WRITE: Bank = 2 Row =    0, Col = 169, Data = 00a9
+sdram_control_tb.sdram_model : at time  309525.0 ns WRITE: Bank = 2 Row =    0, Col = 170, Data = 00aa
+sdram_control_tb.sdram_model : at time  309535.0 ns WRITE: Bank = 2 Row =    0, Col = 171, Data = 00ab
+sdram_control_tb.sdram_model : at time  309545.0 ns WRITE: Bank = 2 Row =    0, Col = 172, Data = 00ac
+sdram_control_tb.sdram_model : at time  309555.0 ns WRITE: Bank = 2 Row =    0, Col = 173, Data = 00ad
+sdram_control_tb.sdram_model : at time  309565.0 ns WRITE: Bank = 2 Row =    0, Col = 174, Data = 00ae
+sdram_control_tb.sdram_model : at time  309575.0 ns WRITE: Bank = 2 Row =    0, Col = 175, Data = 00af
+sdram_control_tb.sdram_model : at time  311505.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  311605.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  314485.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  314515.0 ns WRITE: Bank = 2 Row =    0, Col = 176, Data = 00b0
+sdram_control_tb.sdram_model : at time  314525.0 ns WRITE: Bank = 2 Row =    0, Col = 177, Data = 00b1
+sdram_control_tb.sdram_model : at time  314535.0 ns WRITE: Bank = 2 Row =    0, Col = 178, Data = 00b2
+sdram_control_tb.sdram_model : at time  314545.0 ns WRITE: Bank = 2 Row =    0, Col = 179, Data = 00b3
+sdram_control_tb.sdram_model : at time  314555.0 ns WRITE: Bank = 2 Row =    0, Col = 180, Data = 00b4
+sdram_control_tb.sdram_model : at time  314565.0 ns WRITE: Bank = 2 Row =    0, Col = 181, Data = 00b5
+sdram_control_tb.sdram_model : at time  314575.0 ns WRITE: Bank = 2 Row =    0, Col = 182, Data = 00b6
+sdram_control_tb.sdram_model : at time  314585.0 ns WRITE: Bank = 2 Row =    0, Col = 183, Data = 00b7
+sdram_control_tb.sdram_model : at time  319495.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  319525.0 ns WRITE: Bank = 2 Row =    0, Col = 184, Data = 00b8
+sdram_control_tb.sdram_model : at time  319535.0 ns WRITE: Bank = 2 Row =    0, Col = 185, Data = 00b9
+sdram_control_tb.sdram_model : at time  319545.0 ns WRITE: Bank = 2 Row =    0, Col = 186, Data = 00ba
+sdram_control_tb.sdram_model : at time  319555.0 ns WRITE: Bank = 2 Row =    0, Col = 187, Data = 00bb
+sdram_control_tb.sdram_model : at time  319565.0 ns WRITE: Bank = 2 Row =    0, Col = 188, Data = 00bc
+sdram_control_tb.sdram_model : at time  319575.0 ns WRITE: Bank = 2 Row =    0, Col = 189, Data = 00bd
+sdram_control_tb.sdram_model : at time  319585.0 ns WRITE: Bank = 2 Row =    0, Col = 190, Data = 00be
+sdram_control_tb.sdram_model : at time  319595.0 ns WRITE: Bank = 2 Row =    0, Col = 191, Data = 00bf
+sdram_control_tb.sdram_model : at time  324505.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  324535.0 ns WRITE: Bank = 2 Row =    0, Col = 192, Data = 00c0
+sdram_control_tb.sdram_model : at time  324545.0 ns WRITE: Bank = 2 Row =    0, Col = 193, Data = 00c1
+sdram_control_tb.sdram_model : at time  324555.0 ns WRITE: Bank = 2 Row =    0, Col = 194, Data = 00c2
+sdram_control_tb.sdram_model : at time  324565.0 ns WRITE: Bank = 2 Row =    0, Col = 195, Data = 00c3
+sdram_control_tb.sdram_model : at time  324575.0 ns WRITE: Bank = 2 Row =    0, Col = 196, Data = 00c4
+sdram_control_tb.sdram_model : at time  324585.0 ns WRITE: Bank = 2 Row =    0, Col = 197, Data = 00c5
+sdram_control_tb.sdram_model : at time  324595.0 ns WRITE: Bank = 2 Row =    0, Col = 198, Data = 00c6
+sdram_control_tb.sdram_model : at time  324605.0 ns WRITE: Bank = 2 Row =    0, Col = 199, Data = 00c7
+sdram_control_tb.sdram_model : at time  327105.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  327205.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  329515.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  329545.0 ns WRITE: Bank = 2 Row =    0, Col = 200, Data = 00c8
+sdram_control_tb.sdram_model : at time  329555.0 ns WRITE: Bank = 2 Row =    0, Col = 201, Data = 00c9
+sdram_control_tb.sdram_model : at time  329565.0 ns WRITE: Bank = 2 Row =    0, Col = 202, Data = 00ca
+sdram_control_tb.sdram_model : at time  329575.0 ns WRITE: Bank = 2 Row =    0, Col = 203, Data = 00cb
+sdram_control_tb.sdram_model : at time  329585.0 ns WRITE: Bank = 2 Row =    0, Col = 204, Data = 00cc
+sdram_control_tb.sdram_model : at time  329595.0 ns WRITE: Bank = 2 Row =    0, Col = 205, Data = 00cd
+sdram_control_tb.sdram_model : at time  329605.0 ns WRITE: Bank = 2 Row =    0, Col = 206, Data = 00ce
+sdram_control_tb.sdram_model : at time  329615.0 ns WRITE: Bank = 2 Row =    0, Col = 207, Data = 00cf
+sdram_control_tb.sdram_model : at time  334525.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  334555.0 ns WRITE: Bank = 2 Row =    0, Col = 208, Data = 00d0
+sdram_control_tb.sdram_model : at time  334565.0 ns WRITE: Bank = 2 Row =    0, Col = 209, Data = 00d1
+sdram_control_tb.sdram_model : at time  334575.0 ns WRITE: Bank = 2 Row =    0, Col = 210, Data = 00d2
+sdram_control_tb.sdram_model : at time  334585.0 ns WRITE: Bank = 2 Row =    0, Col = 211, Data = 00d3
+sdram_control_tb.sdram_model : at time  334595.0 ns WRITE: Bank = 2 Row =    0, Col = 212, Data = 00d4
+sdram_control_tb.sdram_model : at time  334605.0 ns WRITE: Bank = 2 Row =    0, Col = 213, Data = 00d5
+sdram_control_tb.sdram_model : at time  334615.0 ns WRITE: Bank = 2 Row =    0, Col = 214, Data = 00d6
+sdram_control_tb.sdram_model : at time  334625.0 ns WRITE: Bank = 2 Row =    0, Col = 215, Data = 00d7
+sdram_control_tb.sdram_model : at time  339535.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  339565.0 ns WRITE: Bank = 2 Row =    0, Col = 216, Data = 00d8
+sdram_control_tb.sdram_model : at time  339575.0 ns WRITE: Bank = 2 Row =    0, Col = 217, Data = 00d9
+sdram_control_tb.sdram_model : at time  339585.0 ns WRITE: Bank = 2 Row =    0, Col = 218, Data = 00da
+sdram_control_tb.sdram_model : at time  339595.0 ns WRITE: Bank = 2 Row =    0, Col = 219, Data = 00db
+sdram_control_tb.sdram_model : at time  339605.0 ns WRITE: Bank = 2 Row =    0, Col = 220, Data = 00dc
+sdram_control_tb.sdram_model : at time  339615.0 ns WRITE: Bank = 2 Row =    0, Col = 221, Data = 00dd
+sdram_control_tb.sdram_model : at time  339625.0 ns WRITE: Bank = 2 Row =    0, Col = 222, Data = 00de
+sdram_control_tb.sdram_model : at time  339635.0 ns WRITE: Bank = 2 Row =    0, Col = 223, Data = 00df
+sdram_control_tb.sdram_model : at time  342705.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  342805.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  344545.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  344575.0 ns WRITE: Bank = 2 Row =    0, Col = 224, Data = 00e0
+sdram_control_tb.sdram_model : at time  344585.0 ns WRITE: Bank = 2 Row =    0, Col = 225, Data = 00e1
+sdram_control_tb.sdram_model : at time  344595.0 ns WRITE: Bank = 2 Row =    0, Col = 226, Data = 00e2
+sdram_control_tb.sdram_model : at time  344605.0 ns WRITE: Bank = 2 Row =    0, Col = 227, Data = 00e3
+sdram_control_tb.sdram_model : at time  344615.0 ns WRITE: Bank = 2 Row =    0, Col = 228, Data = 00e4
+sdram_control_tb.sdram_model : at time  344625.0 ns WRITE: Bank = 2 Row =    0, Col = 229, Data = 00e5
+sdram_control_tb.sdram_model : at time  344635.0 ns WRITE: Bank = 2 Row =    0, Col = 230, Data = 00e6
+sdram_control_tb.sdram_model : at time  344645.0 ns WRITE: Bank = 2 Row =    0, Col = 231, Data = 00e7
+sdram_control_tb.sdram_model : at time  349555.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  349585.0 ns WRITE: Bank = 2 Row =    0, Col = 232, Data = 00e8
+sdram_control_tb.sdram_model : at time  349595.0 ns WRITE: Bank = 2 Row =    0, Col = 233, Data = 00e9
+sdram_control_tb.sdram_model : at time  349605.0 ns WRITE: Bank = 2 Row =    0, Col = 234, Data = 00ea
+sdram_control_tb.sdram_model : at time  349615.0 ns WRITE: Bank = 2 Row =    0, Col = 235, Data = 00eb
+sdram_control_tb.sdram_model : at time  349625.0 ns WRITE: Bank = 2 Row =    0, Col = 236, Data = 00ec
+sdram_control_tb.sdram_model : at time  349635.0 ns WRITE: Bank = 2 Row =    0, Col = 237, Data = 00ed
+sdram_control_tb.sdram_model : at time  349645.0 ns WRITE: Bank = 2 Row =    0, Col = 238, Data = 00ee
+sdram_control_tb.sdram_model : at time  349655.0 ns WRITE: Bank = 2 Row =    0, Col = 239, Data = 00ef
+sdram_control_tb.sdram_model : at time  354565.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  354595.0 ns WRITE: Bank = 2 Row =    0, Col = 240, Data = 00f0
+sdram_control_tb.sdram_model : at time  354605.0 ns WRITE: Bank = 2 Row =    0, Col = 241, Data = 00f1
+sdram_control_tb.sdram_model : at time  354615.0 ns WRITE: Bank = 2 Row =    0, Col = 242, Data = 00f2
+sdram_control_tb.sdram_model : at time  354625.0 ns WRITE: Bank = 2 Row =    0, Col = 243, Data = 00f3
+sdram_control_tb.sdram_model : at time  354635.0 ns WRITE: Bank = 2 Row =    0, Col = 244, Data = 00f4
+sdram_control_tb.sdram_model : at time  354645.0 ns WRITE: Bank = 2 Row =    0, Col = 245, Data = 00f5
+sdram_control_tb.sdram_model : at time  354655.0 ns WRITE: Bank = 2 Row =    0, Col = 246, Data = 00f6
+sdram_control_tb.sdram_model : at time  354665.0 ns WRITE: Bank = 2 Row =    0, Col = 247, Data = 00f7
+sdram_control_tb.sdram_model : at time  358305.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  358405.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  359575.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  359605.0 ns WRITE: Bank = 2 Row =    0, Col = 248, Data = 00f8
+sdram_control_tb.sdram_model : at time  359615.0 ns WRITE: Bank = 2 Row =    0, Col = 249, Data = 00f9
+sdram_control_tb.sdram_model : at time  359625.0 ns WRITE: Bank = 2 Row =    0, Col = 250, Data = 00fa
+sdram_control_tb.sdram_model : at time  359635.0 ns WRITE: Bank = 2 Row =    0, Col = 251, Data = 00fb
+sdram_control_tb.sdram_model : at time  359645.0 ns WRITE: Bank = 2 Row =    0, Col = 252, Data = 00fc
+sdram_control_tb.sdram_model : at time  359655.0 ns WRITE: Bank = 2 Row =    0, Col = 253, Data = 00fd
+sdram_control_tb.sdram_model : at time  359665.0 ns WRITE: Bank = 2 Row =    0, Col = 254, Data = 00fe
+sdram_control_tb.sdram_model : at time  359675.0 ns WRITE: Bank = 2 Row =    0, Col = 255, Data = 00ff
+sdram_control_tb.sdram_model : at time  364585.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  364615.0 ns WRITE: Bank = 2 Row =    0, Col = 256, Data = 0100
+sdram_control_tb.sdram_model : at time  364625.0 ns WRITE: Bank = 2 Row =    0, Col = 257, Data = 0101
+sdram_control_tb.sdram_model : at time  364635.0 ns WRITE: Bank = 2 Row =    0, Col = 258, Data = 0102
+sdram_control_tb.sdram_model : at time  364645.0 ns WRITE: Bank = 2 Row =    0, Col = 259, Data = 0103
+sdram_control_tb.sdram_model : at time  364655.0 ns WRITE: Bank = 2 Row =    0, Col = 260, Data = 0104
+sdram_control_tb.sdram_model : at time  364665.0 ns WRITE: Bank = 2 Row =    0, Col = 261, Data = 0105
+sdram_control_tb.sdram_model : at time  364675.0 ns WRITE: Bank = 2 Row =    0, Col = 262, Data = 0106
+sdram_control_tb.sdram_model : at time  364685.0 ns WRITE: Bank = 2 Row =    0, Col = 263, Data = 0107
+sdram_control_tb.sdram_model : at time  369595.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  369625.0 ns WRITE: Bank = 2 Row =    0, Col = 264, Data = 0108
+sdram_control_tb.sdram_model : at time  369635.0 ns WRITE: Bank = 2 Row =    0, Col = 265, Data = 0109
+sdram_control_tb.sdram_model : at time  369645.0 ns WRITE: Bank = 2 Row =    0, Col = 266, Data = 010a
+sdram_control_tb.sdram_model : at time  369655.0 ns WRITE: Bank = 2 Row =    0, Col = 267, Data = 010b
+sdram_control_tb.sdram_model : at time  369665.0 ns WRITE: Bank = 2 Row =    0, Col = 268, Data = 010c
+sdram_control_tb.sdram_model : at time  369675.0 ns WRITE: Bank = 2 Row =    0, Col = 269, Data = 010d
+sdram_control_tb.sdram_model : at time  369685.0 ns WRITE: Bank = 2 Row =    0, Col = 270, Data = 010e
+sdram_control_tb.sdram_model : at time  369695.0 ns WRITE: Bank = 2 Row =    0, Col = 271, Data = 010f
+sdram_control_tb.sdram_model : at time  373905.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  374005.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  374605.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  374635.0 ns WRITE: Bank = 2 Row =    0, Col = 272, Data = 0110
+sdram_control_tb.sdram_model : at time  374645.0 ns WRITE: Bank = 2 Row =    0, Col = 273, Data = 0111
+sdram_control_tb.sdram_model : at time  374655.0 ns WRITE: Bank = 2 Row =    0, Col = 274, Data = 0112
+sdram_control_tb.sdram_model : at time  374665.0 ns WRITE: Bank = 2 Row =    0, Col = 275, Data = 0113
+sdram_control_tb.sdram_model : at time  374675.0 ns WRITE: Bank = 2 Row =    0, Col = 276, Data = 0114
+sdram_control_tb.sdram_model : at time  374685.0 ns WRITE: Bank = 2 Row =    0, Col = 277, Data = 0115
+sdram_control_tb.sdram_model : at time  374695.0 ns WRITE: Bank = 2 Row =    0, Col = 278, Data = 0116
+sdram_control_tb.sdram_model : at time  374705.0 ns WRITE: Bank = 2 Row =    0, Col = 279, Data = 0117
+sdram_control_tb.sdram_model : at time  379615.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  379645.0 ns WRITE: Bank = 2 Row =    0, Col = 280, Data = 0118
+sdram_control_tb.sdram_model : at time  379655.0 ns WRITE: Bank = 2 Row =    0, Col = 281, Data = 0119
+sdram_control_tb.sdram_model : at time  379665.0 ns WRITE: Bank = 2 Row =    0, Col = 282, Data = 011a
+sdram_control_tb.sdram_model : at time  379675.0 ns WRITE: Bank = 2 Row =    0, Col = 283, Data = 011b
+sdram_control_tb.sdram_model : at time  379685.0 ns WRITE: Bank = 2 Row =    0, Col = 284, Data = 011c
+sdram_control_tb.sdram_model : at time  379695.0 ns WRITE: Bank = 2 Row =    0, Col = 285, Data = 011d
+sdram_control_tb.sdram_model : at time  379705.0 ns WRITE: Bank = 2 Row =    0, Col = 286, Data = 011e
+sdram_control_tb.sdram_model : at time  379715.0 ns WRITE: Bank = 2 Row =    0, Col = 287, Data = 011f
+sdram_control_tb.sdram_model : at time  384625.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  384655.0 ns WRITE: Bank = 2 Row =    0, Col = 288, Data = 0120
+sdram_control_tb.sdram_model : at time  384665.0 ns WRITE: Bank = 2 Row =    0, Col = 289, Data = 0121
+sdram_control_tb.sdram_model : at time  384675.0 ns WRITE: Bank = 2 Row =    0, Col = 290, Data = 0122
+sdram_control_tb.sdram_model : at time  384685.0 ns WRITE: Bank = 2 Row =    0, Col = 291, Data = 0123
+sdram_control_tb.sdram_model : at time  384695.0 ns WRITE: Bank = 2 Row =    0, Col = 292, Data = 0124
+sdram_control_tb.sdram_model : at time  384705.0 ns WRITE: Bank = 2 Row =    0, Col = 293, Data = 0125
+sdram_control_tb.sdram_model : at time  384715.0 ns WRITE: Bank = 2 Row =    0, Col = 294, Data = 0126
+sdram_control_tb.sdram_model : at time  384725.0 ns WRITE: Bank = 2 Row =    0, Col = 295, Data = 0127
+sdram_control_tb.sdram_model : at time  389505.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  389605.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  394645.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  394675.0 ns WRITE: Bank = 2 Row =    0, Col = 304, Data = 0130
+sdram_control_tb.sdram_model : at time  394685.0 ns WRITE: Bank = 2 Row =    0, Col = 305, Data = 0131
+sdram_control_tb.sdram_model : at time  394695.0 ns WRITE: Bank = 2 Row =    0, Col = 306, Data = 0132
+sdram_control_tb.sdram_model : at time  394705.0 ns WRITE: Bank = 2 Row =    0, Col = 307, Data = 0133
+sdram_control_tb.sdram_model : at time  394715.0 ns WRITE: Bank = 2 Row =    0, Col = 308, Data = 0134
+sdram_control_tb.sdram_model : at time  394725.0 ns WRITE: Bank = 2 Row =    0, Col = 309, Data = 0135
+sdram_control_tb.sdram_model : at time  394735.0 ns WRITE: Bank = 2 Row =    0, Col = 310, Data = 0136
+sdram_control_tb.sdram_model : at time  394745.0 ns WRITE: Bank = 2 Row =    0, Col = 311, Data = 0137
+sdram_control_tb.sdram_model : at time  399655.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  399685.0 ns WRITE: Bank = 2 Row =    0, Col = 312, Data = 0138
+sdram_control_tb.sdram_model : at time  399695.0 ns WRITE: Bank = 2 Row =    0, Col = 313, Data = 0139
+sdram_control_tb.sdram_model : at time  399705.0 ns WRITE: Bank = 2 Row =    0, Col = 314, Data = 013a
+sdram_control_tb.sdram_model : at time  399715.0 ns WRITE: Bank = 2 Row =    0, Col = 315, Data = 013b
+sdram_control_tb.sdram_model : at time  399725.0 ns WRITE: Bank = 2 Row =    0, Col = 316, Data = 013c
+sdram_control_tb.sdram_model : at time  399735.0 ns WRITE: Bank = 2 Row =    0, Col = 317, Data = 013d
+sdram_control_tb.sdram_model : at time  399745.0 ns WRITE: Bank = 2 Row =    0, Col = 318, Data = 013e
+sdram_control_tb.sdram_model : at time  399755.0 ns WRITE: Bank = 2 Row =    0, Col = 319, Data = 013f
+sdram_control_tb.sdram_model : at time  404665.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  404695.0 ns WRITE: Bank = 2 Row =    0, Col = 320, Data = 0140
+sdram_control_tb.sdram_model : at time  404705.0 ns WRITE: Bank = 2 Row =    0, Col = 321, Data = 0141
+sdram_control_tb.sdram_model : at time  404715.0 ns WRITE: Bank = 2 Row =    0, Col = 322, Data = 0142
+sdram_control_tb.sdram_model : at time  404725.0 ns WRITE: Bank = 2 Row =    0, Col = 323, Data = 0143
+sdram_control_tb.sdram_model : at time  404735.0 ns WRITE: Bank = 2 Row =    0, Col = 324, Data = 0144
+sdram_control_tb.sdram_model : at time  404745.0 ns WRITE: Bank = 2 Row =    0, Col = 325, Data = 0145
+sdram_control_tb.sdram_model : at time  404755.0 ns WRITE: Bank = 2 Row =    0, Col = 326, Data = 0146
+sdram_control_tb.sdram_model : at time  404765.0 ns WRITE: Bank = 2 Row =    0, Col = 327, Data = 0147
+sdram_control_tb.sdram_model : at time  405105.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  405205.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  409675.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  409705.0 ns WRITE: Bank = 2 Row =    0, Col = 328, Data = 0148
+sdram_control_tb.sdram_model : at time  409715.0 ns WRITE: Bank = 2 Row =    0, Col = 329, Data = 0149
+sdram_control_tb.sdram_model : at time  409725.0 ns WRITE: Bank = 2 Row =    0, Col = 330, Data = 014a
+sdram_control_tb.sdram_model : at time  409735.0 ns WRITE: Bank = 2 Row =    0, Col = 331, Data = 014b
+sdram_control_tb.sdram_model : at time  409745.0 ns WRITE: Bank = 2 Row =    0, Col = 332, Data = 014c
+sdram_control_tb.sdram_model : at time  409755.0 ns WRITE: Bank = 2 Row =    0, Col = 333, Data = 014d
+sdram_control_tb.sdram_model : at time  409765.0 ns WRITE: Bank = 2 Row =    0, Col = 334, Data = 014e
+sdram_control_tb.sdram_model : at time  409775.0 ns WRITE: Bank = 2 Row =    0, Col = 335, Data = 014f
+sdram_control_tb.sdram_model : at time  414685.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  414715.0 ns WRITE: Bank = 2 Row =    0, Col = 336, Data = 0150
+sdram_control_tb.sdram_model : at time  414725.0 ns WRITE: Bank = 2 Row =    0, Col = 337, Data = 0151
+sdram_control_tb.sdram_model : at time  414735.0 ns WRITE: Bank = 2 Row =    0, Col = 338, Data = 0152
+sdram_control_tb.sdram_model : at time  414745.0 ns WRITE: Bank = 2 Row =    0, Col = 339, Data = 0153
+sdram_control_tb.sdram_model : at time  414755.0 ns WRITE: Bank = 2 Row =    0, Col = 340, Data = 0154
+sdram_control_tb.sdram_model : at time  414765.0 ns WRITE: Bank = 2 Row =    0, Col = 341, Data = 0155
+sdram_control_tb.sdram_model : at time  414775.0 ns WRITE: Bank = 2 Row =    0, Col = 342, Data = 0156
+sdram_control_tb.sdram_model : at time  414785.0 ns WRITE: Bank = 2 Row =    0, Col = 343, Data = 0157
+sdram_control_tb.sdram_model : at time  419695.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  419725.0 ns WRITE: Bank = 2 Row =    0, Col = 344, Data = 0158
+sdram_control_tb.sdram_model : at time  419735.0 ns WRITE: Bank = 2 Row =    0, Col = 345, Data = 0159
+sdram_control_tb.sdram_model : at time  419745.0 ns WRITE: Bank = 2 Row =    0, Col = 346, Data = 015a
+sdram_control_tb.sdram_model : at time  419755.0 ns WRITE: Bank = 2 Row =    0, Col = 347, Data = 015b
+sdram_control_tb.sdram_model : at time  419765.0 ns WRITE: Bank = 2 Row =    0, Col = 348, Data = 015c
+sdram_control_tb.sdram_model : at time  419775.0 ns WRITE: Bank = 2 Row =    0, Col = 349, Data = 015d
+sdram_control_tb.sdram_model : at time  419785.0 ns WRITE: Bank = 2 Row =    0, Col = 350, Data = 015e
+sdram_control_tb.sdram_model : at time  419795.0 ns WRITE: Bank = 2 Row =    0, Col = 351, Data = 015f
+sdram_control_tb.sdram_model : at time  420705.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  420805.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  424705.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  424735.0 ns WRITE: Bank = 2 Row =    0, Col = 352, Data = 0160
+sdram_control_tb.sdram_model : at time  424745.0 ns WRITE: Bank = 2 Row =    0, Col = 353, Data = 0161
+sdram_control_tb.sdram_model : at time  424755.0 ns WRITE: Bank = 2 Row =    0, Col = 354, Data = 0162
+sdram_control_tb.sdram_model : at time  424765.0 ns WRITE: Bank = 2 Row =    0, Col = 355, Data = 0163
+sdram_control_tb.sdram_model : at time  424775.0 ns WRITE: Bank = 2 Row =    0, Col = 356, Data = 0164
+sdram_control_tb.sdram_model : at time  424785.0 ns WRITE: Bank = 2 Row =    0, Col = 357, Data = 0165
+sdram_control_tb.sdram_model : at time  424795.0 ns WRITE: Bank = 2 Row =    0, Col = 358, Data = 0166
+sdram_control_tb.sdram_model : at time  424805.0 ns WRITE: Bank = 2 Row =    0, Col = 359, Data = 0167
+sdram_control_tb.sdram_model : at time  429715.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  429745.0 ns WRITE: Bank = 2 Row =    0, Col = 360, Data = 0168
+sdram_control_tb.sdram_model : at time  429755.0 ns WRITE: Bank = 2 Row =    0, Col = 361, Data = 0169
+sdram_control_tb.sdram_model : at time  429765.0 ns WRITE: Bank = 2 Row =    0, Col = 362, Data = 016a
+sdram_control_tb.sdram_model : at time  429775.0 ns WRITE: Bank = 2 Row =    0, Col = 363, Data = 016b
+sdram_control_tb.sdram_model : at time  429785.0 ns WRITE: Bank = 2 Row =    0, Col = 364, Data = 016c
+sdram_control_tb.sdram_model : at time  429795.0 ns WRITE: Bank = 2 Row =    0, Col = 365, Data = 016d
+sdram_control_tb.sdram_model : at time  429805.0 ns WRITE: Bank = 2 Row =    0, Col = 366, Data = 016e
+sdram_control_tb.sdram_model : at time  429815.0 ns WRITE: Bank = 2 Row =    0, Col = 367, Data = 016f
+sdram_control_tb.sdram_model : at time  434725.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  434755.0 ns WRITE: Bank = 2 Row =    0, Col = 368, Data = 0170
+sdram_control_tb.sdram_model : at time  434765.0 ns WRITE: Bank = 2 Row =    0, Col = 369, Data = 0171
+sdram_control_tb.sdram_model : at time  434775.0 ns WRITE: Bank = 2 Row =    0, Col = 370, Data = 0172
+sdram_control_tb.sdram_model : at time  434785.0 ns WRITE: Bank = 2 Row =    0, Col = 371, Data = 0173
+sdram_control_tb.sdram_model : at time  434795.0 ns WRITE: Bank = 2 Row =    0, Col = 372, Data = 0174
+sdram_control_tb.sdram_model : at time  434805.0 ns WRITE: Bank = 2 Row =    0, Col = 373, Data = 0175
+sdram_control_tb.sdram_model : at time  434815.0 ns WRITE: Bank = 2 Row =    0, Col = 374, Data = 0176
+sdram_control_tb.sdram_model : at time  434825.0 ns WRITE: Bank = 2 Row =    0, Col = 375, Data = 0177
+sdram_control_tb.sdram_model : at time  436305.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  436405.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  439735.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  439765.0 ns WRITE: Bank = 2 Row =    0, Col = 376, Data = 0178
+sdram_control_tb.sdram_model : at time  439775.0 ns WRITE: Bank = 2 Row =    0, Col = 377, Data = 0179
+sdram_control_tb.sdram_model : at time  439785.0 ns WRITE: Bank = 2 Row =    0, Col = 378, Data = 017a
+sdram_control_tb.sdram_model : at time  439795.0 ns WRITE: Bank = 2 Row =    0, Col = 379, Data = 017b
+sdram_control_tb.sdram_model : at time  439805.0 ns WRITE: Bank = 2 Row =    0, Col = 380, Data = 017c
+sdram_control_tb.sdram_model : at time  439815.0 ns WRITE: Bank = 2 Row =    0, Col = 381, Data = 017d
+sdram_control_tb.sdram_model : at time  439825.0 ns WRITE: Bank = 2 Row =    0, Col = 382, Data = 017e
+sdram_control_tb.sdram_model : at time  439835.0 ns WRITE: Bank = 2 Row =    0, Col = 383, Data = 017f
+sdram_control_tb.sdram_model : at time  444745.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  444775.0 ns WRITE: Bank = 2 Row =    0, Col = 384, Data = 0180
+sdram_control_tb.sdram_model : at time  444785.0 ns WRITE: Bank = 2 Row =    0, Col = 385, Data = 0181
+sdram_control_tb.sdram_model : at time  444795.0 ns WRITE: Bank = 2 Row =    0, Col = 386, Data = 0182
+sdram_control_tb.sdram_model : at time  444805.0 ns WRITE: Bank = 2 Row =    0, Col = 387, Data = 0183
+sdram_control_tb.sdram_model : at time  444815.0 ns WRITE: Bank = 2 Row =    0, Col = 388, Data = 0184
+sdram_control_tb.sdram_model : at time  444825.0 ns WRITE: Bank = 2 Row =    0, Col = 389, Data = 0185
+sdram_control_tb.sdram_model : at time  444835.0 ns WRITE: Bank = 2 Row =    0, Col = 390, Data = 0186
+sdram_control_tb.sdram_model : at time  444845.0 ns WRITE: Bank = 2 Row =    0, Col = 391, Data = 0187
+sdram_control_tb.sdram_model : at time  449755.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  449785.0 ns WRITE: Bank = 2 Row =    0, Col = 392, Data = 0188
+sdram_control_tb.sdram_model : at time  449795.0 ns WRITE: Bank = 2 Row =    0, Col = 393, Data = 0189
+sdram_control_tb.sdram_model : at time  449805.0 ns WRITE: Bank = 2 Row =    0, Col = 394, Data = 018a
+sdram_control_tb.sdram_model : at time  449815.0 ns WRITE: Bank = 2 Row =    0, Col = 395, Data = 018b
+sdram_control_tb.sdram_model : at time  449825.0 ns WRITE: Bank = 2 Row =    0, Col = 396, Data = 018c
+sdram_control_tb.sdram_model : at time  449835.0 ns WRITE: Bank = 2 Row =    0, Col = 397, Data = 018d
+sdram_control_tb.sdram_model : at time  449845.0 ns WRITE: Bank = 2 Row =    0, Col = 398, Data = 018e
+sdram_control_tb.sdram_model : at time  449855.0 ns WRITE: Bank = 2 Row =    0, Col = 399, Data = 018f
+sdram_control_tb.sdram_model : at time  451905.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  452005.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  454765.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  454795.0 ns WRITE: Bank = 2 Row =    0, Col = 400, Data = 0190
+sdram_control_tb.sdram_model : at time  454805.0 ns WRITE: Bank = 2 Row =    0, Col = 401, Data = 0191
+sdram_control_tb.sdram_model : at time  454815.0 ns WRITE: Bank = 2 Row =    0, Col = 402, Data = 0192
+sdram_control_tb.sdram_model : at time  454825.0 ns WRITE: Bank = 2 Row =    0, Col = 403, Data = 0193
+sdram_control_tb.sdram_model : at time  454835.0 ns WRITE: Bank = 2 Row =    0, Col = 404, Data = 0194
+sdram_control_tb.sdram_model : at time  454845.0 ns WRITE: Bank = 2 Row =    0, Col = 405, Data = 0195
+sdram_control_tb.sdram_model : at time  454855.0 ns WRITE: Bank = 2 Row =    0, Col = 406, Data = 0196
+sdram_control_tb.sdram_model : at time  454865.0 ns WRITE: Bank = 2 Row =    0, Col = 407, Data = 0197
+sdram_control_tb.sdram_model : at time  459775.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  459805.0 ns WRITE: Bank = 2 Row =    0, Col = 408, Data = 0198
+sdram_control_tb.sdram_model : at time  459815.0 ns WRITE: Bank = 2 Row =    0, Col = 409, Data = 0199
+sdram_control_tb.sdram_model : at time  459825.0 ns WRITE: Bank = 2 Row =    0, Col = 410, Data = 019a
+sdram_control_tb.sdram_model : at time  459835.0 ns WRITE: Bank = 2 Row =    0, Col = 411, Data = 019b
+sdram_control_tb.sdram_model : at time  459845.0 ns WRITE: Bank = 2 Row =    0, Col = 412, Data = 019c
+sdram_control_tb.sdram_model : at time  459855.0 ns WRITE: Bank = 2 Row =    0, Col = 413, Data = 019d
+sdram_control_tb.sdram_model : at time  459865.0 ns WRITE: Bank = 2 Row =    0, Col = 414, Data = 019e
+sdram_control_tb.sdram_model : at time  459875.0 ns WRITE: Bank = 2 Row =    0, Col = 415, Data = 019f
+sdram_control_tb.sdram_model : at time  464785.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  464815.0 ns WRITE: Bank = 2 Row =    0, Col = 416, Data = 01a0
+sdram_control_tb.sdram_model : at time  464825.0 ns WRITE: Bank = 2 Row =    0, Col = 417, Data = 01a1
+sdram_control_tb.sdram_model : at time  464835.0 ns WRITE: Bank = 2 Row =    0, Col = 418, Data = 01a2
+sdram_control_tb.sdram_model : at time  464845.0 ns WRITE: Bank = 2 Row =    0, Col = 419, Data = 01a3
+sdram_control_tb.sdram_model : at time  464855.0 ns WRITE: Bank = 2 Row =    0, Col = 420, Data = 01a4
+sdram_control_tb.sdram_model : at time  464865.0 ns WRITE: Bank = 2 Row =    0, Col = 421, Data = 01a5
+sdram_control_tb.sdram_model : at time  464875.0 ns WRITE: Bank = 2 Row =    0, Col = 422, Data = 01a6
+sdram_control_tb.sdram_model : at time  464885.0 ns WRITE: Bank = 2 Row =    0, Col = 423, Data = 01a7
+sdram_control_tb.sdram_model : at time  467505.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  467605.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  469795.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  469825.0 ns WRITE: Bank = 2 Row =    0, Col = 424, Data = 01a8
+sdram_control_tb.sdram_model : at time  469835.0 ns WRITE: Bank = 2 Row =    0, Col = 425, Data = 01a9
+sdram_control_tb.sdram_model : at time  469845.0 ns WRITE: Bank = 2 Row =    0, Col = 426, Data = 01aa
+sdram_control_tb.sdram_model : at time  469855.0 ns WRITE: Bank = 2 Row =    0, Col = 427, Data = 01ab
+sdram_control_tb.sdram_model : at time  469865.0 ns WRITE: Bank = 2 Row =    0, Col = 428, Data = 01ac
+sdram_control_tb.sdram_model : at time  469875.0 ns WRITE: Bank = 2 Row =    0, Col = 429, Data = 01ad
+sdram_control_tb.sdram_model : at time  469885.0 ns WRITE: Bank = 2 Row =    0, Col = 430, Data = 01ae
+sdram_control_tb.sdram_model : at time  469895.0 ns WRITE: Bank = 2 Row =    0, Col = 431, Data = 01af
+sdram_control_tb.sdram_model : at time  474805.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  474835.0 ns WRITE: Bank = 2 Row =    0, Col = 432, Data = 01b0
+sdram_control_tb.sdram_model : at time  474845.0 ns WRITE: Bank = 2 Row =    0, Col = 433, Data = 01b1
+sdram_control_tb.sdram_model : at time  474855.0 ns WRITE: Bank = 2 Row =    0, Col = 434, Data = 01b2
+sdram_control_tb.sdram_model : at time  474865.0 ns WRITE: Bank = 2 Row =    0, Col = 435, Data = 01b3
+sdram_control_tb.sdram_model : at time  474875.0 ns WRITE: Bank = 2 Row =    0, Col = 436, Data = 01b4
+sdram_control_tb.sdram_model : at time  474885.0 ns WRITE: Bank = 2 Row =    0, Col = 437, Data = 01b5
+sdram_control_tb.sdram_model : at time  474895.0 ns WRITE: Bank = 2 Row =    0, Col = 438, Data = 01b6
+sdram_control_tb.sdram_model : at time  474905.0 ns WRITE: Bank = 2 Row =    0, Col = 439, Data = 01b7
+sdram_control_tb.sdram_model : at time  479815.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  479845.0 ns WRITE: Bank = 2 Row =    0, Col = 440, Data = 01b8
+sdram_control_tb.sdram_model : at time  479855.0 ns WRITE: Bank = 2 Row =    0, Col = 441, Data = 01b9
+sdram_control_tb.sdram_model : at time  479865.0 ns WRITE: Bank = 2 Row =    0, Col = 442, Data = 01ba
+sdram_control_tb.sdram_model : at time  479875.0 ns WRITE: Bank = 2 Row =    0, Col = 443, Data = 01bb
+sdram_control_tb.sdram_model : at time  479885.0 ns WRITE: Bank = 2 Row =    0, Col = 444, Data = 01bc
+sdram_control_tb.sdram_model : at time  479895.0 ns WRITE: Bank = 2 Row =    0, Col = 445, Data = 01bd
+sdram_control_tb.sdram_model : at time  479905.0 ns WRITE: Bank = 2 Row =    0, Col = 446, Data = 01be
+sdram_control_tb.sdram_model : at time  479915.0 ns WRITE: Bank = 2 Row =    0, Col = 447, Data = 01bf
+sdram_control_tb.sdram_model : at time  483105.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  483205.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  484825.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  484855.0 ns WRITE: Bank = 2 Row =    0, Col = 448, Data = 01c0
+sdram_control_tb.sdram_model : at time  484865.0 ns WRITE: Bank = 2 Row =    0, Col = 449, Data = 01c1
+sdram_control_tb.sdram_model : at time  484875.0 ns WRITE: Bank = 2 Row =    0, Col = 450, Data = 01c2
+sdram_control_tb.sdram_model : at time  484885.0 ns WRITE: Bank = 2 Row =    0, Col = 451, Data = 01c3
+sdram_control_tb.sdram_model : at time  484895.0 ns WRITE: Bank = 2 Row =    0, Col = 452, Data = 01c4
+sdram_control_tb.sdram_model : at time  484905.0 ns WRITE: Bank = 2 Row =    0, Col = 453, Data = 01c5
+sdram_control_tb.sdram_model : at time  484915.0 ns WRITE: Bank = 2 Row =    0, Col = 454, Data = 01c6
+sdram_control_tb.sdram_model : at time  484925.0 ns WRITE: Bank = 2 Row =    0, Col = 455, Data = 01c7
+sdram_control_tb.sdram_model : at time  489835.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  489865.0 ns WRITE: Bank = 2 Row =    0, Col = 456, Data = 01c8
+sdram_control_tb.sdram_model : at time  489875.0 ns WRITE: Bank = 2 Row =    0, Col = 457, Data = 01c9
+sdram_control_tb.sdram_model : at time  489885.0 ns WRITE: Bank = 2 Row =    0, Col = 458, Data = 01ca
+sdram_control_tb.sdram_model : at time  489895.0 ns WRITE: Bank = 2 Row =    0, Col = 459, Data = 01cb
+sdram_control_tb.sdram_model : at time  489905.0 ns WRITE: Bank = 2 Row =    0, Col = 460, Data = 01cc
+sdram_control_tb.sdram_model : at time  489915.0 ns WRITE: Bank = 2 Row =    0, Col = 461, Data = 01cd
+sdram_control_tb.sdram_model : at time  489925.0 ns WRITE: Bank = 2 Row =    0, Col = 462, Data = 01ce
+sdram_control_tb.sdram_model : at time  489935.0 ns WRITE: Bank = 2 Row =    0, Col = 463, Data = 01cf
+sdram_control_tb.sdram_model : at time  494845.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  494875.0 ns WRITE: Bank = 2 Row =    0, Col = 464, Data = 01d0
+sdram_control_tb.sdram_model : at time  494885.0 ns WRITE: Bank = 2 Row =    0, Col = 465, Data = 01d1
+sdram_control_tb.sdram_model : at time  494895.0 ns WRITE: Bank = 2 Row =    0, Col = 466, Data = 01d2
+sdram_control_tb.sdram_model : at time  494905.0 ns WRITE: Bank = 2 Row =    0, Col = 467, Data = 01d3
+sdram_control_tb.sdram_model : at time  494915.0 ns WRITE: Bank = 2 Row =    0, Col = 468, Data = 01d4
+sdram_control_tb.sdram_model : at time  494925.0 ns WRITE: Bank = 2 Row =    0, Col = 469, Data = 01d5
+sdram_control_tb.sdram_model : at time  494935.0 ns WRITE: Bank = 2 Row =    0, Col = 470, Data = 01d6
+sdram_control_tb.sdram_model : at time  494945.0 ns WRITE: Bank = 2 Row =    0, Col = 471, Data = 01d7
+sdram_control_tb.sdram_model : at time  498705.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  498805.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  499855.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  499885.0 ns WRITE: Bank = 2 Row =    0, Col = 472, Data = 01d8
+sdram_control_tb.sdram_model : at time  499895.0 ns WRITE: Bank = 2 Row =    0, Col = 473, Data = 01d9
+sdram_control_tb.sdram_model : at time  499905.0 ns WRITE: Bank = 2 Row =    0, Col = 474, Data = 01da
+sdram_control_tb.sdram_model : at time  499915.0 ns WRITE: Bank = 2 Row =    0, Col = 475, Data = 01db
+sdram_control_tb.sdram_model : at time  499925.0 ns WRITE: Bank = 2 Row =    0, Col = 476, Data = 01dc
+sdram_control_tb.sdram_model : at time  499935.0 ns WRITE: Bank = 2 Row =    0, Col = 477, Data = 01dd
+sdram_control_tb.sdram_model : at time  499945.0 ns WRITE: Bank = 2 Row =    0, Col = 478, Data = 01de
+sdram_control_tb.sdram_model : at time  499955.0 ns WRITE: Bank = 2 Row =    0, Col = 479, Data = 01df
+sdram_control_tb.sdram_model : at time  504865.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  504895.0 ns WRITE: Bank = 2 Row =    0, Col = 480, Data = 01e0
+sdram_control_tb.sdram_model : at time  504905.0 ns WRITE: Bank = 2 Row =    0, Col = 481, Data = 01e1
+sdram_control_tb.sdram_model : at time  504915.0 ns WRITE: Bank = 2 Row =    0, Col = 482, Data = 01e2
+sdram_control_tb.sdram_model : at time  504925.0 ns WRITE: Bank = 2 Row =    0, Col = 483, Data = 01e3
+sdram_control_tb.sdram_model : at time  504935.0 ns WRITE: Bank = 2 Row =    0, Col = 484, Data = 01e4
+sdram_control_tb.sdram_model : at time  504945.0 ns WRITE: Bank = 2 Row =    0, Col = 485, Data = 01e5
+sdram_control_tb.sdram_model : at time  504955.0 ns WRITE: Bank = 2 Row =    0, Col = 486, Data = 01e6
+sdram_control_tb.sdram_model : at time  504965.0 ns WRITE: Bank = 2 Row =    0, Col = 487, Data = 01e7
+sdram_control_tb.sdram_model : at time  509875.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  509905.0 ns WRITE: Bank = 2 Row =    0, Col = 488, Data = 01e8
+sdram_control_tb.sdram_model : at time  509915.0 ns WRITE: Bank = 2 Row =    0, Col = 489, Data = 01e9
+sdram_control_tb.sdram_model : at time  509925.0 ns WRITE: Bank = 2 Row =    0, Col = 490, Data = 01ea
+sdram_control_tb.sdram_model : at time  509935.0 ns WRITE: Bank = 2 Row =    0, Col = 491, Data = 01eb
+sdram_control_tb.sdram_model : at time  509945.0 ns WRITE: Bank = 2 Row =    0, Col = 492, Data = 01ec
+sdram_control_tb.sdram_model : at time  509955.0 ns WRITE: Bank = 2 Row =    0, Col = 493, Data = 01ed
+sdram_control_tb.sdram_model : at time  509965.0 ns WRITE: Bank = 2 Row =    0, Col = 494, Data = 01ee
+sdram_control_tb.sdram_model : at time  509975.0 ns WRITE: Bank = 2 Row =    0, Col = 495, Data = 01ef
+sdram_control_tb.sdram_model : at time  514305.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  514405.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  514885.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  514915.0 ns WRITE: Bank = 2 Row =    0, Col = 496, Data = 01f0
+sdram_control_tb.sdram_model : at time  514925.0 ns WRITE: Bank = 2 Row =    0, Col = 497, Data = 01f1
+sdram_control_tb.sdram_model : at time  514935.0 ns WRITE: Bank = 2 Row =    0, Col = 498, Data = 01f2
+sdram_control_tb.sdram_model : at time  514945.0 ns WRITE: Bank = 2 Row =    0, Col = 499, Data = 01f3
+sdram_control_tb.sdram_model : at time  514955.0 ns WRITE: Bank = 2 Row =    0, Col = 500, Data = 01f4
+sdram_control_tb.sdram_model : at time  514965.0 ns WRITE: Bank = 2 Row =    0, Col = 501, Data = 01f5
+sdram_control_tb.sdram_model : at time  514975.0 ns WRITE: Bank = 2 Row =    0, Col = 502, Data = 01f6
+sdram_control_tb.sdram_model : at time  514985.0 ns WRITE: Bank = 2 Row =    0, Col = 503, Data = 01f7
+sdram_control_tb.sdram_model : at time  519895.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  519925.0 ns WRITE: Bank = 2 Row =    0, Col = 504, Data = 01f8
+sdram_control_tb.sdram_model : at time  519935.0 ns WRITE: Bank = 2 Row =    0, Col = 505, Data = 01f9
+sdram_control_tb.sdram_model : at time  519945.0 ns WRITE: Bank = 2 Row =    0, Col = 506, Data = 01fa
+sdram_control_tb.sdram_model : at time  519955.0 ns WRITE: Bank = 2 Row =    0, Col = 507, Data = 01fb
+sdram_control_tb.sdram_model : at time  519965.0 ns WRITE: Bank = 2 Row =    0, Col = 508, Data = 01fc
+sdram_control_tb.sdram_model : at time  519975.0 ns WRITE: Bank = 2 Row =    0, Col = 509, Data = 01fd
+sdram_control_tb.sdram_model : at time  519985.0 ns WRITE: Bank = 2 Row =    0, Col = 510, Data = 01fe
+sdram_control_tb.sdram_model : at time  519995.0 ns WRITE: Bank = 2 Row =    0, Col = 511, Data = 01ff
+sdram_control_tb.sdram_model : at time  524905.0 ns ACT  : Bank = 2 Row =    1
+sdram_control_tb.sdram_model : at time  524935.0 ns WRITE: Bank = 2 Row =    1, Col =   0, Data = 0200
+sdram_control_tb.sdram_model : at time  524945.0 ns WRITE: Bank = 2 Row =    1, Col =   1, Data = 0201
+sdram_control_tb.sdram_model : at time  524955.0 ns WRITE: Bank = 2 Row =    1, Col =   2, Data = 0202
+sdram_control_tb.sdram_model : at time  524965.0 ns WRITE: Bank = 2 Row =    1, Col =   3, Data = 0203
+sdram_control_tb.sdram_model : at time  524975.0 ns WRITE: Bank = 2 Row =    1, Col =   4, Data = 0204
+sdram_control_tb.sdram_model : at time  524985.0 ns WRITE: Bank = 2 Row =    1, Col =   5, Data = 0205
+sdram_control_tb.sdram_model : at time  524995.0 ns WRITE: Bank = 2 Row =    1, Col =   6, Data = 0206
+sdram_control_tb.sdram_model : at time  525005.0 ns WRITE: Bank = 2 Row =    1, Col =   7, Data = 0207
+sdram_control_tb.sdram_model : at time  529905.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  530005.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  530115.0 ns ACT  : Bank = 2 Row =    1
+sdram_control_tb.sdram_model : at time  530145.0 ns WRITE: Bank = 2 Row =    1, Col =  16, Data = 0210
+sdram_control_tb.sdram_model : at time  530155.0 ns WRITE: Bank = 2 Row =    1, Col =  17, Data = 0211
+sdram_control_tb.sdram_model : at time  530165.0 ns WRITE: Bank = 2 Row =    1, Col =  18, Data = 0212
+sdram_control_tb.sdram_model : at time  530175.0 ns WRITE: Bank = 2 Row =    1, Col =  19, Data = 0213
+sdram_control_tb.sdram_model : at time  530185.0 ns WRITE: Bank = 2 Row =    1, Col =  20, Data = 0214
+sdram_control_tb.sdram_model : at time  530195.0 ns WRITE: Bank = 2 Row =    1, Col =  21, Data = 0215
+sdram_control_tb.sdram_model : at time  530205.0 ns WRITE: Bank = 2 Row =    1, Col =  22, Data = 0216
+sdram_control_tb.sdram_model : at time  530215.0 ns WRITE: Bank = 2 Row =    1, Col =  23, Data = 0217
+sdram_control_tb.sdram_model : at time  534925.0 ns ACT  : Bank = 2 Row =    1
+sdram_control_tb.sdram_model : at time  534955.0 ns WRITE: Bank = 2 Row =    1, Col =  16, Data = 0218
+sdram_control_tb.sdram_model : at time  534965.0 ns WRITE: Bank = 2 Row =    1, Col =  17, Data = 0219
+sdram_control_tb.sdram_model : at time  534975.0 ns WRITE: Bank = 2 Row =    1, Col =  18, Data = 021a
+sdram_control_tb.sdram_model : at time  534985.0 ns WRITE: Bank = 2 Row =    1, Col =  19, Data = 021b
+sdram_control_tb.sdram_model : at time  534995.0 ns WRITE: Bank = 2 Row =    1, Col =  20, Data = 021c
+sdram_control_tb.sdram_model : at time  535005.0 ns WRITE: Bank = 2 Row =    1, Col =  21, Data = 021d
+sdram_control_tb.sdram_model : at time  535015.0 ns WRITE: Bank = 2 Row =    1, Col =  22, Data = 021e
+sdram_control_tb.sdram_model : at time  535025.0 ns WRITE: Bank = 2 Row =    1, Col =  23, Data = 021f
+sdram_control_tb.sdram_model : at time  539935.0 ns ACT  : Bank = 2 Row =    1
+sdram_control_tb.sdram_model : at time  539965.0 ns WRITE: Bank = 2 Row =    1, Col =  24, Data = 0220
+sdram_control_tb.sdram_model : at time  539975.0 ns WRITE: Bank = 2 Row =    1, Col =  25, Data = 0221
+sdram_control_tb.sdram_model : at time  539985.0 ns WRITE: Bank = 2 Row =    1, Col =  26, Data = 0222
+sdram_control_tb.sdram_model : at time  539995.0 ns WRITE: Bank = 2 Row =    1, Col =  27, Data = 0223
+sdram_control_tb.sdram_model : at time  540005.0 ns WRITE: Bank = 2 Row =    1, Col =  28, Data = 0224
+sdram_control_tb.sdram_model : at time  540015.0 ns WRITE: Bank = 2 Row =    1, Col =  29, Data = 0225
+sdram_control_tb.sdram_model : at time  540025.0 ns WRITE: Bank = 2 Row =    1, Col =  30, Data = 0226
+sdram_control_tb.sdram_model : at time  540035.0 ns WRITE: Bank = 2 Row =    1, Col =  31, Data = 0227
+sdram_control_tb.sdram_model : at time  544945.0 ns ACT  : Bank = 2 Row =    1
+sdram_control_tb.sdram_model : at time  544975.0 ns WRITE: Bank = 2 Row =    1, Col =  32, Data = 0228
+sdram_control_tb.sdram_model : at time  544985.0 ns WRITE: Bank = 2 Row =    1, Col =  33, Data = 0229
+sdram_control_tb.sdram_model : at time  544995.0 ns WRITE: Bank = 2 Row =    1, Col =  34, Data = 022a
+sdram_control_tb.sdram_model : at time  545005.0 ns WRITE: Bank = 2 Row =    1, Col =  35, Data = 022b
+sdram_control_tb.sdram_model : at time  545015.0 ns WRITE: Bank = 2 Row =    1, Col =  36, Data = 022c
+sdram_control_tb.sdram_model : at time  545025.0 ns WRITE: Bank = 2 Row =    1, Col =  37, Data = 022d
+sdram_control_tb.sdram_model : at time  545035.0 ns WRITE: Bank = 2 Row =    1, Col =  38, Data = 022e
+sdram_control_tb.sdram_model : at time  545045.0 ns WRITE: Bank = 2 Row =    1, Col =  39, Data = 022f
+sdram_control_tb.sdram_model : at time  545505.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  545605.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  549955.0 ns ACT  : Bank = 2 Row =    1
+sdram_control_tb.sdram_model : at time  549985.0 ns WRITE: Bank = 2 Row =    1, Col =  40, Data = 0230
+sdram_control_tb.sdram_model : at time  549995.0 ns WRITE: Bank = 2 Row =    1, Col =  41, Data = 0231
+sdram_control_tb.sdram_model : at time  550005.0 ns WRITE: Bank = 2 Row =    1, Col =  42, Data = 0232
+sdram_control_tb.sdram_model : at time  550015.0 ns WRITE: Bank = 2 Row =    1, Col =  43, Data = 0233
+sdram_control_tb.sdram_model : at time  550025.0 ns WRITE: Bank = 2 Row =    1, Col =  44, Data = 0234
+sdram_control_tb.sdram_model : at time  550035.0 ns WRITE: Bank = 2 Row =    1, Col =  45, Data = 0235
+sdram_control_tb.sdram_model : at time  550045.0 ns WRITE: Bank = 2 Row =    1, Col =  46, Data = 0236
+sdram_control_tb.sdram_model : at time  550055.0 ns WRITE: Bank = 2 Row =    1, Col =  47, Data = 0237
+sdram_control_tb.sdram_model : at time  554965.0 ns ACT  : Bank = 2 Row =    1
+sdram_control_tb.sdram_model : at time  554995.0 ns WRITE: Bank = 2 Row =    1, Col =  48, Data = 0238
+sdram_control_tb.sdram_model : at time  555005.0 ns WRITE: Bank = 2 Row =    1, Col =  49, Data = 0239
+sdram_control_tb.sdram_model : at time  555015.0 ns WRITE: Bank = 2 Row =    1, Col =  50, Data = 023a
+sdram_control_tb.sdram_model : at time  555025.0 ns WRITE: Bank = 2 Row =    1, Col =  51, Data = 023b
+sdram_control_tb.sdram_model : at time  555035.0 ns WRITE: Bank = 2 Row =    1, Col =  52, Data = 023c
+sdram_control_tb.sdram_model : at time  555045.0 ns WRITE: Bank = 2 Row =    1, Col =  53, Data = 023d
+sdram_control_tb.sdram_model : at time  555055.0 ns WRITE: Bank = 2 Row =    1, Col =  54, Data = 023e
+sdram_control_tb.sdram_model : at time  555065.0 ns WRITE: Bank = 2 Row =    1, Col =  55, Data = 023f
+sdram_control_tb.sdram_model : at time  559975.0 ns ACT  : Bank = 2 Row =    1
+sdram_control_tb.sdram_model : at time  560005.0 ns WRITE: Bank = 2 Row =    1, Col =  56, Data = 0240
+sdram_control_tb.sdram_model : at time  560015.0 ns WRITE: Bank = 2 Row =    1, Col =  57, Data = 0241
+sdram_control_tb.sdram_model : at time  560025.0 ns WRITE: Bank = 2 Row =    1, Col =  58, Data = 0242
+sdram_control_tb.sdram_model : at time  560035.0 ns WRITE: Bank = 2 Row =    1, Col =  59, Data = 0243
+sdram_control_tb.sdram_model : at time  560045.0 ns WRITE: Bank = 2 Row =    1, Col =  60, Data = 0244
+sdram_control_tb.sdram_model : at time  560055.0 ns WRITE: Bank = 2 Row =    1, Col =  61, Data = 0245
+sdram_control_tb.sdram_model : at time  560065.0 ns WRITE: Bank = 2 Row =    1, Col =  62, Data = 0246
+sdram_control_tb.sdram_model : at time  560075.0 ns WRITE: Bank = 2 Row =    1, Col =  63, Data = 0247
+sdram_control_tb.sdram_model : at time  561105.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  561205.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  564985.0 ns ACT  : Bank = 2 Row =    1
+sdram_control_tb.sdram_model : at time  565015.0 ns WRITE: Bank = 2 Row =    1, Col =  64, Data = 0248
+sdram_control_tb.sdram_model : at time  565025.0 ns WRITE: Bank = 2 Row =    1, Col =  65, Data = 0249
+sdram_control_tb.sdram_model : at time  565035.0 ns WRITE: Bank = 2 Row =    1, Col =  66, Data = 024a
+sdram_control_tb.sdram_model : at time  565045.0 ns WRITE: Bank = 2 Row =    1, Col =  67, Data = 024b
+sdram_control_tb.sdram_model : at time  565055.0 ns WRITE: Bank = 2 Row =    1, Col =  68, Data = 024c
+sdram_control_tb.sdram_model : at time  565065.0 ns WRITE: Bank = 2 Row =    1, Col =  69, Data = 024d
+sdram_control_tb.sdram_model : at time  565075.0 ns WRITE: Bank = 2 Row =    1, Col =  70, Data = 024e
+sdram_control_tb.sdram_model : at time  565085.0 ns WRITE: Bank = 2 Row =    1, Col =  71, Data = 024f
+sdram_control_tb.sdram_model : at time  569995.0 ns ACT  : Bank = 2 Row =    1
+sdram_control_tb.sdram_model : at time  570025.0 ns WRITE: Bank = 2 Row =    1, Col =  72, Data = 0250
+sdram_control_tb.sdram_model : at time  570035.0 ns WRITE: Bank = 2 Row =    1, Col =  73, Data = 0251
+sdram_control_tb.sdram_model : at time  570045.0 ns WRITE: Bank = 2 Row =    1, Col =  74, Data = 0252
+sdram_control_tb.sdram_model : at time  570055.0 ns WRITE: Bank = 2 Row =    1, Col =  75, Data = 0253
+sdram_control_tb.sdram_model : at time  570065.0 ns WRITE: Bank = 2 Row =    1, Col =  76, Data = 0254
+sdram_control_tb.sdram_model : at time  570075.0 ns WRITE: Bank = 2 Row =    1, Col =  77, Data = 0255
+sdram_control_tb.sdram_model : at time  570085.0 ns WRITE: Bank = 2 Row =    1, Col =  78, Data = 0256
+sdram_control_tb.sdram_model : at time  570095.0 ns WRITE: Bank = 2 Row =    1, Col =  79, Data = 0257
+sdram_control_tb.sdram_model : at time  575005.0 ns ACT  : Bank = 2 Row =    1
+sdram_control_tb.sdram_model : at time  575035.0 ns WRITE: Bank = 2 Row =    1, Col =  80, Data = 0258
+sdram_control_tb.sdram_model : at time  575045.0 ns WRITE: Bank = 2 Row =    1, Col =  81, Data = 0259
+sdram_control_tb.sdram_model : at time  575055.0 ns WRITE: Bank = 2 Row =    1, Col =  82, Data = 025a
+sdram_control_tb.sdram_model : at time  575065.0 ns WRITE: Bank = 2 Row =    1, Col =  83, Data = 025b
+sdram_control_tb.sdram_model : at time  575075.0 ns WRITE: Bank = 2 Row =    1, Col =  84, Data = 025c
+sdram_control_tb.sdram_model : at time  575085.0 ns WRITE: Bank = 2 Row =    1, Col =  85, Data = 025d
+sdram_control_tb.sdram_model : at time  575095.0 ns WRITE: Bank = 2 Row =    1, Col =  86, Data = 025e
+sdram_control_tb.sdram_model : at time  575105.0 ns WRITE: Bank = 2 Row =    1, Col =  87, Data = 025f
+sdram_control_tb.sdram_model : at time  576705.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  576805.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  580015.0 ns ACT  : Bank = 2 Row =    1
+sdram_control_tb.sdram_model : at time  580045.0 ns WRITE: Bank = 2 Row =    1, Col =  88, Data = 0260
+sdram_control_tb.sdram_model : at time  580055.0 ns WRITE: Bank = 2 Row =    1, Col =  89, Data = 0261
+sdram_control_tb.sdram_model : at time  580065.0 ns WRITE: Bank = 2 Row =    1, Col =  90, Data = 0262
+sdram_control_tb.sdram_model : at time  580075.0 ns WRITE: Bank = 2 Row =    1, Col =  91, Data = 0263
+sdram_control_tb.sdram_model : at time  580085.0 ns WRITE: Bank = 2 Row =    1, Col =  92, Data = 0264
+sdram_control_tb.sdram_model : at time  580095.0 ns WRITE: Bank = 2 Row =    1, Col =  93, Data = 0265
+sdram_control_tb.sdram_model : at time  580105.0 ns WRITE: Bank = 2 Row =    1, Col =  94, Data = 0266
+sdram_control_tb.sdram_model : at time  580115.0 ns WRITE: Bank = 2 Row =    1, Col =  95, Data = 0267
+sdram_control_tb.sdram_model : at time  585025.0 ns ACT  : Bank = 2 Row =    1
+sdram_control_tb.sdram_model : at time  585055.0 ns WRITE: Bank = 2 Row =    1, Col =  96, Data = 0268
+sdram_control_tb.sdram_model : at time  585065.0 ns WRITE: Bank = 2 Row =    1, Col =  97, Data = 0269
+sdram_control_tb.sdram_model : at time  585075.0 ns WRITE: Bank = 2 Row =    1, Col =  98, Data = 026a
+sdram_control_tb.sdram_model : at time  585085.0 ns WRITE: Bank = 2 Row =    1, Col =  99, Data = 026b
+sdram_control_tb.sdram_model : at time  585095.0 ns WRITE: Bank = 2 Row =    1, Col = 100, Data = 026c
+sdram_control_tb.sdram_model : at time  585105.0 ns WRITE: Bank = 2 Row =    1, Col = 101, Data = 026d
+sdram_control_tb.sdram_model : at time  585115.0 ns WRITE: Bank = 2 Row =    1, Col = 102, Data = 026e
+sdram_control_tb.sdram_model : at time  585125.0 ns WRITE: Bank = 2 Row =    1, Col = 103, Data = 026f
+sdram_control_tb.sdram_model : at time  590035.0 ns ACT  : Bank = 2 Row =    1
+sdram_control_tb.sdram_model : at time  590065.0 ns WRITE: Bank = 2 Row =    1, Col = 104, Data = 0270
+sdram_control_tb.sdram_model : at time  590075.0 ns WRITE: Bank = 2 Row =    1, Col = 105, Data = 0271
+sdram_control_tb.sdram_model : at time  590085.0 ns WRITE: Bank = 2 Row =    1, Col = 106, Data = 0272
+sdram_control_tb.sdram_model : at time  590095.0 ns WRITE: Bank = 2 Row =    1, Col = 107, Data = 0273
+sdram_control_tb.sdram_model : at time  590105.0 ns WRITE: Bank = 2 Row =    1, Col = 108, Data = 0274
+sdram_control_tb.sdram_model : at time  590115.0 ns WRITE: Bank = 2 Row =    1, Col = 109, Data = 0275
+sdram_control_tb.sdram_model : at time  590125.0 ns WRITE: Bank = 2 Row =    1, Col = 110, Data = 0276
+sdram_control_tb.sdram_model : at time  590135.0 ns WRITE: Bank = 2 Row =    1, Col = 111, Data = 0277
+sdram_control_tb.sdram_model : at time  592305.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  592405.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  595045.0 ns ACT  : Bank = 2 Row =    1
+sdram_control_tb.sdram_model : at time  595075.0 ns WRITE: Bank = 2 Row =    1, Col = 112, Data = 0278
+sdram_control_tb.sdram_model : at time  595085.0 ns WRITE: Bank = 2 Row =    1, Col = 113, Data = 0279
+sdram_control_tb.sdram_model : at time  595095.0 ns WRITE: Bank = 2 Row =    1, Col = 114, Data = 027a
+sdram_control_tb.sdram_model : at time  595105.0 ns WRITE: Bank = 2 Row =    1, Col = 115, Data = 027b
+sdram_control_tb.sdram_model : at time  595115.0 ns WRITE: Bank = 2 Row =    1, Col = 116, Data = 027c
+sdram_control_tb.sdram_model : at time  595125.0 ns WRITE: Bank = 2 Row =    1, Col = 117, Data = 027d
+sdram_control_tb.sdram_model : at time  595135.0 ns WRITE: Bank = 2 Row =    1, Col = 118, Data = 027e
+sdram_control_tb.sdram_model : at time  595145.0 ns WRITE: Bank = 2 Row =    1, Col = 119, Data = 027f
+sdram_control_tb.sdram_model : at time  600055.0 ns ACT  : Bank = 2 Row =    1
+sdram_control_tb.sdram_model : at time  600085.0 ns WRITE: Bank = 2 Row =    1, Col = 120, Data = 0280
+sdram_control_tb.sdram_model : at time  600095.0 ns WRITE: Bank = 2 Row =    1, Col = 121, Data = 0281
+sdram_control_tb.sdram_model : at time  600105.0 ns WRITE: Bank = 2 Row =    1, Col = 122, Data = 0282
+sdram_control_tb.sdram_model : at time  600115.0 ns WRITE: Bank = 2 Row =    1, Col = 123, Data = 0283
+sdram_control_tb.sdram_model : at time  600125.0 ns WRITE: Bank = 2 Row =    1, Col = 124, Data = 0284
+sdram_control_tb.sdram_model : at time  600135.0 ns WRITE: Bank = 2 Row =    1, Col = 125, Data = 0285
+sdram_control_tb.sdram_model : at time  600145.0 ns WRITE: Bank = 2 Row =    1, Col = 126, Data = 0286
+sdram_control_tb.sdram_model : at time  600155.0 ns WRITE: Bank = 2 Row =    1, Col = 127, Data = 0287
+sdram_control_tb.sdram_model : at time  605065.0 ns ACT  : Bank = 2 Row =    1
+sdram_control_tb.sdram_model : at time  605095.0 ns WRITE: Bank = 2 Row =    1, Col = 128, Data = 0288
+sdram_control_tb.sdram_model : at time  605105.0 ns WRITE: Bank = 2 Row =    1, Col = 129, Data = 0289
+sdram_control_tb.sdram_model : at time  605115.0 ns WRITE: Bank = 2 Row =    1, Col = 130, Data = 028a
+sdram_control_tb.sdram_model : at time  605125.0 ns WRITE: Bank = 2 Row =    1, Col = 131, Data = 028b
+sdram_control_tb.sdram_model : at time  605135.0 ns WRITE: Bank = 2 Row =    1, Col = 132, Data = 028c
+sdram_control_tb.sdram_model : at time  605145.0 ns WRITE: Bank = 2 Row =    1, Col = 133, Data = 028d
+sdram_control_tb.sdram_model : at time  605155.0 ns WRITE: Bank = 2 Row =    1, Col = 134, Data = 028e
+sdram_control_tb.sdram_model : at time  605165.0 ns WRITE: Bank = 2 Row =    1, Col = 135, Data = 028f
+sdram_control_tb.sdram_model : at time  607905.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  608005.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  610075.0 ns ACT  : Bank = 2 Row =    1
+sdram_control_tb.sdram_model : at time  610105.0 ns WRITE: Bank = 2 Row =    1, Col = 136, Data = 0290
+sdram_control_tb.sdram_model : at time  610115.0 ns WRITE: Bank = 2 Row =    1, Col = 137, Data = 0291
+sdram_control_tb.sdram_model : at time  610125.0 ns WRITE: Bank = 2 Row =    1, Col = 138, Data = 0292
+sdram_control_tb.sdram_model : at time  610135.0 ns WRITE: Bank = 2 Row =    1, Col = 139, Data = 0293
+sdram_control_tb.sdram_model : at time  610145.0 ns WRITE: Bank = 2 Row =    1, Col = 140, Data = 0294
+sdram_control_tb.sdram_model : at time  610155.0 ns WRITE: Bank = 2 Row =    1, Col = 141, Data = 0295
+sdram_control_tb.sdram_model : at time  610165.0 ns WRITE: Bank = 2 Row =    1, Col = 142, Data = 0296
+sdram_control_tb.sdram_model : at time  610175.0 ns WRITE: Bank = 2 Row =    1, Col = 143, Data = 0297
+sdram_control_tb.sdram_model : at time  615085.0 ns ACT  : Bank = 2 Row =    1
+sdram_control_tb.sdram_model : at time  615115.0 ns WRITE: Bank = 2 Row =    1, Col = 144, Data = 0298
+sdram_control_tb.sdram_model : at time  615125.0 ns WRITE: Bank = 2 Row =    1, Col = 145, Data = 0299
+sdram_control_tb.sdram_model : at time  615135.0 ns WRITE: Bank = 2 Row =    1, Col = 146, Data = 029a
+sdram_control_tb.sdram_model : at time  615145.0 ns WRITE: Bank = 2 Row =    1, Col = 147, Data = 029b
+sdram_control_tb.sdram_model : at time  615155.0 ns WRITE: Bank = 2 Row =    1, Col = 148, Data = 029c
+sdram_control_tb.sdram_model : at time  615165.0 ns WRITE: Bank = 2 Row =    1, Col = 149, Data = 029d
+sdram_control_tb.sdram_model : at time  615175.0 ns WRITE: Bank = 2 Row =    1, Col = 150, Data = 029e
+sdram_control_tb.sdram_model : at time  615185.0 ns WRITE: Bank = 2 Row =    1, Col = 151, Data = 029f
+sdram_control_tb.sdram_model : at time  620095.0 ns ACT  : Bank = 2 Row =    1
+sdram_control_tb.sdram_model : at time  620125.0 ns WRITE: Bank = 2 Row =    1, Col = 152, Data = 02a0
+sdram_control_tb.sdram_model : at time  620135.0 ns WRITE: Bank = 2 Row =    1, Col = 153, Data = 02a1
+sdram_control_tb.sdram_model : at time  620145.0 ns WRITE: Bank = 2 Row =    1, Col = 154, Data = 02a2
+sdram_control_tb.sdram_model : at time  620155.0 ns WRITE: Bank = 2 Row =    1, Col = 155, Data = 02a3
+sdram_control_tb.sdram_model : at time  620165.0 ns WRITE: Bank = 2 Row =    1, Col = 156, Data = 02a4
+sdram_control_tb.sdram_model : at time  620175.0 ns WRITE: Bank = 2 Row =    1, Col = 157, Data = 02a5
+sdram_control_tb.sdram_model : at time  620185.0 ns WRITE: Bank = 2 Row =    1, Col = 158, Data = 02a6
+sdram_control_tb.sdram_model : at time  620195.0 ns WRITE: Bank = 2 Row =    1, Col = 159, Data = 02a7
+sdram_control_tb.sdram_model : at time  623505.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  623605.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  625105.0 ns ACT  : Bank = 2 Row =    1
+sdram_control_tb.sdram_model : at time  625135.0 ns WRITE: Bank = 2 Row =    1, Col = 160, Data = 02a8
+sdram_control_tb.sdram_model : at time  625145.0 ns WRITE: Bank = 2 Row =    1, Col = 161, Data = 02a9
+sdram_control_tb.sdram_model : at time  625155.0 ns WRITE: Bank = 2 Row =    1, Col = 162, Data = 02aa
+sdram_control_tb.sdram_model : at time  625165.0 ns WRITE: Bank = 2 Row =    1, Col = 163, Data = 02ab
+sdram_control_tb.sdram_model : at time  625175.0 ns WRITE: Bank = 2 Row =    1, Col = 164, Data = 02ac
+sdram_control_tb.sdram_model : at time  625185.0 ns WRITE: Bank = 2 Row =    1, Col = 165, Data = 02ad
+sdram_control_tb.sdram_model : at time  625195.0 ns WRITE: Bank = 2 Row =    1, Col = 166, Data = 02ae
+sdram_control_tb.sdram_model : at time  625205.0 ns WRITE: Bank = 2 Row =    1, Col = 167, Data = 02af
+sdram_control_tb.sdram_model : at time  630115.0 ns ACT  : Bank = 2 Row =    1
+sdram_control_tb.sdram_model : at time  630145.0 ns WRITE: Bank = 2 Row =    1, Col = 168, Data = 02b0
+sdram_control_tb.sdram_model : at time  630155.0 ns WRITE: Bank = 2 Row =    1, Col = 169, Data = 02b1
+sdram_control_tb.sdram_model : at time  630165.0 ns WRITE: Bank = 2 Row =    1, Col = 170, Data = 02b2
+sdram_control_tb.sdram_model : at time  630175.0 ns WRITE: Bank = 2 Row =    1, Col = 171, Data = 02b3
+sdram_control_tb.sdram_model : at time  630185.0 ns WRITE: Bank = 2 Row =    1, Col = 172, Data = 02b4
+sdram_control_tb.sdram_model : at time  630195.0 ns WRITE: Bank = 2 Row =    1, Col = 173, Data = 02b5
+sdram_control_tb.sdram_model : at time  630205.0 ns WRITE: Bank = 2 Row =    1, Col = 174, Data = 02b6
+sdram_control_tb.sdram_model : at time  630215.0 ns WRITE: Bank = 2 Row =    1, Col = 175, Data = 02b7
+sdram_control_tb.sdram_model : at time  635125.0 ns ACT  : Bank = 2 Row =    1
+sdram_control_tb.sdram_model : at time  635155.0 ns WRITE: Bank = 2 Row =    1, Col = 176, Data = 02b8
+sdram_control_tb.sdram_model : at time  635165.0 ns WRITE: Bank = 2 Row =    1, Col = 177, Data = 02b9
+sdram_control_tb.sdram_model : at time  635175.0 ns WRITE: Bank = 2 Row =    1, Col = 178, Data = 02ba
+sdram_control_tb.sdram_model : at time  635185.0 ns WRITE: Bank = 2 Row =    1, Col = 179, Data = 02bb
+sdram_control_tb.sdram_model : at time  635195.0 ns WRITE: Bank = 2 Row =    1, Col = 180, Data = 02bc
+sdram_control_tb.sdram_model : at time  635205.0 ns WRITE: Bank = 2 Row =    1, Col = 181, Data = 02bd
+sdram_control_tb.sdram_model : at time  635215.0 ns WRITE: Bank = 2 Row =    1, Col = 182, Data = 02be
+sdram_control_tb.sdram_model : at time  635225.0 ns WRITE: Bank = 2 Row =    1, Col = 183, Data = 02bf
+sdram_control_tb.sdram_model : at time  639105.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  639205.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  640135.0 ns ACT  : Bank = 2 Row =    1
+sdram_control_tb.sdram_model : at time  640165.0 ns WRITE: Bank = 2 Row =    1, Col = 184, Data = 02c0
+sdram_control_tb.sdram_model : at time  640175.0 ns WRITE: Bank = 2 Row =    1, Col = 185, Data = 02c1
+sdram_control_tb.sdram_model : at time  640185.0 ns WRITE: Bank = 2 Row =    1, Col = 186, Data = 02c2
+sdram_control_tb.sdram_model : at time  640195.0 ns WRITE: Bank = 2 Row =    1, Col = 187, Data = 02c3
+sdram_control_tb.sdram_model : at time  640205.0 ns WRITE: Bank = 2 Row =    1, Col = 188, Data = 02c4
+sdram_control_tb.sdram_model : at time  640215.0 ns WRITE: Bank = 2 Row =    1, Col = 189, Data = 02c5
+sdram_control_tb.sdram_model : at time  640225.0 ns WRITE: Bank = 2 Row =    1, Col = 190, Data = 02c6
+sdram_control_tb.sdram_model : at time  640235.0 ns WRITE: Bank = 2 Row =    1, Col = 191, Data = 02c7
+sdram_control_tb.sdram_model : at time  645145.0 ns ACT  : Bank = 2 Row =    1
+sdram_control_tb.sdram_model : at time  645175.0 ns WRITE: Bank = 2 Row =    1, Col = 192, Data = 02c8
+sdram_control_tb.sdram_model : at time  645185.0 ns WRITE: Bank = 2 Row =    1, Col = 193, Data = 02c9
+sdram_control_tb.sdram_model : at time  645195.0 ns WRITE: Bank = 2 Row =    1, Col = 194, Data = 02ca
+sdram_control_tb.sdram_model : at time  645205.0 ns WRITE: Bank = 2 Row =    1, Col = 195, Data = 02cb
+sdram_control_tb.sdram_model : at time  645215.0 ns WRITE: Bank = 2 Row =    1, Col = 196, Data = 02cc
+sdram_control_tb.sdram_model : at time  645225.0 ns WRITE: Bank = 2 Row =    1, Col = 197, Data = 02cd
+sdram_control_tb.sdram_model : at time  645235.0 ns WRITE: Bank = 2 Row =    1, Col = 198, Data = 02ce
+sdram_control_tb.sdram_model : at time  645245.0 ns WRITE: Bank = 2 Row =    1, Col = 199, Data = 02cf
+sdram_control_tb.sdram_model : at time  650155.0 ns ACT  : Bank = 2 Row =    1
+sdram_control_tb.sdram_model : at time  650185.0 ns WRITE: Bank = 2 Row =    1, Col = 200, Data = 02d0
+sdram_control_tb.sdram_model : at time  650195.0 ns WRITE: Bank = 2 Row =    1, Col = 201, Data = 02d1
+sdram_control_tb.sdram_model : at time  650205.0 ns WRITE: Bank = 2 Row =    1, Col = 202, Data = 02d2
+sdram_control_tb.sdram_model : at time  650215.0 ns WRITE: Bank = 2 Row =    1, Col = 203, Data = 02d3
+sdram_control_tb.sdram_model : at time  650225.0 ns WRITE: Bank = 2 Row =    1, Col = 204, Data = 02d4
+sdram_control_tb.sdram_model : at time  650235.0 ns WRITE: Bank = 2 Row =    1, Col = 205, Data = 02d5
+sdram_control_tb.sdram_model : at time  650245.0 ns WRITE: Bank = 2 Row =    1, Col = 206, Data = 02d6
+sdram_control_tb.sdram_model : at time  650255.0 ns WRITE: Bank = 2 Row =    1, Col = 207, Data = 02d7
+sdram_control_tb.sdram_model : at time  654705.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  654805.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  655165.0 ns ACT  : Bank = 2 Row =    1
+sdram_control_tb.sdram_model : at time  655195.0 ns WRITE: Bank = 2 Row =    1, Col = 208, Data = 02d8
+sdram_control_tb.sdram_model : at time  655205.0 ns WRITE: Bank = 2 Row =    1, Col = 209, Data = 02d9
+sdram_control_tb.sdram_model : at time  655215.0 ns WRITE: Bank = 2 Row =    1, Col = 210, Data = 02da
+sdram_control_tb.sdram_model : at time  655225.0 ns WRITE: Bank = 2 Row =    1, Col = 211, Data = 02db
+sdram_control_tb.sdram_model : at time  655235.0 ns WRITE: Bank = 2 Row =    1, Col = 212, Data = 02dc
+sdram_control_tb.sdram_model : at time  655245.0 ns WRITE: Bank = 2 Row =    1, Col = 213, Data = 02dd
+sdram_control_tb.sdram_model : at time  655255.0 ns WRITE: Bank = 2 Row =    1, Col = 214, Data = 02de
+sdram_control_tb.sdram_model : at time  655265.0 ns WRITE: Bank = 2 Row =    1, Col = 215, Data = 02df
+sdram_control_tb.sdram_model : at time  660175.0 ns ACT  : Bank = 2 Row =    1
+sdram_control_tb.sdram_model : at time  660205.0 ns WRITE: Bank = 2 Row =    1, Col = 216, Data = 02e0
+sdram_control_tb.sdram_model : at time  660215.0 ns WRITE: Bank = 2 Row =    1, Col = 217, Data = 02e1
+sdram_control_tb.sdram_model : at time  660225.0 ns WRITE: Bank = 2 Row =    1, Col = 218, Data = 02e2
+sdram_control_tb.sdram_model : at time  660235.0 ns WRITE: Bank = 2 Row =    1, Col = 219, Data = 02e3
+sdram_control_tb.sdram_model : at time  660245.0 ns WRITE: Bank = 2 Row =    1, Col = 220, Data = 02e4
+sdram_control_tb.sdram_model : at time  660255.0 ns WRITE: Bank = 2 Row =    1, Col = 221, Data = 02e5
+sdram_control_tb.sdram_model : at time  660265.0 ns WRITE: Bank = 2 Row =    1, Col = 222, Data = 02e6
+sdram_control_tb.sdram_model : at time  660275.0 ns WRITE: Bank = 2 Row =    1, Col = 223, Data = 02e7
+sdram_control_tb.sdram_model : at time  665185.0 ns ACT  : Bank = 2 Row =    1
+sdram_control_tb.sdram_model : at time  665215.0 ns WRITE: Bank = 2 Row =    1, Col = 224, Data = 02e8
+sdram_control_tb.sdram_model : at time  665225.0 ns WRITE: Bank = 2 Row =    1, Col = 225, Data = 02e9
+sdram_control_tb.sdram_model : at time  665235.0 ns WRITE: Bank = 2 Row =    1, Col = 226, Data = 02ea
+sdram_control_tb.sdram_model : at time  665245.0 ns WRITE: Bank = 2 Row =    1, Col = 227, Data = 02eb
+sdram_control_tb.sdram_model : at time  665255.0 ns WRITE: Bank = 2 Row =    1, Col = 228, Data = 02ec
+sdram_control_tb.sdram_model : at time  665265.0 ns WRITE: Bank = 2 Row =    1, Col = 229, Data = 02ed
+sdram_control_tb.sdram_model : at time  665275.0 ns WRITE: Bank = 2 Row =    1, Col = 230, Data = 02ee
+sdram_control_tb.sdram_model : at time  665285.0 ns WRITE: Bank = 2 Row =    1, Col = 231, Data = 02ef
+sdram_control_tb.sdram_model : at time  670195.0 ns ACT  : Bank = 2 Row =    1
+sdram_control_tb.sdram_model : at time  670225.0 ns WRITE: Bank = 2 Row =    1, Col = 232, Data = 02f0
+sdram_control_tb.sdram_model : at time  670235.0 ns WRITE: Bank = 2 Row =    1, Col = 233, Data = 02f1
+sdram_control_tb.sdram_model : at time  670245.0 ns WRITE: Bank = 2 Row =    1, Col = 234, Data = 02f2
+sdram_control_tb.sdram_model : at time  670255.0 ns WRITE: Bank = 2 Row =    1, Col = 235, Data = 02f3
+sdram_control_tb.sdram_model : at time  670265.0 ns WRITE: Bank = 2 Row =    1, Col = 236, Data = 02f4
+sdram_control_tb.sdram_model : at time  670275.0 ns WRITE: Bank = 2 Row =    1, Col = 237, Data = 02f5
+sdram_control_tb.sdram_model : at time  670285.0 ns WRITE: Bank = 2 Row =    1, Col = 238, Data = 02f6
+sdram_control_tb.sdram_model : at time  670295.0 ns WRITE: Bank = 2 Row =    1, Col = 239, Data = 02f7
+sdram_control_tb.sdram_model : at time  670395.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  670495.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  675205.0 ns ACT  : Bank = 2 Row =    1
+sdram_control_tb.sdram_model : at time  675235.0 ns WRITE: Bank = 2 Row =    1, Col = 240, Data = 02f8
+sdram_control_tb.sdram_model : at time  675245.0 ns WRITE: Bank = 2 Row =    1, Col = 241, Data = 02f9
+sdram_control_tb.sdram_model : at time  675255.0 ns WRITE: Bank = 2 Row =    1, Col = 242, Data = 02fa
+sdram_control_tb.sdram_model : at time  675265.0 ns WRITE: Bank = 2 Row =    1, Col = 243, Data = 02fb
+sdram_control_tb.sdram_model : at time  675275.0 ns WRITE: Bank = 2 Row =    1, Col = 244, Data = 02fc
+sdram_control_tb.sdram_model : at time  675285.0 ns WRITE: Bank = 2 Row =    1, Col = 245, Data = 02fd
+sdram_control_tb.sdram_model : at time  675295.0 ns WRITE: Bank = 2 Row =    1, Col = 246, Data = 02fe
+sdram_control_tb.sdram_model : at time  675305.0 ns WRITE: Bank = 2 Row =    1, Col = 247, Data = 02ff
+sdram_control_tb.sdram_model : at time  680215.0 ns ACT  : Bank = 2 Row =    1
+sdram_control_tb.sdram_model : at time  680245.0 ns WRITE: Bank = 2 Row =    1, Col = 248, Data = 0300
+sdram_control_tb.sdram_model : at time  680255.0 ns WRITE: Bank = 2 Row =    1, Col = 249, Data = 0301
+sdram_control_tb.sdram_model : at time  680265.0 ns WRITE: Bank = 2 Row =    1, Col = 250, Data = 0302
+sdram_control_tb.sdram_model : at time  680275.0 ns WRITE: Bank = 2 Row =    1, Col = 251, Data = 0303
+sdram_control_tb.sdram_model : at time  680285.0 ns WRITE: Bank = 2 Row =    1, Col = 252, Data = 0304
+sdram_control_tb.sdram_model : at time  680295.0 ns WRITE: Bank = 2 Row =    1, Col = 253, Data = 0305
+sdram_control_tb.sdram_model : at time  680305.0 ns WRITE: Bank = 2 Row =    1, Col = 254, Data = 0306
+sdram_control_tb.sdram_model : at time  680315.0 ns WRITE: Bank = 2 Row =    1, Col = 255, Data = 0307
+sdram_control_tb.sdram_model : at time  685225.0 ns ACT  : Bank = 2 Row =    1
+sdram_control_tb.sdram_model : at time  685255.0 ns WRITE: Bank = 2 Row =    1, Col = 256, Data = 0308
+sdram_control_tb.sdram_model : at time  685265.0 ns WRITE: Bank = 2 Row =    1, Col = 257, Data = 0309
+sdram_control_tb.sdram_model : at time  685275.0 ns WRITE: Bank = 2 Row =    1, Col = 258, Data = 030a
+sdram_control_tb.sdram_model : at time  685285.0 ns WRITE: Bank = 2 Row =    1, Col = 259, Data = 030b
+sdram_control_tb.sdram_model : at time  685295.0 ns WRITE: Bank = 2 Row =    1, Col = 260, Data = 030c
+sdram_control_tb.sdram_model : at time  685305.0 ns WRITE: Bank = 2 Row =    1, Col = 261, Data = 030d
+sdram_control_tb.sdram_model : at time  685315.0 ns WRITE: Bank = 2 Row =    1, Col = 262, Data = 030e
+sdram_control_tb.sdram_model : at time  685325.0 ns WRITE: Bank = 2 Row =    1, Col = 263, Data = 030f
+sdram_control_tb.sdram_model : at time  685905.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  686005.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  690235.0 ns ACT  : Bank = 2 Row =    1
+sdram_control_tb.sdram_model : at time  690265.0 ns WRITE: Bank = 2 Row =    1, Col = 264, Data = 0310
+sdram_control_tb.sdram_model : at time  690275.0 ns WRITE: Bank = 2 Row =    1, Col = 265, Data = 0311
+sdram_control_tb.sdram_model : at time  690285.0 ns WRITE: Bank = 2 Row =    1, Col = 266, Data = 0312
+sdram_control_tb.sdram_model : at time  690295.0 ns WRITE: Bank = 2 Row =    1, Col = 267, Data = 0313
+sdram_control_tb.sdram_model : at time  690305.0 ns WRITE: Bank = 2 Row =    1, Col = 268, Data = 0314
+sdram_control_tb.sdram_model : at time  690315.0 ns WRITE: Bank = 2 Row =    1, Col = 269, Data = 0315
+sdram_control_tb.sdram_model : at time  690325.0 ns WRITE: Bank = 2 Row =    1, Col = 270, Data = 0316
+sdram_control_tb.sdram_model : at time  690335.0 ns WRITE: Bank = 2 Row =    1, Col = 271, Data = 0317
+sdram_control_tb.sdram_model : at time  695245.0 ns ACT  : Bank = 2 Row =    1
+sdram_control_tb.sdram_model : at time  695275.0 ns WRITE: Bank = 2 Row =    1, Col = 272, Data = 0318
+sdram_control_tb.sdram_model : at time  695285.0 ns WRITE: Bank = 2 Row =    1, Col = 273, Data = 0319
+sdram_control_tb.sdram_model : at time  695295.0 ns WRITE: Bank = 2 Row =    1, Col = 274, Data = 031a
+sdram_control_tb.sdram_model : at time  695305.0 ns WRITE: Bank = 2 Row =    1, Col = 275, Data = 031b
+sdram_control_tb.sdram_model : at time  695315.0 ns WRITE: Bank = 2 Row =    1, Col = 276, Data = 031c
+sdram_control_tb.sdram_model : at time  695325.0 ns WRITE: Bank = 2 Row =    1, Col = 277, Data = 031d
+sdram_control_tb.sdram_model : at time  695335.0 ns WRITE: Bank = 2 Row =    1, Col = 278, Data = 031e
+sdram_control_tb.sdram_model : at time  695345.0 ns WRITE: Bank = 2 Row =    1, Col = 279, Data = 031f
+sdram_control_tb.sdram_model : at time  700255.0 ns ACT  : Bank = 2 Row =    1
+sdram_control_tb.sdram_model : at time  700285.0 ns WRITE: Bank = 2 Row =    1, Col = 280, Data = 0320
+sdram_control_tb.sdram_model : at time  700295.0 ns WRITE: Bank = 2 Row =    1, Col = 281, Data = 0321
+sdram_control_tb.sdram_model : at time  700305.0 ns WRITE: Bank = 2 Row =    1, Col = 282, Data = 0322
+sdram_control_tb.sdram_model : at time  700315.0 ns WRITE: Bank = 2 Row =    1, Col = 283, Data = 0323
+sdram_control_tb.sdram_model : at time  700325.0 ns WRITE: Bank = 2 Row =    1, Col = 284, Data = 0324
+sdram_control_tb.sdram_model : at time  700335.0 ns WRITE: Bank = 2 Row =    1, Col = 285, Data = 0325
+sdram_control_tb.sdram_model : at time  700345.0 ns WRITE: Bank = 2 Row =    1, Col = 286, Data = 0326
+sdram_control_tb.sdram_model : at time  700355.0 ns WRITE: Bank = 2 Row =    1, Col = 287, Data = 0327
+sdram_control_tb.sdram_model : at time  701505.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  701605.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  710265.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  710313.0 ns READ : Bank = 2 Row =    0, Col =   0, Dqm = 00, Data = 0000
+sdram_control_tb.sdram_model : at time  710323.0 ns READ : Bank = 2 Row =    0, Col =   1, Dqm = 00, Data = 0001
+sdram_control_tb.sdram_model : at time  710333.0 ns READ : Bank = 2 Row =    0, Col =   2, Dqm = 00, Data = 0002
+sdram_control_tb.sdram_model : at time  710343.0 ns READ : Bank = 2 Row =    0, Col =   3, Dqm = 00, Data = 0003
+sdram_control_tb.sdram_model : at time  710353.0 ns READ : Bank = 2 Row =    0, Col =   4, Dqm = 00, Data = 0004
+sdram_control_tb.sdram_model : at time  710363.0 ns READ : Bank = 2 Row =    0, Col =   5, Dqm = 00, Data = 0005
+sdram_control_tb.sdram_model : at time  710373.0 ns READ : Bank = 2 Row =    0, Col =   6, Dqm = 00, Data = 0006
+sdram_control_tb.sdram_model : at time  710383.0 ns READ : Bank = 2 Row =    0, Col =   7, Dqm = 00, Data = 0007
+sdram_control_tb.sdram_model : at time  715275.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  715323.0 ns READ : Bank = 2 Row =    0, Col =   8, Dqm = 00, Data = 0008
+sdram_control_tb.sdram_model : at time  715333.0 ns READ : Bank = 2 Row =    0, Col =   9, Dqm = 00, Data = 0009
+sdram_control_tb.sdram_model : at time  715343.0 ns READ : Bank = 2 Row =    0, Col =  10, Dqm = 00, Data = 000a
+sdram_control_tb.sdram_model : at time  715353.0 ns READ : Bank = 2 Row =    0, Col =  11, Dqm = 00, Data = 000b
+sdram_control_tb.sdram_model : at time  715363.0 ns READ : Bank = 2 Row =    0, Col =  12, Dqm = 00, Data = 000c
+sdram_control_tb.sdram_model : at time  715373.0 ns READ : Bank = 2 Row =    0, Col =  13, Dqm = 00, Data = 000d
+sdram_control_tb.sdram_model : at time  715383.0 ns READ : Bank = 2 Row =    0, Col =  14, Dqm = 00, Data = 000e
+sdram_control_tb.sdram_model : at time  715393.0 ns READ : Bank = 2 Row =    0, Col =  15, Dqm = 00, Data = 000f
+sdram_control_tb.sdram_model : at time  717105.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  717205.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  720285.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  720333.0 ns READ : Bank = 2 Row =    0, Col =  16, Dqm = 00, Data = 0010
+sdram_control_tb.sdram_model : at time  720343.0 ns READ : Bank = 2 Row =    0, Col =  17, Dqm = 00, Data = 0011
+sdram_control_tb.sdram_model : at time  720353.0 ns READ : Bank = 2 Row =    0, Col =  18, Dqm = 00, Data = 0012
+sdram_control_tb.sdram_model : at time  720363.0 ns READ : Bank = 2 Row =    0, Col =  19, Dqm = 00, Data = 0013
+sdram_control_tb.sdram_model : at time  720373.0 ns READ : Bank = 2 Row =    0, Col =  20, Dqm = 00, Data = 0014
+sdram_control_tb.sdram_model : at time  720383.0 ns READ : Bank = 2 Row =    0, Col =  21, Dqm = 00, Data = 0015
+sdram_control_tb.sdram_model : at time  720393.0 ns READ : Bank = 2 Row =    0, Col =  22, Dqm = 00, Data = 0016
+sdram_control_tb.sdram_model : at time  720403.0 ns READ : Bank = 2 Row =    0, Col =  23, Dqm = 00, Data = 0017
+sdram_control_tb.sdram_model : at time  725295.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  725343.0 ns READ : Bank = 2 Row =    0, Col =  24, Dqm = 00, Data = 0018
+sdram_control_tb.sdram_model : at time  725353.0 ns READ : Bank = 2 Row =    0, Col =  25, Dqm = 00, Data = 0019
+sdram_control_tb.sdram_model : at time  725363.0 ns READ : Bank = 2 Row =    0, Col =  26, Dqm = 00, Data = 001a
+sdram_control_tb.sdram_model : at time  725373.0 ns READ : Bank = 2 Row =    0, Col =  27, Dqm = 00, Data = 001b
+sdram_control_tb.sdram_model : at time  725383.0 ns READ : Bank = 2 Row =    0, Col =  28, Dqm = 00, Data = 001c
+sdram_control_tb.sdram_model : at time  725393.0 ns READ : Bank = 2 Row =    0, Col =  29, Dqm = 00, Data = 001d
+sdram_control_tb.sdram_model : at time  725403.0 ns READ : Bank = 2 Row =    0, Col =  30, Dqm = 00, Data = 001e
+sdram_control_tb.sdram_model : at time  725413.0 ns READ : Bank = 2 Row =    0, Col =  31, Dqm = 00, Data = 001f
+sdram_control_tb.sdram_model : at time  730305.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  730353.0 ns READ : Bank = 2 Row =    0, Col =  32, Dqm = 00, Data = 0020
+sdram_control_tb.sdram_model : at time  730363.0 ns READ : Bank = 2 Row =    0, Col =  33, Dqm = 00, Data = 0021
+sdram_control_tb.sdram_model : at time  730373.0 ns READ : Bank = 2 Row =    0, Col =  34, Dqm = 00, Data = 0022
+sdram_control_tb.sdram_model : at time  730383.0 ns READ : Bank = 2 Row =    0, Col =  35, Dqm = 00, Data = 0023
+sdram_control_tb.sdram_model : at time  730393.0 ns READ : Bank = 2 Row =    0, Col =  36, Dqm = 00, Data = 0024
+sdram_control_tb.sdram_model : at time  730403.0 ns READ : Bank = 2 Row =    0, Col =  37, Dqm = 00, Data = 0025
+sdram_control_tb.sdram_model : at time  730413.0 ns READ : Bank = 2 Row =    0, Col =  38, Dqm = 00, Data = 0026
+sdram_control_tb.sdram_model : at time  730423.0 ns READ : Bank = 2 Row =    0, Col =  39, Dqm = 00, Data = 0027
+sdram_control_tb.sdram_model : at time  732705.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  732805.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  735315.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  735363.0 ns READ : Bank = 2 Row =    0, Col =  40, Dqm = 00, Data = 0028
+sdram_control_tb.sdram_model : at time  735373.0 ns READ : Bank = 2 Row =    0, Col =  41, Dqm = 00, Data = 0029
+sdram_control_tb.sdram_model : at time  735383.0 ns READ : Bank = 2 Row =    0, Col =  42, Dqm = 00, Data = 002a
+sdram_control_tb.sdram_model : at time  735393.0 ns READ : Bank = 2 Row =    0, Col =  43, Dqm = 00, Data = 002b
+sdram_control_tb.sdram_model : at time  735403.0 ns READ : Bank = 2 Row =    0, Col =  44, Dqm = 00, Data = 002c
+sdram_control_tb.sdram_model : at time  735413.0 ns READ : Bank = 2 Row =    0, Col =  45, Dqm = 00, Data = 002d
+sdram_control_tb.sdram_model : at time  735423.0 ns READ : Bank = 2 Row =    0, Col =  46, Dqm = 00, Data = 002e
+sdram_control_tb.sdram_model : at time  735433.0 ns READ : Bank = 2 Row =    0, Col =  47, Dqm = 00, Data = 002f
+sdram_control_tb.sdram_model : at time  740325.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  740373.0 ns READ : Bank = 2 Row =    0, Col =  48, Dqm = 00, Data = 0030
+sdram_control_tb.sdram_model : at time  740383.0 ns READ : Bank = 2 Row =    0, Col =  49, Dqm = 00, Data = 0031
+sdram_control_tb.sdram_model : at time  740393.0 ns READ : Bank = 2 Row =    0, Col =  50, Dqm = 00, Data = 0032
+sdram_control_tb.sdram_model : at time  740403.0 ns READ : Bank = 2 Row =    0, Col =  51, Dqm = 00, Data = 0033
+sdram_control_tb.sdram_model : at time  740413.0 ns READ : Bank = 2 Row =    0, Col =  52, Dqm = 00, Data = 0034
+sdram_control_tb.sdram_model : at time  740423.0 ns READ : Bank = 2 Row =    0, Col =  53, Dqm = 00, Data = 0035
+sdram_control_tb.sdram_model : at time  740433.0 ns READ : Bank = 2 Row =    0, Col =  54, Dqm = 00, Data = 0036
+sdram_control_tb.sdram_model : at time  740443.0 ns READ : Bank = 2 Row =    0, Col =  55, Dqm = 00, Data = 0037
+sdram_control_tb.sdram_model : at time  745335.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  745383.0 ns READ : Bank = 2 Row =    0, Col =  56, Dqm = 00, Data = 0038
+sdram_control_tb.sdram_model : at time  745393.0 ns READ : Bank = 2 Row =    0, Col =  57, Dqm = 00, Data = 0039
+sdram_control_tb.sdram_model : at time  745403.0 ns READ : Bank = 2 Row =    0, Col =  58, Dqm = 00, Data = 003a
+sdram_control_tb.sdram_model : at time  745413.0 ns READ : Bank = 2 Row =    0, Col =  59, Dqm = 00, Data = 003b
+sdram_control_tb.sdram_model : at time  745423.0 ns READ : Bank = 2 Row =    0, Col =  60, Dqm = 00, Data = 003c
+sdram_control_tb.sdram_model : at time  745433.0 ns READ : Bank = 2 Row =    0, Col =  61, Dqm = 00, Data = 003d
+sdram_control_tb.sdram_model : at time  745443.0 ns READ : Bank = 2 Row =    0, Col =  62, Dqm = 00, Data = 003e
+sdram_control_tb.sdram_model : at time  745453.0 ns READ : Bank = 2 Row =    0, Col =  63, Dqm = 00, Data = 003f
+sdram_control_tb.sdram_model : at time  748305.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  748405.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  750345.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  750393.0 ns READ : Bank = 2 Row =    0, Col =  64, Dqm = 00, Data = 0040
+sdram_control_tb.sdram_model : at time  750403.0 ns READ : Bank = 2 Row =    0, Col =  65, Dqm = 00, Data = 0041
+sdram_control_tb.sdram_model : at time  750413.0 ns READ : Bank = 2 Row =    0, Col =  66, Dqm = 00, Data = 0042
+sdram_control_tb.sdram_model : at time  750423.0 ns READ : Bank = 2 Row =    0, Col =  67, Dqm = 00, Data = 0043
+sdram_control_tb.sdram_model : at time  750433.0 ns READ : Bank = 2 Row =    0, Col =  68, Dqm = 00, Data = 0044
+sdram_control_tb.sdram_model : at time  750443.0 ns READ : Bank = 2 Row =    0, Col =  69, Dqm = 00, Data = 0045
+sdram_control_tb.sdram_model : at time  750453.0 ns READ : Bank = 2 Row =    0, Col =  70, Dqm = 00, Data = 0046
+sdram_control_tb.sdram_model : at time  750463.0 ns READ : Bank = 2 Row =    0, Col =  71, Dqm = 00, Data = 0047
+sdram_control_tb.sdram_model : at time  755355.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  755403.0 ns READ : Bank = 2 Row =    0, Col =  72, Dqm = 00, Data = 0048
+sdram_control_tb.sdram_model : at time  755413.0 ns READ : Bank = 2 Row =    0, Col =  73, Dqm = 00, Data = 0049
+sdram_control_tb.sdram_model : at time  755423.0 ns READ : Bank = 2 Row =    0, Col =  74, Dqm = 00, Data = 004a
+sdram_control_tb.sdram_model : at time  755433.0 ns READ : Bank = 2 Row =    0, Col =  75, Dqm = 00, Data = 004b
+sdram_control_tb.sdram_model : at time  755443.0 ns READ : Bank = 2 Row =    0, Col =  76, Dqm = 00, Data = 004c
+sdram_control_tb.sdram_model : at time  755453.0 ns READ : Bank = 2 Row =    0, Col =  77, Dqm = 00, Data = 004d
+sdram_control_tb.sdram_model : at time  755463.0 ns READ : Bank = 2 Row =    0, Col =  78, Dqm = 00, Data = 004e
+sdram_control_tb.sdram_model : at time  755473.0 ns READ : Bank = 2 Row =    0, Col =  79, Dqm = 00, Data = 004f
+sdram_control_tb.sdram_model : at time  760365.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  760413.0 ns READ : Bank = 2 Row =    0, Col =  80, Dqm = 00, Data = 0050
+sdram_control_tb.sdram_model : at time  760423.0 ns READ : Bank = 2 Row =    0, Col =  81, Dqm = 00, Data = 0051
+sdram_control_tb.sdram_model : at time  760433.0 ns READ : Bank = 2 Row =    0, Col =  82, Dqm = 00, Data = 0052
+sdram_control_tb.sdram_model : at time  760443.0 ns READ : Bank = 2 Row =    0, Col =  83, Dqm = 00, Data = 0053
+sdram_control_tb.sdram_model : at time  760453.0 ns READ : Bank = 2 Row =    0, Col =  84, Dqm = 00, Data = 0054
+sdram_control_tb.sdram_model : at time  760463.0 ns READ : Bank = 2 Row =    0, Col =  85, Dqm = 00, Data = 0055
+sdram_control_tb.sdram_model : at time  760473.0 ns READ : Bank = 2 Row =    0, Col =  86, Dqm = 00, Data = 0056
+sdram_control_tb.sdram_model : at time  760483.0 ns READ : Bank = 2 Row =    0, Col =  87, Dqm = 00, Data = 0057
+sdram_control_tb.sdram_model : at time  763905.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  764005.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  765375.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  765423.0 ns READ : Bank = 2 Row =    0, Col =  88, Dqm = 00, Data = 0058
+sdram_control_tb.sdram_model : at time  765433.0 ns READ : Bank = 2 Row =    0, Col =  89, Dqm = 00, Data = 0059
+sdram_control_tb.sdram_model : at time  765443.0 ns READ : Bank = 2 Row =    0, Col =  90, Dqm = 00, Data = 005a
+sdram_control_tb.sdram_model : at time  765453.0 ns READ : Bank = 2 Row =    0, Col =  91, Dqm = 00, Data = 005b
+sdram_control_tb.sdram_model : at time  765463.0 ns READ : Bank = 2 Row =    0, Col =  92, Dqm = 00, Data = 005c
+sdram_control_tb.sdram_model : at time  765473.0 ns READ : Bank = 2 Row =    0, Col =  93, Dqm = 00, Data = 005d
+sdram_control_tb.sdram_model : at time  765483.0 ns READ : Bank = 2 Row =    0, Col =  94, Dqm = 00, Data = 005e
+sdram_control_tb.sdram_model : at time  765493.0 ns READ : Bank = 2 Row =    0, Col =  95, Dqm = 00, Data = 005f
+sdram_control_tb.sdram_model : at time  770385.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  770433.0 ns READ : Bank = 2 Row =    0, Col =  96, Dqm = 00, Data = 0060
+sdram_control_tb.sdram_model : at time  770443.0 ns READ : Bank = 2 Row =    0, Col =  97, Dqm = 00, Data = 0061
+sdram_control_tb.sdram_model : at time  770453.0 ns READ : Bank = 2 Row =    0, Col =  98, Dqm = 00, Data = 0062
+sdram_control_tb.sdram_model : at time  770463.0 ns READ : Bank = 2 Row =    0, Col =  99, Dqm = 00, Data = 0063
+sdram_control_tb.sdram_model : at time  770473.0 ns READ : Bank = 2 Row =    0, Col = 100, Dqm = 00, Data = 0064
+sdram_control_tb.sdram_model : at time  770483.0 ns READ : Bank = 2 Row =    0, Col = 101, Dqm = 00, Data = 0065
+sdram_control_tb.sdram_model : at time  770493.0 ns READ : Bank = 2 Row =    0, Col = 102, Dqm = 00, Data = 0066
+sdram_control_tb.sdram_model : at time  770503.0 ns READ : Bank = 2 Row =    0, Col = 103, Dqm = 00, Data = 0067
+sdram_control_tb.sdram_model : at time  775395.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  775443.0 ns READ : Bank = 2 Row =    0, Col = 104, Dqm = 00, Data = 0068
+sdram_control_tb.sdram_model : at time  775453.0 ns READ : Bank = 2 Row =    0, Col = 105, Dqm = 00, Data = 0069
+sdram_control_tb.sdram_model : at time  775463.0 ns READ : Bank = 2 Row =    0, Col = 106, Dqm = 00, Data = 006a
+sdram_control_tb.sdram_model : at time  775473.0 ns READ : Bank = 2 Row =    0, Col = 107, Dqm = 00, Data = 006b
+sdram_control_tb.sdram_model : at time  775483.0 ns READ : Bank = 2 Row =    0, Col = 108, Dqm = 00, Data = 006c
+sdram_control_tb.sdram_model : at time  775493.0 ns READ : Bank = 2 Row =    0, Col = 109, Dqm = 00, Data = 006d
+sdram_control_tb.sdram_model : at time  775503.0 ns READ : Bank = 2 Row =    0, Col = 110, Dqm = 00, Data = 006e
+sdram_control_tb.sdram_model : at time  775513.0 ns READ : Bank = 2 Row =    0, Col = 111, Dqm = 00, Data = 006f
+sdram_control_tb.sdram_model : at time  779505.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  779605.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  780405.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  780453.0 ns READ : Bank = 2 Row =    0, Col = 112, Dqm = 00, Data = 0070
+sdram_control_tb.sdram_model : at time  780463.0 ns READ : Bank = 2 Row =    0, Col = 113, Dqm = 00, Data = 0071
+sdram_control_tb.sdram_model : at time  780473.0 ns READ : Bank = 2 Row =    0, Col = 114, Dqm = 00, Data = 0072
+sdram_control_tb.sdram_model : at time  780483.0 ns READ : Bank = 2 Row =    0, Col = 115, Dqm = 00, Data = 0073
+sdram_control_tb.sdram_model : at time  780493.0 ns READ : Bank = 2 Row =    0, Col = 116, Dqm = 00, Data = 0074
+sdram_control_tb.sdram_model : at time  780503.0 ns READ : Bank = 2 Row =    0, Col = 117, Dqm = 00, Data = 0075
+sdram_control_tb.sdram_model : at time  780513.0 ns READ : Bank = 2 Row =    0, Col = 118, Dqm = 00, Data = 0076
+sdram_control_tb.sdram_model : at time  780523.0 ns READ : Bank = 2 Row =    0, Col = 119, Dqm = 00, Data = 0077
+sdram_control_tb.sdram_model : at time  785415.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  785463.0 ns READ : Bank = 2 Row =    0, Col = 120, Dqm = 00, Data = 0078
+sdram_control_tb.sdram_model : at time  785473.0 ns READ : Bank = 2 Row =    0, Col = 121, Dqm = 00, Data = 0079
+sdram_control_tb.sdram_model : at time  785483.0 ns READ : Bank = 2 Row =    0, Col = 122, Dqm = 00, Data = 007a
+sdram_control_tb.sdram_model : at time  785493.0 ns READ : Bank = 2 Row =    0, Col = 123, Dqm = 00, Data = 007b
+sdram_control_tb.sdram_model : at time  785503.0 ns READ : Bank = 2 Row =    0, Col = 124, Dqm = 00, Data = 007c
+sdram_control_tb.sdram_model : at time  785513.0 ns READ : Bank = 2 Row =    0, Col = 125, Dqm = 00, Data = 007d
+sdram_control_tb.sdram_model : at time  785523.0 ns READ : Bank = 2 Row =    0, Col = 126, Dqm = 00, Data = 007e
+sdram_control_tb.sdram_model : at time  785533.0 ns READ : Bank = 2 Row =    0, Col = 127, Dqm = 00, Data = 007f
+sdram_control_tb.sdram_model : at time  790425.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  790473.0 ns READ : Bank = 2 Row =    0, Col = 128, Dqm = 00, Data = 0080
+sdram_control_tb.sdram_model : at time  790483.0 ns READ : Bank = 2 Row =    0, Col = 129, Dqm = 00, Data = 0081
+sdram_control_tb.sdram_model : at time  790493.0 ns READ : Bank = 2 Row =    0, Col = 130, Dqm = 00, Data = 0082
+sdram_control_tb.sdram_model : at time  790503.0 ns READ : Bank = 2 Row =    0, Col = 131, Dqm = 00, Data = 0083
+sdram_control_tb.sdram_model : at time  790513.0 ns READ : Bank = 2 Row =    0, Col = 132, Dqm = 00, Data = 0084
+sdram_control_tb.sdram_model : at time  790523.0 ns READ : Bank = 2 Row =    0, Col = 133, Dqm = 00, Data = 0085
+sdram_control_tb.sdram_model : at time  790533.0 ns READ : Bank = 2 Row =    0, Col = 134, Dqm = 00, Data = 0086
+sdram_control_tb.sdram_model : at time  790543.0 ns READ : Bank = 2 Row =    0, Col = 135, Dqm = 00, Data = 0087
+sdram_control_tb.sdram_model : at time  795105.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  795205.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  795435.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  795483.0 ns READ : Bank = 2 Row =    0, Col = 136, Dqm = 00, Data = 0088
+sdram_control_tb.sdram_model : at time  795493.0 ns READ : Bank = 2 Row =    0, Col = 137, Dqm = 00, Data = 0089
+sdram_control_tb.sdram_model : at time  795503.0 ns READ : Bank = 2 Row =    0, Col = 138, Dqm = 00, Data = 008a
+sdram_control_tb.sdram_model : at time  795513.0 ns READ : Bank = 2 Row =    0, Col = 139, Dqm = 00, Data = 008b
+sdram_control_tb.sdram_model : at time  795523.0 ns READ : Bank = 2 Row =    0, Col = 140, Dqm = 00, Data = 008c
+sdram_control_tb.sdram_model : at time  795533.0 ns READ : Bank = 2 Row =    0, Col = 141, Dqm = 00, Data = 008d
+sdram_control_tb.sdram_model : at time  795543.0 ns READ : Bank = 2 Row =    0, Col = 142, Dqm = 00, Data = 008e
+sdram_control_tb.sdram_model : at time  795553.0 ns READ : Bank = 2 Row =    0, Col = 143, Dqm = 00, Data = 008f
+sdram_control_tb.sdram_model : at time  800445.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  800493.0 ns READ : Bank = 2 Row =    0, Col = 144, Dqm = 00, Data = 0090
+sdram_control_tb.sdram_model : at time  800503.0 ns READ : Bank = 2 Row =    0, Col = 145, Dqm = 00, Data = 0091
+sdram_control_tb.sdram_model : at time  800513.0 ns READ : Bank = 2 Row =    0, Col = 146, Dqm = 00, Data = 0092
+sdram_control_tb.sdram_model : at time  800523.0 ns READ : Bank = 2 Row =    0, Col = 147, Dqm = 00, Data = 0093
+sdram_control_tb.sdram_model : at time  800533.0 ns READ : Bank = 2 Row =    0, Col = 148, Dqm = 00, Data = 0094
+sdram_control_tb.sdram_model : at time  800543.0 ns READ : Bank = 2 Row =    0, Col = 149, Dqm = 00, Data = 0095
+sdram_control_tb.sdram_model : at time  800553.0 ns READ : Bank = 2 Row =    0, Col = 150, Dqm = 00, Data = 0096
+sdram_control_tb.sdram_model : at time  800563.0 ns READ : Bank = 2 Row =    0, Col = 151, Dqm = 00, Data = 0097
+sdram_control_tb.sdram_model : at time  805455.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  805503.0 ns READ : Bank = 2 Row =    0, Col = 152, Dqm = 00, Data = 0098
+sdram_control_tb.sdram_model : at time  805513.0 ns READ : Bank = 2 Row =    0, Col = 153, Dqm = 00, Data = 0099
+sdram_control_tb.sdram_model : at time  805523.0 ns READ : Bank = 2 Row =    0, Col = 154, Dqm = 00, Data = 009a
+sdram_control_tb.sdram_model : at time  805533.0 ns READ : Bank = 2 Row =    0, Col = 155, Dqm = 00, Data = 009b
+sdram_control_tb.sdram_model : at time  805543.0 ns READ : Bank = 2 Row =    0, Col = 156, Dqm = 00, Data = 009c
+sdram_control_tb.sdram_model : at time  805553.0 ns READ : Bank = 2 Row =    0, Col = 157, Dqm = 00, Data = 009d
+sdram_control_tb.sdram_model : at time  805563.0 ns READ : Bank = 2 Row =    0, Col = 158, Dqm = 00, Data = 009e
+sdram_control_tb.sdram_model : at time  805573.0 ns READ : Bank = 2 Row =    0, Col = 159, Dqm = 00, Data = 009f
+sdram_control_tb.sdram_model : at time  810465.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  810513.0 ns READ : Bank = 2 Row =    0, Col = 160, Dqm = 00, Data = 00a0
+sdram_control_tb.sdram_model : at time  810523.0 ns READ : Bank = 2 Row =    0, Col = 161, Dqm = 00, Data = 00a1
+sdram_control_tb.sdram_model : at time  810533.0 ns READ : Bank = 2 Row =    0, Col = 162, Dqm = 00, Data = 00a2
+sdram_control_tb.sdram_model : at time  810543.0 ns READ : Bank = 2 Row =    0, Col = 163, Dqm = 00, Data = 00a3
+sdram_control_tb.sdram_model : at time  810553.0 ns READ : Bank = 2 Row =    0, Col = 164, Dqm = 00, Data = 00a4
+sdram_control_tb.sdram_model : at time  810563.0 ns READ : Bank = 2 Row =    0, Col = 165, Dqm = 00, Data = 00a5
+sdram_control_tb.sdram_model : at time  810573.0 ns READ : Bank = 2 Row =    0, Col = 166, Dqm = 00, Data = 00a6
+sdram_control_tb.sdram_model : at time  810583.0 ns READ : Bank = 2 Row =    0, Col = 167, Dqm = 00, Data = 00a7
+sdram_control_tb.sdram_model : at time  810705.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  810805.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  815475.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  815523.0 ns READ : Bank = 2 Row =    0, Col = 168, Dqm = 00, Data = 00a8
+sdram_control_tb.sdram_model : at time  815533.0 ns READ : Bank = 2 Row =    0, Col = 169, Dqm = 00, Data = 00a9
+sdram_control_tb.sdram_model : at time  815543.0 ns READ : Bank = 2 Row =    0, Col = 170, Dqm = 00, Data = 00aa
+sdram_control_tb.sdram_model : at time  815553.0 ns READ : Bank = 2 Row =    0, Col = 171, Dqm = 00, Data = 00ab
+sdram_control_tb.sdram_model : at time  815563.0 ns READ : Bank = 2 Row =    0, Col = 172, Dqm = 00, Data = 00ac
+sdram_control_tb.sdram_model : at time  815573.0 ns READ : Bank = 2 Row =    0, Col = 173, Dqm = 00, Data = 00ad
+sdram_control_tb.sdram_model : at time  815583.0 ns READ : Bank = 2 Row =    0, Col = 174, Dqm = 00, Data = 00ae
+sdram_control_tb.sdram_model : at time  815593.0 ns READ : Bank = 2 Row =    0, Col = 175, Dqm = 00, Data = 00af
+sdram_control_tb.sdram_model : at time  820485.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  820533.0 ns READ : Bank = 2 Row =    0, Col = 176, Dqm = 00, Data = 00b0
+sdram_control_tb.sdram_model : at time  820543.0 ns READ : Bank = 2 Row =    0, Col = 177, Dqm = 00, Data = 00b1
+sdram_control_tb.sdram_model : at time  820553.0 ns READ : Bank = 2 Row =    0, Col = 178, Dqm = 00, Data = 00b2
+sdram_control_tb.sdram_model : at time  820563.0 ns READ : Bank = 2 Row =    0, Col = 179, Dqm = 00, Data = 00b3
+sdram_control_tb.sdram_model : at time  820573.0 ns READ : Bank = 2 Row =    0, Col = 180, Dqm = 00, Data = 00b4
+sdram_control_tb.sdram_model : at time  820583.0 ns READ : Bank = 2 Row =    0, Col = 181, Dqm = 00, Data = 00b5
+sdram_control_tb.sdram_model : at time  820593.0 ns READ : Bank = 2 Row =    0, Col = 182, Dqm = 00, Data = 00b6
+sdram_control_tb.sdram_model : at time  820603.0 ns READ : Bank = 2 Row =    0, Col = 183, Dqm = 00, Data = 00b7
+sdram_control_tb.sdram_model : at time  825495.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  825543.0 ns READ : Bank = 2 Row =    0, Col = 184, Dqm = 00, Data = 00b8
+sdram_control_tb.sdram_model : at time  825553.0 ns READ : Bank = 2 Row =    0, Col = 185, Dqm = 00, Data = 00b9
+sdram_control_tb.sdram_model : at time  825563.0 ns READ : Bank = 2 Row =    0, Col = 186, Dqm = 00, Data = 00ba
+sdram_control_tb.sdram_model : at time  825573.0 ns READ : Bank = 2 Row =    0, Col = 187, Dqm = 00, Data = 00bb
+sdram_control_tb.sdram_model : at time  825583.0 ns READ : Bank = 2 Row =    0, Col = 188, Dqm = 00, Data = 00bc
+sdram_control_tb.sdram_model : at time  825593.0 ns READ : Bank = 2 Row =    0, Col = 189, Dqm = 00, Data = 00bd
+sdram_control_tb.sdram_model : at time  825603.0 ns READ : Bank = 2 Row =    0, Col = 190, Dqm = 00, Data = 00be
+sdram_control_tb.sdram_model : at time  825613.0 ns READ : Bank = 2 Row =    0, Col = 191, Dqm = 00, Data = 00bf
+sdram_control_tb.sdram_model : at time  826305.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  826405.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  830505.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  830553.0 ns READ : Bank = 2 Row =    0, Col = 192, Dqm = 00, Data = 00c0
+sdram_control_tb.sdram_model : at time  830563.0 ns READ : Bank = 2 Row =    0, Col = 193, Dqm = 00, Data = 00c1
+sdram_control_tb.sdram_model : at time  830573.0 ns READ : Bank = 2 Row =    0, Col = 194, Dqm = 00, Data = 00c2
+sdram_control_tb.sdram_model : at time  830583.0 ns READ : Bank = 2 Row =    0, Col = 195, Dqm = 00, Data = 00c3
+sdram_control_tb.sdram_model : at time  830593.0 ns READ : Bank = 2 Row =    0, Col = 196, Dqm = 00, Data = 00c4
+sdram_control_tb.sdram_model : at time  830603.0 ns READ : Bank = 2 Row =    0, Col = 197, Dqm = 00, Data = 00c5
+sdram_control_tb.sdram_model : at time  830613.0 ns READ : Bank = 2 Row =    0, Col = 198, Dqm = 00, Data = 00c6
+sdram_control_tb.sdram_model : at time  830623.0 ns READ : Bank = 2 Row =    0, Col = 199, Dqm = 00, Data = 00c7
+sdram_control_tb.sdram_model : at time  835515.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  835563.0 ns READ : Bank = 2 Row =    0, Col = 200, Dqm = 00, Data = 00c8
+sdram_control_tb.sdram_model : at time  835573.0 ns READ : Bank = 2 Row =    0, Col = 201, Dqm = 00, Data = 00c9
+sdram_control_tb.sdram_model : at time  835583.0 ns READ : Bank = 2 Row =    0, Col = 202, Dqm = 00, Data = 00ca
+sdram_control_tb.sdram_model : at time  835593.0 ns READ : Bank = 2 Row =    0, Col = 203, Dqm = 00, Data = 00cb
+sdram_control_tb.sdram_model : at time  835603.0 ns READ : Bank = 2 Row =    0, Col = 204, Dqm = 00, Data = 00cc
+sdram_control_tb.sdram_model : at time  835613.0 ns READ : Bank = 2 Row =    0, Col = 205, Dqm = 00, Data = 00cd
+sdram_control_tb.sdram_model : at time  835623.0 ns READ : Bank = 2 Row =    0, Col = 206, Dqm = 00, Data = 00ce
+sdram_control_tb.sdram_model : at time  835633.0 ns READ : Bank = 2 Row =    0, Col = 207, Dqm = 00, Data = 00cf
+sdram_control_tb.sdram_model : at time  840525.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  840573.0 ns READ : Bank = 2 Row =    0, Col = 208, Dqm = 00, Data = 00d0
+sdram_control_tb.sdram_model : at time  840583.0 ns READ : Bank = 2 Row =    0, Col = 209, Dqm = 00, Data = 00d1
+sdram_control_tb.sdram_model : at time  840593.0 ns READ : Bank = 2 Row =    0, Col = 210, Dqm = 00, Data = 00d2
+sdram_control_tb.sdram_model : at time  840603.0 ns READ : Bank = 2 Row =    0, Col = 211, Dqm = 00, Data = 00d3
+sdram_control_tb.sdram_model : at time  840613.0 ns READ : Bank = 2 Row =    0, Col = 212, Dqm = 00, Data = 00d4
+sdram_control_tb.sdram_model : at time  840623.0 ns READ : Bank = 2 Row =    0, Col = 213, Dqm = 00, Data = 00d5
+sdram_control_tb.sdram_model : at time  840633.0 ns READ : Bank = 2 Row =    0, Col = 214, Dqm = 00, Data = 00d6
+sdram_control_tb.sdram_model : at time  840643.0 ns READ : Bank = 2 Row =    0, Col = 215, Dqm = 00, Data = 00d7
+sdram_control_tb.sdram_model : at time  841905.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  842005.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  845535.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  845583.0 ns READ : Bank = 2 Row =    0, Col = 216, Dqm = 00, Data = 00d8
+sdram_control_tb.sdram_model : at time  845593.0 ns READ : Bank = 2 Row =    0, Col = 217, Dqm = 00, Data = 00d9
+sdram_control_tb.sdram_model : at time  845603.0 ns READ : Bank = 2 Row =    0, Col = 218, Dqm = 00, Data = 00da
+sdram_control_tb.sdram_model : at time  845613.0 ns READ : Bank = 2 Row =    0, Col = 219, Dqm = 00, Data = 00db
+sdram_control_tb.sdram_model : at time  845623.0 ns READ : Bank = 2 Row =    0, Col = 220, Dqm = 00, Data = 00dc
+sdram_control_tb.sdram_model : at time  845633.0 ns READ : Bank = 2 Row =    0, Col = 221, Dqm = 00, Data = 00dd
+sdram_control_tb.sdram_model : at time  845643.0 ns READ : Bank = 2 Row =    0, Col = 222, Dqm = 00, Data = 00de
+sdram_control_tb.sdram_model : at time  845653.0 ns READ : Bank = 2 Row =    0, Col = 223, Dqm = 00, Data = 00df
+sdram_control_tb.sdram_model : at time  850545.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  850593.0 ns READ : Bank = 2 Row =    0, Col = 224, Dqm = 00, Data = 00e0
+sdram_control_tb.sdram_model : at time  850603.0 ns READ : Bank = 2 Row =    0, Col = 225, Dqm = 00, Data = 00e1
+sdram_control_tb.sdram_model : at time  850613.0 ns READ : Bank = 2 Row =    0, Col = 226, Dqm = 00, Data = 00e2
+sdram_control_tb.sdram_model : at time  850623.0 ns READ : Bank = 2 Row =    0, Col = 227, Dqm = 00, Data = 00e3
+sdram_control_tb.sdram_model : at time  850633.0 ns READ : Bank = 2 Row =    0, Col = 228, Dqm = 00, Data = 00e4
+sdram_control_tb.sdram_model : at time  850643.0 ns READ : Bank = 2 Row =    0, Col = 229, Dqm = 00, Data = 00e5
+sdram_control_tb.sdram_model : at time  850653.0 ns READ : Bank = 2 Row =    0, Col = 230, Dqm = 00, Data = 00e6
+sdram_control_tb.sdram_model : at time  850663.0 ns READ : Bank = 2 Row =    0, Col = 231, Dqm = 00, Data = 00e7
+sdram_control_tb.sdram_model : at time  855555.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  855603.0 ns READ : Bank = 2 Row =    0, Col = 232, Dqm = 00, Data = 00e8
+sdram_control_tb.sdram_model : at time  855613.0 ns READ : Bank = 2 Row =    0, Col = 233, Dqm = 00, Data = 00e9
+sdram_control_tb.sdram_model : at time  855623.0 ns READ : Bank = 2 Row =    0, Col = 234, Dqm = 00, Data = 00ea
+sdram_control_tb.sdram_model : at time  855633.0 ns READ : Bank = 2 Row =    0, Col = 235, Dqm = 00, Data = 00eb
+sdram_control_tb.sdram_model : at time  855643.0 ns READ : Bank = 2 Row =    0, Col = 236, Dqm = 00, Data = 00ec
+sdram_control_tb.sdram_model : at time  855653.0 ns READ : Bank = 2 Row =    0, Col = 237, Dqm = 00, Data = 00ed
+sdram_control_tb.sdram_model : at time  855663.0 ns READ : Bank = 2 Row =    0, Col = 238, Dqm = 00, Data = 00ee
+sdram_control_tb.sdram_model : at time  855673.0 ns READ : Bank = 2 Row =    0, Col = 239, Dqm = 00, Data = 00ef
+sdram_control_tb.sdram_model : at time  857505.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  857605.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  860565.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  860613.0 ns READ : Bank = 2 Row =    0, Col = 240, Dqm = 00, Data = 00f0
+sdram_control_tb.sdram_model : at time  860623.0 ns READ : Bank = 2 Row =    0, Col = 241, Dqm = 00, Data = 00f1
+sdram_control_tb.sdram_model : at time  860633.0 ns READ : Bank = 2 Row =    0, Col = 242, Dqm = 00, Data = 00f2
+sdram_control_tb.sdram_model : at time  860643.0 ns READ : Bank = 2 Row =    0, Col = 243, Dqm = 00, Data = 00f3
+sdram_control_tb.sdram_model : at time  860653.0 ns READ : Bank = 2 Row =    0, Col = 244, Dqm = 00, Data = 00f4
+sdram_control_tb.sdram_model : at time  860663.0 ns READ : Bank = 2 Row =    0, Col = 245, Dqm = 00, Data = 00f5
+sdram_control_tb.sdram_model : at time  860673.0 ns READ : Bank = 2 Row =    0, Col = 246, Dqm = 00, Data = 00f6
+sdram_control_tb.sdram_model : at time  860683.0 ns READ : Bank = 2 Row =    0, Col = 247, Dqm = 00, Data = 00f7
+sdram_control_tb.sdram_model : at time  865575.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  865623.0 ns READ : Bank = 2 Row =    0, Col = 248, Dqm = 00, Data = 00f8
+sdram_control_tb.sdram_model : at time  865633.0 ns READ : Bank = 2 Row =    0, Col = 249, Dqm = 00, Data = 00f9
+sdram_control_tb.sdram_model : at time  865643.0 ns READ : Bank = 2 Row =    0, Col = 250, Dqm = 00, Data = 00fa
+sdram_control_tb.sdram_model : at time  865653.0 ns READ : Bank = 2 Row =    0, Col = 251, Dqm = 00, Data = 00fb
+sdram_control_tb.sdram_model : at time  865663.0 ns READ : Bank = 2 Row =    0, Col = 252, Dqm = 00, Data = 00fc
+sdram_control_tb.sdram_model : at time  865673.0 ns READ : Bank = 2 Row =    0, Col = 253, Dqm = 00, Data = 00fd
+sdram_control_tb.sdram_model : at time  865683.0 ns READ : Bank = 2 Row =    0, Col = 254, Dqm = 00, Data = 00fe
+sdram_control_tb.sdram_model : at time  865693.0 ns READ : Bank = 2 Row =    0, Col = 255, Dqm = 00, Data = 00ff
+sdram_control_tb.sdram_model : at time  870585.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  870633.0 ns READ : Bank = 2 Row =    0, Col = 256, Dqm = 00, Data = 0100
+sdram_control_tb.sdram_model : at time  870643.0 ns READ : Bank = 2 Row =    0, Col = 257, Dqm = 00, Data = 0101
+sdram_control_tb.sdram_model : at time  870653.0 ns READ : Bank = 2 Row =    0, Col = 258, Dqm = 00, Data = 0102
+sdram_control_tb.sdram_model : at time  870663.0 ns READ : Bank = 2 Row =    0, Col = 259, Dqm = 00, Data = 0103
+sdram_control_tb.sdram_model : at time  870673.0 ns READ : Bank = 2 Row =    0, Col = 260, Dqm = 00, Data = 0104
+sdram_control_tb.sdram_model : at time  870683.0 ns READ : Bank = 2 Row =    0, Col = 261, Dqm = 00, Data = 0105
+sdram_control_tb.sdram_model : at time  870693.0 ns READ : Bank = 2 Row =    0, Col = 262, Dqm = 00, Data = 0106
+sdram_control_tb.sdram_model : at time  870703.0 ns READ : Bank = 2 Row =    0, Col = 263, Dqm = 00, Data = 0107
+sdram_control_tb.sdram_model : at time  873105.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  873205.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  875595.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  875643.0 ns READ : Bank = 2 Row =    0, Col = 264, Dqm = 00, Data = 0108
+sdram_control_tb.sdram_model : at time  875653.0 ns READ : Bank = 2 Row =    0, Col = 265, Dqm = 00, Data = 0109
+sdram_control_tb.sdram_model : at time  875663.0 ns READ : Bank = 2 Row =    0, Col = 266, Dqm = 00, Data = 010a
+sdram_control_tb.sdram_model : at time  875673.0 ns READ : Bank = 2 Row =    0, Col = 267, Dqm = 00, Data = 010b
+sdram_control_tb.sdram_model : at time  875683.0 ns READ : Bank = 2 Row =    0, Col = 268, Dqm = 00, Data = 010c
+sdram_control_tb.sdram_model : at time  875693.0 ns READ : Bank = 2 Row =    0, Col = 269, Dqm = 00, Data = 010d
+sdram_control_tb.sdram_model : at time  875703.0 ns READ : Bank = 2 Row =    0, Col = 270, Dqm = 00, Data = 010e
+sdram_control_tb.sdram_model : at time  875713.0 ns READ : Bank = 2 Row =    0, Col = 271, Dqm = 00, Data = 010f
+sdram_control_tb.sdram_model : at time  880605.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  880653.0 ns READ : Bank = 2 Row =    0, Col = 272, Dqm = 00, Data = 0110
+sdram_control_tb.sdram_model : at time  880663.0 ns READ : Bank = 2 Row =    0, Col = 273, Dqm = 00, Data = 0111
+sdram_control_tb.sdram_model : at time  880673.0 ns READ : Bank = 2 Row =    0, Col = 274, Dqm = 00, Data = 0112
+sdram_control_tb.sdram_model : at time  880683.0 ns READ : Bank = 2 Row =    0, Col = 275, Dqm = 00, Data = 0113
+sdram_control_tb.sdram_model : at time  880693.0 ns READ : Bank = 2 Row =    0, Col = 276, Dqm = 00, Data = 0114
+sdram_control_tb.sdram_model : at time  880703.0 ns READ : Bank = 2 Row =    0, Col = 277, Dqm = 00, Data = 0115
+sdram_control_tb.sdram_model : at time  880713.0 ns READ : Bank = 2 Row =    0, Col = 278, Dqm = 00, Data = 0116
+sdram_control_tb.sdram_model : at time  880723.0 ns READ : Bank = 2 Row =    0, Col = 279, Dqm = 00, Data = 0117
+sdram_control_tb.sdram_model : at time  885615.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  885663.0 ns READ : Bank = 2 Row =    0, Col = 280, Dqm = 00, Data = 0118
+sdram_control_tb.sdram_model : at time  885673.0 ns READ : Bank = 2 Row =    0, Col = 281, Dqm = 00, Data = 0119
+sdram_control_tb.sdram_model : at time  885683.0 ns READ : Bank = 2 Row =    0, Col = 282, Dqm = 00, Data = 011a
+sdram_control_tb.sdram_model : at time  885693.0 ns READ : Bank = 2 Row =    0, Col = 283, Dqm = 00, Data = 011b
+sdram_control_tb.sdram_model : at time  885703.0 ns READ : Bank = 2 Row =    0, Col = 284, Dqm = 00, Data = 011c
+sdram_control_tb.sdram_model : at time  885713.0 ns READ : Bank = 2 Row =    0, Col = 285, Dqm = 00, Data = 011d
+sdram_control_tb.sdram_model : at time  885723.0 ns READ : Bank = 2 Row =    0, Col = 286, Dqm = 00, Data = 011e
+sdram_control_tb.sdram_model : at time  885733.0 ns READ : Bank = 2 Row =    0, Col = 287, Dqm = 00, Data = 011f
+sdram_control_tb.sdram_model : at time  888705.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  888805.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  890625.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  890673.0 ns READ : Bank = 2 Row =    0, Col = 288, Dqm = 00, Data = 0120
+sdram_control_tb.sdram_model : at time  890683.0 ns READ : Bank = 2 Row =    0, Col = 289, Dqm = 00, Data = 0121
+sdram_control_tb.sdram_model : at time  890693.0 ns READ : Bank = 2 Row =    0, Col = 290, Dqm = 00, Data = 0122
+sdram_control_tb.sdram_model : at time  890703.0 ns READ : Bank = 2 Row =    0, Col = 291, Dqm = 00, Data = 0123
+sdram_control_tb.sdram_model : at time  890713.0 ns READ : Bank = 2 Row =    0, Col = 292, Dqm = 00, Data = 0124
+sdram_control_tb.sdram_model : at time  890723.0 ns READ : Bank = 2 Row =    0, Col = 293, Dqm = 00, Data = 0125
+sdram_control_tb.sdram_model : at time  890733.0 ns READ : Bank = 2 Row =    0, Col = 294, Dqm = 00, Data = 0126
+sdram_control_tb.sdram_model : at time  890743.0 ns READ : Bank = 2 Row =    0, Col = 295, Dqm = 00, Data = 0127
+sdram_control_tb.sdram_model : at time  895635.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  895683.0 ns READ : Bank = 2 Row =    0, Col = 296, Dqm = 00, Data = xxxx
+sdram_control_tb.sdram_model : at time  895693.0 ns READ : Bank = 2 Row =    0, Col = 297, Dqm = 00, Data = xxxx
+sdram_control_tb.sdram_model : at time  895703.0 ns READ : Bank = 2 Row =    0, Col = 298, Dqm = 00, Data = xxxx
+sdram_control_tb.sdram_model : at time  895713.0 ns READ : Bank = 2 Row =    0, Col = 299, Dqm = 00, Data = xxxx
+sdram_control_tb.sdram_model : at time  895723.0 ns READ : Bank = 2 Row =    0, Col = 300, Dqm = 00, Data = xxxx
+sdram_control_tb.sdram_model : at time  895733.0 ns READ : Bank = 2 Row =    0, Col = 301, Dqm = 00, Data = xxxx
+sdram_control_tb.sdram_model : at time  895743.0 ns READ : Bank = 2 Row =    0, Col = 302, Dqm = 00, Data = xxxx
+sdram_control_tb.sdram_model : at time  895753.0 ns READ : Bank = 2 Row =    0, Col = 303, Dqm = 00, Data = xxxx
+sdram_control_tb.sdram_model : at time  900645.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  900693.0 ns READ : Bank = 2 Row =    0, Col = 304, Dqm = 00, Data = 0130
+sdram_control_tb.sdram_model : at time  900703.0 ns READ : Bank = 2 Row =    0, Col = 305, Dqm = 00, Data = 0131
+sdram_control_tb.sdram_model : at time  900713.0 ns READ : Bank = 2 Row =    0, Col = 306, Dqm = 00, Data = 0132
+sdram_control_tb.sdram_model : at time  900723.0 ns READ : Bank = 2 Row =    0, Col = 307, Dqm = 00, Data = 0133
+sdram_control_tb.sdram_model : at time  900733.0 ns READ : Bank = 2 Row =    0, Col = 308, Dqm = 00, Data = 0134
+sdram_control_tb.sdram_model : at time  900743.0 ns READ : Bank = 2 Row =    0, Col = 309, Dqm = 00, Data = 0135
+sdram_control_tb.sdram_model : at time  900753.0 ns READ : Bank = 2 Row =    0, Col = 310, Dqm = 00, Data = 0136
+sdram_control_tb.sdram_model : at time  900763.0 ns READ : Bank = 2 Row =    0, Col = 311, Dqm = 00, Data = 0137
+sdram_control_tb.sdram_model : at time  904305.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  904405.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  905655.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  905703.0 ns READ : Bank = 2 Row =    0, Col = 312, Dqm = 00, Data = 0138
+sdram_control_tb.sdram_model : at time  905713.0 ns READ : Bank = 2 Row =    0, Col = 313, Dqm = 00, Data = 0139
+sdram_control_tb.sdram_model : at time  905723.0 ns READ : Bank = 2 Row =    0, Col = 314, Dqm = 00, Data = 013a
+sdram_control_tb.sdram_model : at time  905733.0 ns READ : Bank = 2 Row =    0, Col = 315, Dqm = 00, Data = 013b
+sdram_control_tb.sdram_model : at time  905743.0 ns READ : Bank = 2 Row =    0, Col = 316, Dqm = 00, Data = 013c
+sdram_control_tb.sdram_model : at time  905753.0 ns READ : Bank = 2 Row =    0, Col = 317, Dqm = 00, Data = 013d
+sdram_control_tb.sdram_model : at time  905763.0 ns READ : Bank = 2 Row =    0, Col = 318, Dqm = 00, Data = 013e
+sdram_control_tb.sdram_model : at time  905773.0 ns READ : Bank = 2 Row =    0, Col = 319, Dqm = 00, Data = 013f
+sdram_control_tb.sdram_model : at time  910665.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  910713.0 ns READ : Bank = 2 Row =    0, Col = 320, Dqm = 00, Data = 0140
+sdram_control_tb.sdram_model : at time  910723.0 ns READ : Bank = 2 Row =    0, Col = 321, Dqm = 00, Data = 0141
+sdram_control_tb.sdram_model : at time  910733.0 ns READ : Bank = 2 Row =    0, Col = 322, Dqm = 00, Data = 0142
+sdram_control_tb.sdram_model : at time  910743.0 ns READ : Bank = 2 Row =    0, Col = 323, Dqm = 00, Data = 0143
+sdram_control_tb.sdram_model : at time  910753.0 ns READ : Bank = 2 Row =    0, Col = 324, Dqm = 00, Data = 0144
+sdram_control_tb.sdram_model : at time  910763.0 ns READ : Bank = 2 Row =    0, Col = 325, Dqm = 00, Data = 0145
+sdram_control_tb.sdram_model : at time  910773.0 ns READ : Bank = 2 Row =    0, Col = 326, Dqm = 00, Data = 0146
+sdram_control_tb.sdram_model : at time  910783.0 ns READ : Bank = 2 Row =    0, Col = 327, Dqm = 00, Data = 0147
+sdram_control_tb.sdram_model : at time  915675.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  915723.0 ns READ : Bank = 2 Row =    0, Col = 328, Dqm = 00, Data = 0148
+sdram_control_tb.sdram_model : at time  915733.0 ns READ : Bank = 2 Row =    0, Col = 329, Dqm = 00, Data = 0149
+sdram_control_tb.sdram_model : at time  915743.0 ns READ : Bank = 2 Row =    0, Col = 330, Dqm = 00, Data = 014a
+sdram_control_tb.sdram_model : at time  915753.0 ns READ : Bank = 2 Row =    0, Col = 331, Dqm = 00, Data = 014b
+sdram_control_tb.sdram_model : at time  915763.0 ns READ : Bank = 2 Row =    0, Col = 332, Dqm = 00, Data = 014c
+sdram_control_tb.sdram_model : at time  915773.0 ns READ : Bank = 2 Row =    0, Col = 333, Dqm = 00, Data = 014d
+sdram_control_tb.sdram_model : at time  915783.0 ns READ : Bank = 2 Row =    0, Col = 334, Dqm = 00, Data = 014e
+sdram_control_tb.sdram_model : at time  915793.0 ns READ : Bank = 2 Row =    0, Col = 335, Dqm = 00, Data = 014f
+sdram_control_tb.sdram_model : at time  919905.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  920005.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  920685.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  920733.0 ns READ : Bank = 2 Row =    0, Col = 336, Dqm = 00, Data = 0150
+sdram_control_tb.sdram_model : at time  920743.0 ns READ : Bank = 2 Row =    0, Col = 337, Dqm = 00, Data = 0151
+sdram_control_tb.sdram_model : at time  920753.0 ns READ : Bank = 2 Row =    0, Col = 338, Dqm = 00, Data = 0152
+sdram_control_tb.sdram_model : at time  920763.0 ns READ : Bank = 2 Row =    0, Col = 339, Dqm = 00, Data = 0153
+sdram_control_tb.sdram_model : at time  920773.0 ns READ : Bank = 2 Row =    0, Col = 340, Dqm = 00, Data = 0154
+sdram_control_tb.sdram_model : at time  920783.0 ns READ : Bank = 2 Row =    0, Col = 341, Dqm = 00, Data = 0155
+sdram_control_tb.sdram_model : at time  920793.0 ns READ : Bank = 2 Row =    0, Col = 342, Dqm = 00, Data = 0156
+sdram_control_tb.sdram_model : at time  920803.0 ns READ : Bank = 2 Row =    0, Col = 343, Dqm = 00, Data = 0157
+sdram_control_tb.sdram_model : at time  925695.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  925743.0 ns READ : Bank = 2 Row =    0, Col = 344, Dqm = 00, Data = 0158
+sdram_control_tb.sdram_model : at time  925753.0 ns READ : Bank = 2 Row =    0, Col = 345, Dqm = 00, Data = 0159
+sdram_control_tb.sdram_model : at time  925763.0 ns READ : Bank = 2 Row =    0, Col = 346, Dqm = 00, Data = 015a
+sdram_control_tb.sdram_model : at time  925773.0 ns READ : Bank = 2 Row =    0, Col = 347, Dqm = 00, Data = 015b
+sdram_control_tb.sdram_model : at time  925783.0 ns READ : Bank = 2 Row =    0, Col = 348, Dqm = 00, Data = 015c
+sdram_control_tb.sdram_model : at time  925793.0 ns READ : Bank = 2 Row =    0, Col = 349, Dqm = 00, Data = 015d
+sdram_control_tb.sdram_model : at time  925803.0 ns READ : Bank = 2 Row =    0, Col = 350, Dqm = 00, Data = 015e
+sdram_control_tb.sdram_model : at time  925813.0 ns READ : Bank = 2 Row =    0, Col = 351, Dqm = 00, Data = 015f
+sdram_control_tb.sdram_model : at time  930705.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  930753.0 ns READ : Bank = 2 Row =    0, Col = 352, Dqm = 00, Data = 0160
+sdram_control_tb.sdram_model : at time  930763.0 ns READ : Bank = 2 Row =    0, Col = 353, Dqm = 00, Data = 0161
+sdram_control_tb.sdram_model : at time  930773.0 ns READ : Bank = 2 Row =    0, Col = 354, Dqm = 00, Data = 0162
+sdram_control_tb.sdram_model : at time  930783.0 ns READ : Bank = 2 Row =    0, Col = 355, Dqm = 00, Data = 0163
+sdram_control_tb.sdram_model : at time  930793.0 ns READ : Bank = 2 Row =    0, Col = 356, Dqm = 00, Data = 0164
+sdram_control_tb.sdram_model : at time  930803.0 ns READ : Bank = 2 Row =    0, Col = 357, Dqm = 00, Data = 0165
+sdram_control_tb.sdram_model : at time  930813.0 ns READ : Bank = 2 Row =    0, Col = 358, Dqm = 00, Data = 0166
+sdram_control_tb.sdram_model : at time  930823.0 ns READ : Bank = 2 Row =    0, Col = 359, Dqm = 00, Data = 0167
+sdram_control_tb.sdram_model : at time  935505.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  935605.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  935715.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  935763.0 ns READ : Bank = 2 Row =    0, Col = 360, Dqm = 00, Data = 0168
+sdram_control_tb.sdram_model : at time  935773.0 ns READ : Bank = 2 Row =    0, Col = 361, Dqm = 00, Data = 0169
+sdram_control_tb.sdram_model : at time  935783.0 ns READ : Bank = 2 Row =    0, Col = 362, Dqm = 00, Data = 016a
+sdram_control_tb.sdram_model : at time  935793.0 ns READ : Bank = 2 Row =    0, Col = 363, Dqm = 00, Data = 016b
+sdram_control_tb.sdram_model : at time  935803.0 ns READ : Bank = 2 Row =    0, Col = 364, Dqm = 00, Data = 016c
+sdram_control_tb.sdram_model : at time  935813.0 ns READ : Bank = 2 Row =    0, Col = 365, Dqm = 00, Data = 016d
+sdram_control_tb.sdram_model : at time  935823.0 ns READ : Bank = 2 Row =    0, Col = 366, Dqm = 00, Data = 016e
+sdram_control_tb.sdram_model : at time  935833.0 ns READ : Bank = 2 Row =    0, Col = 367, Dqm = 00, Data = 016f
+sdram_control_tb.sdram_model : at time  940725.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  940773.0 ns READ : Bank = 2 Row =    0, Col = 368, Dqm = 00, Data = 0170
+sdram_control_tb.sdram_model : at time  940783.0 ns READ : Bank = 2 Row =    0, Col = 369, Dqm = 00, Data = 0171
+sdram_control_tb.sdram_model : at time  940793.0 ns READ : Bank = 2 Row =    0, Col = 370, Dqm = 00, Data = 0172
+sdram_control_tb.sdram_model : at time  940803.0 ns READ : Bank = 2 Row =    0, Col = 371, Dqm = 00, Data = 0173
+sdram_control_tb.sdram_model : at time  940813.0 ns READ : Bank = 2 Row =    0, Col = 372, Dqm = 00, Data = 0174
+sdram_control_tb.sdram_model : at time  940823.0 ns READ : Bank = 2 Row =    0, Col = 373, Dqm = 00, Data = 0175
+sdram_control_tb.sdram_model : at time  940833.0 ns READ : Bank = 2 Row =    0, Col = 374, Dqm = 00, Data = 0176
+sdram_control_tb.sdram_model : at time  940843.0 ns READ : Bank = 2 Row =    0, Col = 375, Dqm = 00, Data = 0177
+sdram_control_tb.sdram_model : at time  945735.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  945783.0 ns READ : Bank = 2 Row =    0, Col = 376, Dqm = 00, Data = 0178
+sdram_control_tb.sdram_model : at time  945793.0 ns READ : Bank = 2 Row =    0, Col = 377, Dqm = 00, Data = 0179
+sdram_control_tb.sdram_model : at time  945803.0 ns READ : Bank = 2 Row =    0, Col = 378, Dqm = 00, Data = 017a
+sdram_control_tb.sdram_model : at time  945813.0 ns READ : Bank = 2 Row =    0, Col = 379, Dqm = 00, Data = 017b
+sdram_control_tb.sdram_model : at time  945823.0 ns READ : Bank = 2 Row =    0, Col = 380, Dqm = 00, Data = 017c
+sdram_control_tb.sdram_model : at time  945833.0 ns READ : Bank = 2 Row =    0, Col = 381, Dqm = 00, Data = 017d
+sdram_control_tb.sdram_model : at time  945843.0 ns READ : Bank = 2 Row =    0, Col = 382, Dqm = 00, Data = 017e
+sdram_control_tb.sdram_model : at time  945853.0 ns READ : Bank = 2 Row =    0, Col = 383, Dqm = 00, Data = 017f
+sdram_control_tb.sdram_model : at time  950745.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  950793.0 ns READ : Bank = 2 Row =    0, Col = 384, Dqm = 00, Data = 0180
+sdram_control_tb.sdram_model : at time  950803.0 ns READ : Bank = 2 Row =    0, Col = 385, Dqm = 00, Data = 0181
+sdram_control_tb.sdram_model : at time  950813.0 ns READ : Bank = 2 Row =    0, Col = 386, Dqm = 00, Data = 0182
+sdram_control_tb.sdram_model : at time  950823.0 ns READ : Bank = 2 Row =    0, Col = 387, Dqm = 00, Data = 0183
+sdram_control_tb.sdram_model : at time  950833.0 ns READ : Bank = 2 Row =    0, Col = 388, Dqm = 00, Data = 0184
+sdram_control_tb.sdram_model : at time  950843.0 ns READ : Bank = 2 Row =    0, Col = 389, Dqm = 00, Data = 0185
+sdram_control_tb.sdram_model : at time  950853.0 ns READ : Bank = 2 Row =    0, Col = 390, Dqm = 00, Data = 0186
+sdram_control_tb.sdram_model : at time  950863.0 ns READ : Bank = 2 Row =    0, Col = 391, Dqm = 00, Data = 0187
+sdram_control_tb.sdram_model : at time  951105.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  951205.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  955755.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  955803.0 ns READ : Bank = 2 Row =    0, Col = 392, Dqm = 00, Data = 0188
+sdram_control_tb.sdram_model : at time  955813.0 ns READ : Bank = 2 Row =    0, Col = 393, Dqm = 00, Data = 0189
+sdram_control_tb.sdram_model : at time  955823.0 ns READ : Bank = 2 Row =    0, Col = 394, Dqm = 00, Data = 018a
+sdram_control_tb.sdram_model : at time  955833.0 ns READ : Bank = 2 Row =    0, Col = 395, Dqm = 00, Data = 018b
+sdram_control_tb.sdram_model : at time  955843.0 ns READ : Bank = 2 Row =    0, Col = 396, Dqm = 00, Data = 018c
+sdram_control_tb.sdram_model : at time  955853.0 ns READ : Bank = 2 Row =    0, Col = 397, Dqm = 00, Data = 018d
+sdram_control_tb.sdram_model : at time  955863.0 ns READ : Bank = 2 Row =    0, Col = 398, Dqm = 00, Data = 018e
+sdram_control_tb.sdram_model : at time  955873.0 ns READ : Bank = 2 Row =    0, Col = 399, Dqm = 00, Data = 018f
+sdram_control_tb.sdram_model : at time  960765.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  960813.0 ns READ : Bank = 2 Row =    0, Col = 400, Dqm = 00, Data = 0190
+sdram_control_tb.sdram_model : at time  960823.0 ns READ : Bank = 2 Row =    0, Col = 401, Dqm = 00, Data = 0191
+sdram_control_tb.sdram_model : at time  960833.0 ns READ : Bank = 2 Row =    0, Col = 402, Dqm = 00, Data = 0192
+sdram_control_tb.sdram_model : at time  960843.0 ns READ : Bank = 2 Row =    0, Col = 403, Dqm = 00, Data = 0193
+sdram_control_tb.sdram_model : at time  960853.0 ns READ : Bank = 2 Row =    0, Col = 404, Dqm = 00, Data = 0194
+sdram_control_tb.sdram_model : at time  960863.0 ns READ : Bank = 2 Row =    0, Col = 405, Dqm = 00, Data = 0195
+sdram_control_tb.sdram_model : at time  960873.0 ns READ : Bank = 2 Row =    0, Col = 406, Dqm = 00, Data = 0196
+sdram_control_tb.sdram_model : at time  960883.0 ns READ : Bank = 2 Row =    0, Col = 407, Dqm = 00, Data = 0197
+sdram_control_tb.sdram_model : at time  965775.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  965823.0 ns READ : Bank = 2 Row =    0, Col = 408, Dqm = 00, Data = 0198
+sdram_control_tb.sdram_model : at time  965833.0 ns READ : Bank = 2 Row =    0, Col = 409, Dqm = 00, Data = 0199
+sdram_control_tb.sdram_model : at time  965843.0 ns READ : Bank = 2 Row =    0, Col = 410, Dqm = 00, Data = 019a
+sdram_control_tb.sdram_model : at time  965853.0 ns READ : Bank = 2 Row =    0, Col = 411, Dqm = 00, Data = 019b
+sdram_control_tb.sdram_model : at time  965863.0 ns READ : Bank = 2 Row =    0, Col = 412, Dqm = 00, Data = 019c
+sdram_control_tb.sdram_model : at time  965873.0 ns READ : Bank = 2 Row =    0, Col = 413, Dqm = 00, Data = 019d
+sdram_control_tb.sdram_model : at time  965883.0 ns READ : Bank = 2 Row =    0, Col = 414, Dqm = 00, Data = 019e
+sdram_control_tb.sdram_model : at time  965893.0 ns READ : Bank = 2 Row =    0, Col = 415, Dqm = 00, Data = 019f
+sdram_control_tb.sdram_model : at time  966705.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  966805.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  970785.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  970833.0 ns READ : Bank = 2 Row =    0, Col = 416, Dqm = 00, Data = 01a0
+sdram_control_tb.sdram_model : at time  970843.0 ns READ : Bank = 2 Row =    0, Col = 417, Dqm = 00, Data = 01a1
+sdram_control_tb.sdram_model : at time  970853.0 ns READ : Bank = 2 Row =    0, Col = 418, Dqm = 00, Data = 01a2
+sdram_control_tb.sdram_model : at time  970863.0 ns READ : Bank = 2 Row =    0, Col = 419, Dqm = 00, Data = 01a3
+sdram_control_tb.sdram_model : at time  970873.0 ns READ : Bank = 2 Row =    0, Col = 420, Dqm = 00, Data = 01a4
+sdram_control_tb.sdram_model : at time  970883.0 ns READ : Bank = 2 Row =    0, Col = 421, Dqm = 00, Data = 01a5
+sdram_control_tb.sdram_model : at time  970893.0 ns READ : Bank = 2 Row =    0, Col = 422, Dqm = 00, Data = 01a6
+sdram_control_tb.sdram_model : at time  970903.0 ns READ : Bank = 2 Row =    0, Col = 423, Dqm = 00, Data = 01a7
+sdram_control_tb.sdram_model : at time  975795.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  975843.0 ns READ : Bank = 2 Row =    0, Col = 424, Dqm = 00, Data = 01a8
+sdram_control_tb.sdram_model : at time  975853.0 ns READ : Bank = 2 Row =    0, Col = 425, Dqm = 00, Data = 01a9
+sdram_control_tb.sdram_model : at time  975863.0 ns READ : Bank = 2 Row =    0, Col = 426, Dqm = 00, Data = 01aa
+sdram_control_tb.sdram_model : at time  975873.0 ns READ : Bank = 2 Row =    0, Col = 427, Dqm = 00, Data = 01ab
+sdram_control_tb.sdram_model : at time  975883.0 ns READ : Bank = 2 Row =    0, Col = 428, Dqm = 00, Data = 01ac
+sdram_control_tb.sdram_model : at time  975893.0 ns READ : Bank = 2 Row =    0, Col = 429, Dqm = 00, Data = 01ad
+sdram_control_tb.sdram_model : at time  975903.0 ns READ : Bank = 2 Row =    0, Col = 430, Dqm = 00, Data = 01ae
+sdram_control_tb.sdram_model : at time  975913.0 ns READ : Bank = 2 Row =    0, Col = 431, Dqm = 00, Data = 01af
+sdram_control_tb.sdram_model : at time  980805.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  980853.0 ns READ : Bank = 2 Row =    0, Col = 432, Dqm = 00, Data = 01b0
+sdram_control_tb.sdram_model : at time  980863.0 ns READ : Bank = 2 Row =    0, Col = 433, Dqm = 00, Data = 01b1
+sdram_control_tb.sdram_model : at time  980873.0 ns READ : Bank = 2 Row =    0, Col = 434, Dqm = 00, Data = 01b2
+sdram_control_tb.sdram_model : at time  980883.0 ns READ : Bank = 2 Row =    0, Col = 435, Dqm = 00, Data = 01b3
+sdram_control_tb.sdram_model : at time  980893.0 ns READ : Bank = 2 Row =    0, Col = 436, Dqm = 00, Data = 01b4
+sdram_control_tb.sdram_model : at time  980903.0 ns READ : Bank = 2 Row =    0, Col = 437, Dqm = 00, Data = 01b5
+sdram_control_tb.sdram_model : at time  980913.0 ns READ : Bank = 2 Row =    0, Col = 438, Dqm = 00, Data = 01b6
+sdram_control_tb.sdram_model : at time  980923.0 ns READ : Bank = 2 Row =    0, Col = 439, Dqm = 00, Data = 01b7
+sdram_control_tb.sdram_model : at time  982305.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  982405.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  985815.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  985863.0 ns READ : Bank = 2 Row =    0, Col = 440, Dqm = 00, Data = 01b8
+sdram_control_tb.sdram_model : at time  985873.0 ns READ : Bank = 2 Row =    0, Col = 441, Dqm = 00, Data = 01b9
+sdram_control_tb.sdram_model : at time  985883.0 ns READ : Bank = 2 Row =    0, Col = 442, Dqm = 00, Data = 01ba
+sdram_control_tb.sdram_model : at time  985893.0 ns READ : Bank = 2 Row =    0, Col = 443, Dqm = 00, Data = 01bb
+sdram_control_tb.sdram_model : at time  985903.0 ns READ : Bank = 2 Row =    0, Col = 444, Dqm = 00, Data = 01bc
+sdram_control_tb.sdram_model : at time  985913.0 ns READ : Bank = 2 Row =    0, Col = 445, Dqm = 00, Data = 01bd
+sdram_control_tb.sdram_model : at time  985923.0 ns READ : Bank = 2 Row =    0, Col = 446, Dqm = 00, Data = 01be
+sdram_control_tb.sdram_model : at time  985933.0 ns READ : Bank = 2 Row =    0, Col = 447, Dqm = 00, Data = 01bf
+sdram_control_tb.sdram_model : at time  990825.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  990873.0 ns READ : Bank = 2 Row =    0, Col = 448, Dqm = 00, Data = 01c0
+sdram_control_tb.sdram_model : at time  990883.0 ns READ : Bank = 2 Row =    0, Col = 449, Dqm = 00, Data = 01c1
+sdram_control_tb.sdram_model : at time  990893.0 ns READ : Bank = 2 Row =    0, Col = 450, Dqm = 00, Data = 01c2
+sdram_control_tb.sdram_model : at time  990903.0 ns READ : Bank = 2 Row =    0, Col = 451, Dqm = 00, Data = 01c3
+sdram_control_tb.sdram_model : at time  990913.0 ns READ : Bank = 2 Row =    0, Col = 452, Dqm = 00, Data = 01c4
+sdram_control_tb.sdram_model : at time  990923.0 ns READ : Bank = 2 Row =    0, Col = 453, Dqm = 00, Data = 01c5
+sdram_control_tb.sdram_model : at time  990933.0 ns READ : Bank = 2 Row =    0, Col = 454, Dqm = 00, Data = 01c6
+sdram_control_tb.sdram_model : at time  990943.0 ns READ : Bank = 2 Row =    0, Col = 455, Dqm = 00, Data = 01c7
+sdram_control_tb.sdram_model : at time  995835.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time  995883.0 ns READ : Bank = 2 Row =    0, Col = 456, Dqm = 00, Data = 01c8
+sdram_control_tb.sdram_model : at time  995893.0 ns READ : Bank = 2 Row =    0, Col = 457, Dqm = 00, Data = 01c9
+sdram_control_tb.sdram_model : at time  995903.0 ns READ : Bank = 2 Row =    0, Col = 458, Dqm = 00, Data = 01ca
+sdram_control_tb.sdram_model : at time  995913.0 ns READ : Bank = 2 Row =    0, Col = 459, Dqm = 00, Data = 01cb
+sdram_control_tb.sdram_model : at time  995923.0 ns READ : Bank = 2 Row =    0, Col = 460, Dqm = 00, Data = 01cc
+sdram_control_tb.sdram_model : at time  995933.0 ns READ : Bank = 2 Row =    0, Col = 461, Dqm = 00, Data = 01cd
+sdram_control_tb.sdram_model : at time  995943.0 ns READ : Bank = 2 Row =    0, Col = 462, Dqm = 00, Data = 01ce
+sdram_control_tb.sdram_model : at time  995953.0 ns READ : Bank = 2 Row =    0, Col = 463, Dqm = 00, Data = 01cf
+sdram_control_tb.sdram_model : at time  997905.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time  998005.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time 1000845.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time 1000893.0 ns READ : Bank = 2 Row =    0, Col = 464, Dqm = 00, Data = 01d0
+sdram_control_tb.sdram_model : at time 1000903.0 ns READ : Bank = 2 Row =    0, Col = 465, Dqm = 00, Data = 01d1
+sdram_control_tb.sdram_model : at time 1000913.0 ns READ : Bank = 2 Row =    0, Col = 466, Dqm = 00, Data = 01d2
+sdram_control_tb.sdram_model : at time 1000923.0 ns READ : Bank = 2 Row =    0, Col = 467, Dqm = 00, Data = 01d3
+sdram_control_tb.sdram_model : at time 1000933.0 ns READ : Bank = 2 Row =    0, Col = 468, Dqm = 00, Data = 01d4
+sdram_control_tb.sdram_model : at time 1000943.0 ns READ : Bank = 2 Row =    0, Col = 469, Dqm = 00, Data = 01d5
+sdram_control_tb.sdram_model : at time 1000953.0 ns READ : Bank = 2 Row =    0, Col = 470, Dqm = 00, Data = 01d6
+sdram_control_tb.sdram_model : at time 1000963.0 ns READ : Bank = 2 Row =    0, Col = 471, Dqm = 00, Data = 01d7
+sdram_control_tb.sdram_model : at time 1005855.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time 1005903.0 ns READ : Bank = 2 Row =    0, Col = 472, Dqm = 00, Data = 01d8
+sdram_control_tb.sdram_model : at time 1005913.0 ns READ : Bank = 2 Row =    0, Col = 473, Dqm = 00, Data = 01d9
+sdram_control_tb.sdram_model : at time 1005923.0 ns READ : Bank = 2 Row =    0, Col = 474, Dqm = 00, Data = 01da
+sdram_control_tb.sdram_model : at time 1005933.0 ns READ : Bank = 2 Row =    0, Col = 475, Dqm = 00, Data = 01db
+sdram_control_tb.sdram_model : at time 1005943.0 ns READ : Bank = 2 Row =    0, Col = 476, Dqm = 00, Data = 01dc
+sdram_control_tb.sdram_model : at time 1005953.0 ns READ : Bank = 2 Row =    0, Col = 477, Dqm = 00, Data = 01dd
+sdram_control_tb.sdram_model : at time 1005963.0 ns READ : Bank = 2 Row =    0, Col = 478, Dqm = 00, Data = 01de
+sdram_control_tb.sdram_model : at time 1005973.0 ns READ : Bank = 2 Row =    0, Col = 479, Dqm = 00, Data = 01df
+sdram_control_tb.sdram_model : at time 1010865.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time 1010913.0 ns READ : Bank = 2 Row =    0, Col = 480, Dqm = 00, Data = 01e0
+sdram_control_tb.sdram_model : at time 1010923.0 ns READ : Bank = 2 Row =    0, Col = 481, Dqm = 00, Data = 01e1
+sdram_control_tb.sdram_model : at time 1010933.0 ns READ : Bank = 2 Row =    0, Col = 482, Dqm = 00, Data = 01e2
+sdram_control_tb.sdram_model : at time 1010943.0 ns READ : Bank = 2 Row =    0, Col = 483, Dqm = 00, Data = 01e3
+sdram_control_tb.sdram_model : at time 1010953.0 ns READ : Bank = 2 Row =    0, Col = 484, Dqm = 00, Data = 01e4
+sdram_control_tb.sdram_model : at time 1010963.0 ns READ : Bank = 2 Row =    0, Col = 485, Dqm = 00, Data = 01e5
+sdram_control_tb.sdram_model : at time 1010973.0 ns READ : Bank = 2 Row =    0, Col = 486, Dqm = 00, Data = 01e6
+sdram_control_tb.sdram_model : at time 1010983.0 ns READ : Bank = 2 Row =    0, Col = 487, Dqm = 00, Data = 01e7
+sdram_control_tb.sdram_model : at time 1013505.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time 1013605.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time 1015875.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time 1015923.0 ns READ : Bank = 2 Row =    0, Col = 488, Dqm = 00, Data = 01e8
+sdram_control_tb.sdram_model : at time 1015933.0 ns READ : Bank = 2 Row =    0, Col = 489, Dqm = 00, Data = 01e9
+sdram_control_tb.sdram_model : at time 1015943.0 ns READ : Bank = 2 Row =    0, Col = 490, Dqm = 00, Data = 01ea
+sdram_control_tb.sdram_model : at time 1015953.0 ns READ : Bank = 2 Row =    0, Col = 491, Dqm = 00, Data = 01eb
+sdram_control_tb.sdram_model : at time 1015963.0 ns READ : Bank = 2 Row =    0, Col = 492, Dqm = 00, Data = 01ec
+sdram_control_tb.sdram_model : at time 1015973.0 ns READ : Bank = 2 Row =    0, Col = 493, Dqm = 00, Data = 01ed
+sdram_control_tb.sdram_model : at time 1015983.0 ns READ : Bank = 2 Row =    0, Col = 494, Dqm = 00, Data = 01ee
+sdram_control_tb.sdram_model : at time 1015993.0 ns READ : Bank = 2 Row =    0, Col = 495, Dqm = 00, Data = 01ef
+sdram_control_tb.sdram_model : at time 1020885.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time 1020933.0 ns READ : Bank = 2 Row =    0, Col = 496, Dqm = 00, Data = 01f0
+sdram_control_tb.sdram_model : at time 1020943.0 ns READ : Bank = 2 Row =    0, Col = 497, Dqm = 00, Data = 01f1
+sdram_control_tb.sdram_model : at time 1020953.0 ns READ : Bank = 2 Row =    0, Col = 498, Dqm = 00, Data = 01f2
+sdram_control_tb.sdram_model : at time 1020963.0 ns READ : Bank = 2 Row =    0, Col = 499, Dqm = 00, Data = 01f3
+sdram_control_tb.sdram_model : at time 1020973.0 ns READ : Bank = 2 Row =    0, Col = 500, Dqm = 00, Data = 01f4
+sdram_control_tb.sdram_model : at time 1020983.0 ns READ : Bank = 2 Row =    0, Col = 501, Dqm = 00, Data = 01f5
+sdram_control_tb.sdram_model : at time 1020993.0 ns READ : Bank = 2 Row =    0, Col = 502, Dqm = 00, Data = 01f6
+sdram_control_tb.sdram_model : at time 1021003.0 ns READ : Bank = 2 Row =    0, Col = 503, Dqm = 00, Data = 01f7
+sdram_control_tb.sdram_model : at time 1025895.0 ns ACT  : Bank = 2 Row =    0
+sdram_control_tb.sdram_model : at time 1025943.0 ns READ : Bank = 2 Row =    0, Col = 504, Dqm = 00, Data = 01f8
+sdram_control_tb.sdram_model : at time 1025953.0 ns READ : Bank = 2 Row =    0, Col = 505, Dqm = 00, Data = 01f9
+sdram_control_tb.sdram_model : at time 1025963.0 ns READ : Bank = 2 Row =    0, Col = 506, Dqm = 00, Data = 01fa
+sdram_control_tb.sdram_model : at time 1025973.0 ns READ : Bank = 2 Row =    0, Col = 507, Dqm = 00, Data = 01fb
+sdram_control_tb.sdram_model : at time 1025983.0 ns READ : Bank = 2 Row =    0, Col = 508, Dqm = 00, Data = 01fc
+sdram_control_tb.sdram_model : at time 1025993.0 ns READ : Bank = 2 Row =    0, Col = 509, Dqm = 00, Data = 01fd
+sdram_control_tb.sdram_model : at time 1026003.0 ns READ : Bank = 2 Row =    0, Col = 510, Dqm = 00, Data = 01fe
+sdram_control_tb.sdram_model : at time 1026013.0 ns READ : Bank = 2 Row =    0, Col = 511, Dqm = 00, Data = 01ff
+sdram_control_tb.sdram_model : at time 1029105.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time 1029205.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time 1030905.0 ns ACT  : Bank = 2 Row =    1
+sdram_control_tb.sdram_model : at time 1030953.0 ns READ : Bank = 2 Row =    1, Col =   0, Dqm = 00, Data = 0200
+sdram_control_tb.sdram_model : at time 1030963.0 ns READ : Bank = 2 Row =    1, Col =   1, Dqm = 00, Data = 0201
+sdram_control_tb.sdram_model : at time 1030973.0 ns READ : Bank = 2 Row =    1, Col =   2, Dqm = 00, Data = 0202
+sdram_control_tb.sdram_model : at time 1030983.0 ns READ : Bank = 2 Row =    1, Col =   3, Dqm = 00, Data = 0203
+sdram_control_tb.sdram_model : at time 1030993.0 ns READ : Bank = 2 Row =    1, Col =   4, Dqm = 00, Data = 0204
+sdram_control_tb.sdram_model : at time 1031003.0 ns READ : Bank = 2 Row =    1, Col =   5, Dqm = 00, Data = 0205
+sdram_control_tb.sdram_model : at time 1031013.0 ns READ : Bank = 2 Row =    1, Col =   6, Dqm = 00, Data = 0206
+sdram_control_tb.sdram_model : at time 1031023.0 ns READ : Bank = 2 Row =    1, Col =   7, Dqm = 00, Data = 0207
+sdram_control_tb.sdram_model : at time 1035915.0 ns ACT  : Bank = 2 Row =    1
+sdram_control_tb.sdram_model : at time 1035963.0 ns READ : Bank = 2 Row =    1, Col =   8, Dqm = 00, Data = xxxx
+sdram_control_tb.sdram_model : at time 1035973.0 ns READ : Bank = 2 Row =    1, Col =   9, Dqm = 00, Data = xxxx
+sdram_control_tb.sdram_model : at time 1035983.0 ns READ : Bank = 2 Row =    1, Col =  10, Dqm = 00, Data = xxxx
+sdram_control_tb.sdram_model : at time 1035993.0 ns READ : Bank = 2 Row =    1, Col =  11, Dqm = 00, Data = xxxx
+sdram_control_tb.sdram_model : at time 1036003.0 ns READ : Bank = 2 Row =    1, Col =  12, Dqm = 00, Data = xxxx
+sdram_control_tb.sdram_model : at time 1036013.0 ns READ : Bank = 2 Row =    1, Col =  13, Dqm = 00, Data = xxxx
+sdram_control_tb.sdram_model : at time 1036023.0 ns READ : Bank = 2 Row =    1, Col =  14, Dqm = 00, Data = xxxx
+sdram_control_tb.sdram_model : at time 1036033.0 ns READ : Bank = 2 Row =    1, Col =  15, Dqm = 00, Data = xxxx
+sdram_control_tb.sdram_model : at time 1040925.0 ns ACT  : Bank = 2 Row =    1
+sdram_control_tb.sdram_model : at time 1040973.0 ns READ : Bank = 2 Row =    1, Col =  16, Dqm = 00, Data = 0218
+sdram_control_tb.sdram_model : at time 1040983.0 ns READ : Bank = 2 Row =    1, Col =  17, Dqm = 00, Data = 0219
+sdram_control_tb.sdram_model : at time 1040993.0 ns READ : Bank = 2 Row =    1, Col =  18, Dqm = 00, Data = 021a
+sdram_control_tb.sdram_model : at time 1041003.0 ns READ : Bank = 2 Row =    1, Col =  19, Dqm = 00, Data = 021b
+sdram_control_tb.sdram_model : at time 1041013.0 ns READ : Bank = 2 Row =    1, Col =  20, Dqm = 00, Data = 021c
+sdram_control_tb.sdram_model : at time 1041023.0 ns READ : Bank = 2 Row =    1, Col =  21, Dqm = 00, Data = 021d
+sdram_control_tb.sdram_model : at time 1041033.0 ns READ : Bank = 2 Row =    1, Col =  22, Dqm = 00, Data = 021e
+sdram_control_tb.sdram_model : at time 1041043.0 ns READ : Bank = 2 Row =    1, Col =  23, Dqm = 00, Data = 021f
+sdram_control_tb.sdram_model : at time 1044705.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time 1044805.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time 1045935.0 ns ACT  : Bank = 2 Row =    1
+sdram_control_tb.sdram_model : at time 1045983.0 ns READ : Bank = 2 Row =    1, Col =  24, Dqm = 00, Data = 0220
+sdram_control_tb.sdram_model : at time 1045993.0 ns READ : Bank = 2 Row =    1, Col =  25, Dqm = 00, Data = 0221
+sdram_control_tb.sdram_model : at time 1046003.0 ns READ : Bank = 2 Row =    1, Col =  26, Dqm = 00, Data = 0222
+sdram_control_tb.sdram_model : at time 1046013.0 ns READ : Bank = 2 Row =    1, Col =  27, Dqm = 00, Data = 0223
+sdram_control_tb.sdram_model : at time 1046023.0 ns READ : Bank = 2 Row =    1, Col =  28, Dqm = 00, Data = 0224
+sdram_control_tb.sdram_model : at time 1046033.0 ns READ : Bank = 2 Row =    1, Col =  29, Dqm = 00, Data = 0225
+sdram_control_tb.sdram_model : at time 1046043.0 ns READ : Bank = 2 Row =    1, Col =  30, Dqm = 00, Data = 0226
+sdram_control_tb.sdram_model : at time 1046053.0 ns READ : Bank = 2 Row =    1, Col =  31, Dqm = 00, Data = 0227
+sdram_control_tb.sdram_model : at time 1050945.0 ns ACT  : Bank = 2 Row =    1
+sdram_control_tb.sdram_model : at time 1050993.0 ns READ : Bank = 2 Row =    1, Col =  32, Dqm = 00, Data = 0228
+sdram_control_tb.sdram_model : at time 1051003.0 ns READ : Bank = 2 Row =    1, Col =  33, Dqm = 00, Data = 0229
+sdram_control_tb.sdram_model : at time 1051013.0 ns READ : Bank = 2 Row =    1, Col =  34, Dqm = 00, Data = 022a
+sdram_control_tb.sdram_model : at time 1051023.0 ns READ : Bank = 2 Row =    1, Col =  35, Dqm = 00, Data = 022b
+sdram_control_tb.sdram_model : at time 1051033.0 ns READ : Bank = 2 Row =    1, Col =  36, Dqm = 00, Data = 022c
+sdram_control_tb.sdram_model : at time 1051043.0 ns READ : Bank = 2 Row =    1, Col =  37, Dqm = 00, Data = 022d
+sdram_control_tb.sdram_model : at time 1051053.0 ns READ : Bank = 2 Row =    1, Col =  38, Dqm = 00, Data = 022e
+sdram_control_tb.sdram_model : at time 1051063.0 ns READ : Bank = 2 Row =    1, Col =  39, Dqm = 00, Data = 022f
+sdram_control_tb.sdram_model : at time 1055955.0 ns ACT  : Bank = 2 Row =    1
+sdram_control_tb.sdram_model : at time 1056003.0 ns READ : Bank = 2 Row =    1, Col =  40, Dqm = 00, Data = 0230
+sdram_control_tb.sdram_model : at time 1056013.0 ns READ : Bank = 2 Row =    1, Col =  41, Dqm = 00, Data = 0231
+sdram_control_tb.sdram_model : at time 1056023.0 ns READ : Bank = 2 Row =    1, Col =  42, Dqm = 00, Data = 0232
+sdram_control_tb.sdram_model : at time 1056033.0 ns READ : Bank = 2 Row =    1, Col =  43, Dqm = 00, Data = 0233
+sdram_control_tb.sdram_model : at time 1056043.0 ns READ : Bank = 2 Row =    1, Col =  44, Dqm = 00, Data = 0234
+sdram_control_tb.sdram_model : at time 1056053.0 ns READ : Bank = 2 Row =    1, Col =  45, Dqm = 00, Data = 0235
+sdram_control_tb.sdram_model : at time 1056063.0 ns READ : Bank = 2 Row =    1, Col =  46, Dqm = 00, Data = 0236
+sdram_control_tb.sdram_model : at time 1056073.0 ns READ : Bank = 2 Row =    1, Col =  47, Dqm = 00, Data = 0237
+sdram_control_tb.sdram_model : at time 1060305.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time 1060405.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time 1060965.0 ns ACT  : Bank = 2 Row =    1
+sdram_control_tb.sdram_model : at time 1061013.0 ns READ : Bank = 2 Row =    1, Col =  48, Dqm = 00, Data = 0238
+sdram_control_tb.sdram_model : at time 1061023.0 ns READ : Bank = 2 Row =    1, Col =  49, Dqm = 00, Data = 0239
+sdram_control_tb.sdram_model : at time 1061033.0 ns READ : Bank = 2 Row =    1, Col =  50, Dqm = 00, Data = 023a
+sdram_control_tb.sdram_model : at time 1061043.0 ns READ : Bank = 2 Row =    1, Col =  51, Dqm = 00, Data = 023b
+sdram_control_tb.sdram_model : at time 1061053.0 ns READ : Bank = 2 Row =    1, Col =  52, Dqm = 00, Data = 023c
+sdram_control_tb.sdram_model : at time 1061063.0 ns READ : Bank = 2 Row =    1, Col =  53, Dqm = 00, Data = 023d
+sdram_control_tb.sdram_model : at time 1061073.0 ns READ : Bank = 2 Row =    1, Col =  54, Dqm = 00, Data = 023e
+sdram_control_tb.sdram_model : at time 1061083.0 ns READ : Bank = 2 Row =    1, Col =  55, Dqm = 00, Data = 023f
+sdram_control_tb.sdram_model : at time 1065975.0 ns ACT  : Bank = 2 Row =    1
+sdram_control_tb.sdram_model : at time 1066023.0 ns READ : Bank = 2 Row =    1, Col =  56, Dqm = 00, Data = 0240
+sdram_control_tb.sdram_model : at time 1066033.0 ns READ : Bank = 2 Row =    1, Col =  57, Dqm = 00, Data = 0241
+sdram_control_tb.sdram_model : at time 1066043.0 ns READ : Bank = 2 Row =    1, Col =  58, Dqm = 00, Data = 0242
+sdram_control_tb.sdram_model : at time 1066053.0 ns READ : Bank = 2 Row =    1, Col =  59, Dqm = 00, Data = 0243
+sdram_control_tb.sdram_model : at time 1066063.0 ns READ : Bank = 2 Row =    1, Col =  60, Dqm = 00, Data = 0244
+sdram_control_tb.sdram_model : at time 1066073.0 ns READ : Bank = 2 Row =    1, Col =  61, Dqm = 00, Data = 0245
+sdram_control_tb.sdram_model : at time 1066083.0 ns READ : Bank = 2 Row =    1, Col =  62, Dqm = 00, Data = 0246
+sdram_control_tb.sdram_model : at time 1066093.0 ns READ : Bank = 2 Row =    1, Col =  63, Dqm = 00, Data = 0247
+sdram_control_tb.sdram_model : at time 1070985.0 ns ACT  : Bank = 2 Row =    1
+sdram_control_tb.sdram_model : at time 1071033.0 ns READ : Bank = 2 Row =    1, Col =  64, Dqm = 00, Data = 0248
+sdram_control_tb.sdram_model : at time 1071043.0 ns READ : Bank = 2 Row =    1, Col =  65, Dqm = 00, Data = 0249
+sdram_control_tb.sdram_model : at time 1071053.0 ns READ : Bank = 2 Row =    1, Col =  66, Dqm = 00, Data = 024a
+sdram_control_tb.sdram_model : at time 1071063.0 ns READ : Bank = 2 Row =    1, Col =  67, Dqm = 00, Data = 024b
+sdram_control_tb.sdram_model : at time 1071073.0 ns READ : Bank = 2 Row =    1, Col =  68, Dqm = 00, Data = 024c
+sdram_control_tb.sdram_model : at time 1071083.0 ns READ : Bank = 2 Row =    1, Col =  69, Dqm = 00, Data = 024d
+sdram_control_tb.sdram_model : at time 1071093.0 ns READ : Bank = 2 Row =    1, Col =  70, Dqm = 00, Data = 024e
+sdram_control_tb.sdram_model : at time 1071103.0 ns READ : Bank = 2 Row =    1, Col =  71, Dqm = 00, Data = 024f
+sdram_control_tb.sdram_model : at time 1075905.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time 1076005.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time 1081005.0 ns ACT  : Bank = 2 Row =    1
+sdram_control_tb.sdram_model : at time 1081053.0 ns READ : Bank = 2 Row =    1, Col =  80, Dqm = 00, Data = 0258
+sdram_control_tb.sdram_model : at time 1081063.0 ns READ : Bank = 2 Row =    1, Col =  81, Dqm = 00, Data = 0259
+sdram_control_tb.sdram_model : at time 1081073.0 ns READ : Bank = 2 Row =    1, Col =  82, Dqm = 00, Data = 025a
+sdram_control_tb.sdram_model : at time 1081083.0 ns READ : Bank = 2 Row =    1, Col =  83, Dqm = 00, Data = 025b
+sdram_control_tb.sdram_model : at time 1081093.0 ns READ : Bank = 2 Row =    1, Col =  84, Dqm = 00, Data = 025c
+sdram_control_tb.sdram_model : at time 1081103.0 ns READ : Bank = 2 Row =    1, Col =  85, Dqm = 00, Data = 025d
+sdram_control_tb.sdram_model : at time 1081113.0 ns READ : Bank = 2 Row =    1, Col =  86, Dqm = 00, Data = 025e
+sdram_control_tb.sdram_model : at time 1081123.0 ns READ : Bank = 2 Row =    1, Col =  87, Dqm = 00, Data = 025f
+sdram_control_tb.sdram_model : at time 1086015.0 ns ACT  : Bank = 2 Row =    1
+sdram_control_tb.sdram_model : at time 1086063.0 ns READ : Bank = 2 Row =    1, Col =  88, Dqm = 00, Data = 0260
+sdram_control_tb.sdram_model : at time 1086073.0 ns READ : Bank = 2 Row =    1, Col =  89, Dqm = 00, Data = 0261
+sdram_control_tb.sdram_model : at time 1086083.0 ns READ : Bank = 2 Row =    1, Col =  90, Dqm = 00, Data = 0262
+sdram_control_tb.sdram_model : at time 1086093.0 ns READ : Bank = 2 Row =    1, Col =  91, Dqm = 00, Data = 0263
+sdram_control_tb.sdram_model : at time 1086103.0 ns READ : Bank = 2 Row =    1, Col =  92, Dqm = 00, Data = 0264
+sdram_control_tb.sdram_model : at time 1086113.0 ns READ : Bank = 2 Row =    1, Col =  93, Dqm = 00, Data = 0265
+sdram_control_tb.sdram_model : at time 1086123.0 ns READ : Bank = 2 Row =    1, Col =  94, Dqm = 00, Data = 0266
+sdram_control_tb.sdram_model : at time 1086133.0 ns READ : Bank = 2 Row =    1, Col =  95, Dqm = 00, Data = 0267
+sdram_control_tb.sdram_model : at time 1091025.0 ns ACT  : Bank = 2 Row =    1
+sdram_control_tb.sdram_model : at time 1091073.0 ns READ : Bank = 2 Row =    1, Col =  96, Dqm = 00, Data = 0268
+sdram_control_tb.sdram_model : at time 1091083.0 ns READ : Bank = 2 Row =    1, Col =  97, Dqm = 00, Data = 0269
+sdram_control_tb.sdram_model : at time 1091093.0 ns READ : Bank = 2 Row =    1, Col =  98, Dqm = 00, Data = 026a
+sdram_control_tb.sdram_model : at time 1091103.0 ns READ : Bank = 2 Row =    1, Col =  99, Dqm = 00, Data = 026b
+sdram_control_tb.sdram_model : at time 1091113.0 ns READ : Bank = 2 Row =    1, Col = 100, Dqm = 00, Data = 026c
+sdram_control_tb.sdram_model : at time 1091123.0 ns READ : Bank = 2 Row =    1, Col = 101, Dqm = 00, Data = 026d
+sdram_control_tb.sdram_model : at time 1091133.0 ns READ : Bank = 2 Row =    1, Col = 102, Dqm = 00, Data = 026e
+sdram_control_tb.sdram_model : at time 1091143.0 ns READ : Bank = 2 Row =    1, Col = 103, Dqm = 00, Data = 026f
+sdram_control_tb.sdram_model : at time 1091505.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time 1091605.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time 1096035.0 ns ACT  : Bank = 2 Row =    1
+sdram_control_tb.sdram_model : at time 1096083.0 ns READ : Bank = 2 Row =    1, Col = 104, Dqm = 00, Data = 0270
+sdram_control_tb.sdram_model : at time 1096093.0 ns READ : Bank = 2 Row =    1, Col = 105, Dqm = 00, Data = 0271
+sdram_control_tb.sdram_model : at time 1096103.0 ns READ : Bank = 2 Row =    1, Col = 106, Dqm = 00, Data = 0272
+sdram_control_tb.sdram_model : at time 1096113.0 ns READ : Bank = 2 Row =    1, Col = 107, Dqm = 00, Data = 0273
+sdram_control_tb.sdram_model : at time 1096123.0 ns READ : Bank = 2 Row =    1, Col = 108, Dqm = 00, Data = 0274
+sdram_control_tb.sdram_model : at time 1096133.0 ns READ : Bank = 2 Row =    1, Col = 109, Dqm = 00, Data = 0275
+sdram_control_tb.sdram_model : at time 1096143.0 ns READ : Bank = 2 Row =    1, Col = 110, Dqm = 00, Data = 0276
+sdram_control_tb.sdram_model : at time 1096153.0 ns READ : Bank = 2 Row =    1, Col = 111, Dqm = 00, Data = 0277
+sdram_control_tb.sdram_model : at time 1101045.0 ns ACT  : Bank = 2 Row =    1
+sdram_control_tb.sdram_model : at time 1101093.0 ns READ : Bank = 2 Row =    1, Col = 112, Dqm = 00, Data = 0278
+sdram_control_tb.sdram_model : at time 1101103.0 ns READ : Bank = 2 Row =    1, Col = 113, Dqm = 00, Data = 0279
+sdram_control_tb.sdram_model : at time 1101113.0 ns READ : Bank = 2 Row =    1, Col = 114, Dqm = 00, Data = 027a
+sdram_control_tb.sdram_model : at time 1101123.0 ns READ : Bank = 2 Row =    1, Col = 115, Dqm = 00, Data = 027b
+sdram_control_tb.sdram_model : at time 1101133.0 ns READ : Bank = 2 Row =    1, Col = 116, Dqm = 00, Data = 027c
+sdram_control_tb.sdram_model : at time 1101143.0 ns READ : Bank = 2 Row =    1, Col = 117, Dqm = 00, Data = 027d
+sdram_control_tb.sdram_model : at time 1101153.0 ns READ : Bank = 2 Row =    1, Col = 118, Dqm = 00, Data = 027e
+sdram_control_tb.sdram_model : at time 1101163.0 ns READ : Bank = 2 Row =    1, Col = 119, Dqm = 00, Data = 027f
+sdram_control_tb.sdram_model : at time 1106055.0 ns ACT  : Bank = 2 Row =    1
+sdram_control_tb.sdram_model : at time 1106103.0 ns READ : Bank = 2 Row =    1, Col = 120, Dqm = 00, Data = 0280
+sdram_control_tb.sdram_model : at time 1106113.0 ns READ : Bank = 2 Row =    1, Col = 121, Dqm = 00, Data = 0281
+sdram_control_tb.sdram_model : at time 1106123.0 ns READ : Bank = 2 Row =    1, Col = 122, Dqm = 00, Data = 0282
+sdram_control_tb.sdram_model : at time 1106133.0 ns READ : Bank = 2 Row =    1, Col = 123, Dqm = 00, Data = 0283
+sdram_control_tb.sdram_model : at time 1106143.0 ns READ : Bank = 2 Row =    1, Col = 124, Dqm = 00, Data = 0284
+sdram_control_tb.sdram_model : at time 1106153.0 ns READ : Bank = 2 Row =    1, Col = 125, Dqm = 00, Data = 0285
+sdram_control_tb.sdram_model : at time 1106163.0 ns READ : Bank = 2 Row =    1, Col = 126, Dqm = 00, Data = 0286
+sdram_control_tb.sdram_model : at time 1106173.0 ns READ : Bank = 2 Row =    1, Col = 127, Dqm = 00, Data = 0287
+sdram_control_tb.sdram_model : at time 1107105.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time 1107205.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time 1111065.0 ns ACT  : Bank = 2 Row =    1
+sdram_control_tb.sdram_model : at time 1111113.0 ns READ : Bank = 2 Row =    1, Col = 128, Dqm = 00, Data = 0288
+sdram_control_tb.sdram_model : at time 1111123.0 ns READ : Bank = 2 Row =    1, Col = 129, Dqm = 00, Data = 0289
+sdram_control_tb.sdram_model : at time 1111133.0 ns READ : Bank = 2 Row =    1, Col = 130, Dqm = 00, Data = 028a
+sdram_control_tb.sdram_model : at time 1111143.0 ns READ : Bank = 2 Row =    1, Col = 131, Dqm = 00, Data = 028b
+sdram_control_tb.sdram_model : at time 1111153.0 ns READ : Bank = 2 Row =    1, Col = 132, Dqm = 00, Data = 028c
+sdram_control_tb.sdram_model : at time 1111163.0 ns READ : Bank = 2 Row =    1, Col = 133, Dqm = 00, Data = 028d
+sdram_control_tb.sdram_model : at time 1111173.0 ns READ : Bank = 2 Row =    1, Col = 134, Dqm = 00, Data = 028e
+sdram_control_tb.sdram_model : at time 1111183.0 ns READ : Bank = 2 Row =    1, Col = 135, Dqm = 00, Data = 028f
+sdram_control_tb.sdram_model : at time 1116075.0 ns ACT  : Bank = 2 Row =    1
+sdram_control_tb.sdram_model : at time 1116123.0 ns READ : Bank = 2 Row =    1, Col = 136, Dqm = 00, Data = 0290
+sdram_control_tb.sdram_model : at time 1116133.0 ns READ : Bank = 2 Row =    1, Col = 137, Dqm = 00, Data = 0291
+sdram_control_tb.sdram_model : at time 1116143.0 ns READ : Bank = 2 Row =    1, Col = 138, Dqm = 00, Data = 0292
+sdram_control_tb.sdram_model : at time 1116153.0 ns READ : Bank = 2 Row =    1, Col = 139, Dqm = 00, Data = 0293
+sdram_control_tb.sdram_model : at time 1116163.0 ns READ : Bank = 2 Row =    1, Col = 140, Dqm = 00, Data = 0294
+sdram_control_tb.sdram_model : at time 1116173.0 ns READ : Bank = 2 Row =    1, Col = 141, Dqm = 00, Data = 0295
+sdram_control_tb.sdram_model : at time 1116183.0 ns READ : Bank = 2 Row =    1, Col = 142, Dqm = 00, Data = 0296
+sdram_control_tb.sdram_model : at time 1116193.0 ns READ : Bank = 2 Row =    1, Col = 143, Dqm = 00, Data = 0297
+sdram_control_tb.sdram_model : at time 1121085.0 ns ACT  : Bank = 2 Row =    1
+sdram_control_tb.sdram_model : at time 1121133.0 ns READ : Bank = 2 Row =    1, Col = 144, Dqm = 00, Data = 0298
+sdram_control_tb.sdram_model : at time 1121143.0 ns READ : Bank = 2 Row =    1, Col = 145, Dqm = 00, Data = 0299
+sdram_control_tb.sdram_model : at time 1121153.0 ns READ : Bank = 2 Row =    1, Col = 146, Dqm = 00, Data = 029a
+sdram_control_tb.sdram_model : at time 1121163.0 ns READ : Bank = 2 Row =    1, Col = 147, Dqm = 00, Data = 029b
+sdram_control_tb.sdram_model : at time 1121173.0 ns READ : Bank = 2 Row =    1, Col = 148, Dqm = 00, Data = 029c
+sdram_control_tb.sdram_model : at time 1121183.0 ns READ : Bank = 2 Row =    1, Col = 149, Dqm = 00, Data = 029d
+sdram_control_tb.sdram_model : at time 1121193.0 ns READ : Bank = 2 Row =    1, Col = 150, Dqm = 00, Data = 029e
+sdram_control_tb.sdram_model : at time 1121203.0 ns READ : Bank = 2 Row =    1, Col = 151, Dqm = 00, Data = 029f
+sdram_control_tb.sdram_model : at time 1122705.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time 1122805.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time 1126095.0 ns ACT  : Bank = 2 Row =    1
+sdram_control_tb.sdram_model : at time 1126143.0 ns READ : Bank = 2 Row =    1, Col = 152, Dqm = 00, Data = 02a0
+sdram_control_tb.sdram_model : at time 1126153.0 ns READ : Bank = 2 Row =    1, Col = 153, Dqm = 00, Data = 02a1
+sdram_control_tb.sdram_model : at time 1126163.0 ns READ : Bank = 2 Row =    1, Col = 154, Dqm = 00, Data = 02a2
+sdram_control_tb.sdram_model : at time 1126173.0 ns READ : Bank = 2 Row =    1, Col = 155, Dqm = 00, Data = 02a3
+sdram_control_tb.sdram_model : at time 1126183.0 ns READ : Bank = 2 Row =    1, Col = 156, Dqm = 00, Data = 02a4
+sdram_control_tb.sdram_model : at time 1126193.0 ns READ : Bank = 2 Row =    1, Col = 157, Dqm = 00, Data = 02a5
+sdram_control_tb.sdram_model : at time 1126203.0 ns READ : Bank = 2 Row =    1, Col = 158, Dqm = 00, Data = 02a6
+sdram_control_tb.sdram_model : at time 1126213.0 ns READ : Bank = 2 Row =    1, Col = 159, Dqm = 00, Data = 02a7
+sdram_control_tb.sdram_model : at time 1131105.0 ns ACT  : Bank = 2 Row =    1
+sdram_control_tb.sdram_model : at time 1131153.0 ns READ : Bank = 2 Row =    1, Col = 160, Dqm = 00, Data = 02a8
+sdram_control_tb.sdram_model : at time 1131163.0 ns READ : Bank = 2 Row =    1, Col = 161, Dqm = 00, Data = 02a9
+sdram_control_tb.sdram_model : at time 1131173.0 ns READ : Bank = 2 Row =    1, Col = 162, Dqm = 00, Data = 02aa
+sdram_control_tb.sdram_model : at time 1131183.0 ns READ : Bank = 2 Row =    1, Col = 163, Dqm = 00, Data = 02ab
+sdram_control_tb.sdram_model : at time 1131193.0 ns READ : Bank = 2 Row =    1, Col = 164, Dqm = 00, Data = 02ac
+sdram_control_tb.sdram_model : at time 1131203.0 ns READ : Bank = 2 Row =    1, Col = 165, Dqm = 00, Data = 02ad
+sdram_control_tb.sdram_model : at time 1131213.0 ns READ : Bank = 2 Row =    1, Col = 166, Dqm = 00, Data = 02ae
+sdram_control_tb.sdram_model : at time 1131223.0 ns READ : Bank = 2 Row =    1, Col = 167, Dqm = 00, Data = 02af
+sdram_control_tb.sdram_model : at time 1136115.0 ns ACT  : Bank = 2 Row =    1
+sdram_control_tb.sdram_model : at time 1136163.0 ns READ : Bank = 2 Row =    1, Col = 168, Dqm = 00, Data = 02b0
+sdram_control_tb.sdram_model : at time 1136173.0 ns READ : Bank = 2 Row =    1, Col = 169, Dqm = 00, Data = 02b1
+sdram_control_tb.sdram_model : at time 1136183.0 ns READ : Bank = 2 Row =    1, Col = 170, Dqm = 00, Data = 02b2
+sdram_control_tb.sdram_model : at time 1136193.0 ns READ : Bank = 2 Row =    1, Col = 171, Dqm = 00, Data = 02b3
+sdram_control_tb.sdram_model : at time 1136203.0 ns READ : Bank = 2 Row =    1, Col = 172, Dqm = 00, Data = 02b4
+sdram_control_tb.sdram_model : at time 1136213.0 ns READ : Bank = 2 Row =    1, Col = 173, Dqm = 00, Data = 02b5
+sdram_control_tb.sdram_model : at time 1136223.0 ns READ : Bank = 2 Row =    1, Col = 174, Dqm = 00, Data = 02b6
+sdram_control_tb.sdram_model : at time 1136233.0 ns READ : Bank = 2 Row =    1, Col = 175, Dqm = 00, Data = 02b7
+sdram_control_tb.sdram_model : at time 1138305.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time 1138405.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time 1141125.0 ns ACT  : Bank = 2 Row =    1
+sdram_control_tb.sdram_model : at time 1141173.0 ns READ : Bank = 2 Row =    1, Col = 176, Dqm = 00, Data = 02b8
+sdram_control_tb.sdram_model : at time 1141183.0 ns READ : Bank = 2 Row =    1, Col = 177, Dqm = 00, Data = 02b9
+sdram_control_tb.sdram_model : at time 1141193.0 ns READ : Bank = 2 Row =    1, Col = 178, Dqm = 00, Data = 02ba
+sdram_control_tb.sdram_model : at time 1141203.0 ns READ : Bank = 2 Row =    1, Col = 179, Dqm = 00, Data = 02bb
+sdram_control_tb.sdram_model : at time 1141213.0 ns READ : Bank = 2 Row =    1, Col = 180, Dqm = 00, Data = 02bc
+sdram_control_tb.sdram_model : at time 1141223.0 ns READ : Bank = 2 Row =    1, Col = 181, Dqm = 00, Data = 02bd
+sdram_control_tb.sdram_model : at time 1141233.0 ns READ : Bank = 2 Row =    1, Col = 182, Dqm = 00, Data = 02be
+sdram_control_tb.sdram_model : at time 1141243.0 ns READ : Bank = 2 Row =    1, Col = 183, Dqm = 00, Data = 02bf
+sdram_control_tb.sdram_model : at time 1146135.0 ns ACT  : Bank = 2 Row =    1
+sdram_control_tb.sdram_model : at time 1146183.0 ns READ : Bank = 2 Row =    1, Col = 184, Dqm = 00, Data = 02c0
+sdram_control_tb.sdram_model : at time 1146193.0 ns READ : Bank = 2 Row =    1, Col = 185, Dqm = 00, Data = 02c1
+sdram_control_tb.sdram_model : at time 1146203.0 ns READ : Bank = 2 Row =    1, Col = 186, Dqm = 00, Data = 02c2
+sdram_control_tb.sdram_model : at time 1146213.0 ns READ : Bank = 2 Row =    1, Col = 187, Dqm = 00, Data = 02c3
+sdram_control_tb.sdram_model : at time 1146223.0 ns READ : Bank = 2 Row =    1, Col = 188, Dqm = 00, Data = 02c4
+sdram_control_tb.sdram_model : at time 1146233.0 ns READ : Bank = 2 Row =    1, Col = 189, Dqm = 00, Data = 02c5
+sdram_control_tb.sdram_model : at time 1146243.0 ns READ : Bank = 2 Row =    1, Col = 190, Dqm = 00, Data = 02c6
+sdram_control_tb.sdram_model : at time 1146253.0 ns READ : Bank = 2 Row =    1, Col = 191, Dqm = 00, Data = 02c7
+sdram_control_tb.sdram_model : at time 1151145.0 ns ACT  : Bank = 2 Row =    1
+sdram_control_tb.sdram_model : at time 1151193.0 ns READ : Bank = 2 Row =    1, Col = 192, Dqm = 00, Data = 02c8
+sdram_control_tb.sdram_model : at time 1151203.0 ns READ : Bank = 2 Row =    1, Col = 193, Dqm = 00, Data = 02c9
+sdram_control_tb.sdram_model : at time 1151213.0 ns READ : Bank = 2 Row =    1, Col = 194, Dqm = 00, Data = 02ca
+sdram_control_tb.sdram_model : at time 1151223.0 ns READ : Bank = 2 Row =    1, Col = 195, Dqm = 00, Data = 02cb
+sdram_control_tb.sdram_model : at time 1151233.0 ns READ : Bank = 2 Row =    1, Col = 196, Dqm = 00, Data = 02cc
+sdram_control_tb.sdram_model : at time 1151243.0 ns READ : Bank = 2 Row =    1, Col = 197, Dqm = 00, Data = 02cd
+sdram_control_tb.sdram_model : at time 1151253.0 ns READ : Bank = 2 Row =    1, Col = 198, Dqm = 00, Data = 02ce
+sdram_control_tb.sdram_model : at time 1151263.0 ns READ : Bank = 2 Row =    1, Col = 199, Dqm = 00, Data = 02cf
+sdram_control_tb.sdram_model : at time 1153905.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time 1154005.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time 1156155.0 ns ACT  : Bank = 2 Row =    1
+sdram_control_tb.sdram_model : at time 1156203.0 ns READ : Bank = 2 Row =    1, Col = 200, Dqm = 00, Data = 02d0
+sdram_control_tb.sdram_model : at time 1156213.0 ns READ : Bank = 2 Row =    1, Col = 201, Dqm = 00, Data = 02d1
+sdram_control_tb.sdram_model : at time 1156223.0 ns READ : Bank = 2 Row =    1, Col = 202, Dqm = 00, Data = 02d2
+sdram_control_tb.sdram_model : at time 1156233.0 ns READ : Bank = 2 Row =    1, Col = 203, Dqm = 00, Data = 02d3
+sdram_control_tb.sdram_model : at time 1156243.0 ns READ : Bank = 2 Row =    1, Col = 204, Dqm = 00, Data = 02d4
+sdram_control_tb.sdram_model : at time 1156253.0 ns READ : Bank = 2 Row =    1, Col = 205, Dqm = 00, Data = 02d5
+sdram_control_tb.sdram_model : at time 1156263.0 ns READ : Bank = 2 Row =    1, Col = 206, Dqm = 00, Data = 02d6
+sdram_control_tb.sdram_model : at time 1156273.0 ns READ : Bank = 2 Row =    1, Col = 207, Dqm = 00, Data = 02d7
+sdram_control_tb.sdram_model : at time 1161165.0 ns ACT  : Bank = 2 Row =    1
+sdram_control_tb.sdram_model : at time 1161213.0 ns READ : Bank = 2 Row =    1, Col = 208, Dqm = 00, Data = 02d8
+sdram_control_tb.sdram_model : at time 1161223.0 ns READ : Bank = 2 Row =    1, Col = 209, Dqm = 00, Data = 02d9
+sdram_control_tb.sdram_model : at time 1161233.0 ns READ : Bank = 2 Row =    1, Col = 210, Dqm = 00, Data = 02da
+sdram_control_tb.sdram_model : at time 1161243.0 ns READ : Bank = 2 Row =    1, Col = 211, Dqm = 00, Data = 02db
+sdram_control_tb.sdram_model : at time 1161253.0 ns READ : Bank = 2 Row =    1, Col = 212, Dqm = 00, Data = 02dc
+sdram_control_tb.sdram_model : at time 1161263.0 ns READ : Bank = 2 Row =    1, Col = 213, Dqm = 00, Data = 02dd
+sdram_control_tb.sdram_model : at time 1161273.0 ns READ : Bank = 2 Row =    1, Col = 214, Dqm = 00, Data = 02de
+sdram_control_tb.sdram_model : at time 1161283.0 ns READ : Bank = 2 Row =    1, Col = 215, Dqm = 00, Data = 02df
+sdram_control_tb.sdram_model : at time 1166175.0 ns ACT  : Bank = 2 Row =    1
+sdram_control_tb.sdram_model : at time 1166223.0 ns READ : Bank = 2 Row =    1, Col = 216, Dqm = 00, Data = 02e0
+sdram_control_tb.sdram_model : at time 1166233.0 ns READ : Bank = 2 Row =    1, Col = 217, Dqm = 00, Data = 02e1
+sdram_control_tb.sdram_model : at time 1166243.0 ns READ : Bank = 2 Row =    1, Col = 218, Dqm = 00, Data = 02e2
+sdram_control_tb.sdram_model : at time 1166253.0 ns READ : Bank = 2 Row =    1, Col = 219, Dqm = 00, Data = 02e3
+sdram_control_tb.sdram_model : at time 1166263.0 ns READ : Bank = 2 Row =    1, Col = 220, Dqm = 00, Data = 02e4
+sdram_control_tb.sdram_model : at time 1166273.0 ns READ : Bank = 2 Row =    1, Col = 221, Dqm = 00, Data = 02e5
+sdram_control_tb.sdram_model : at time 1166283.0 ns READ : Bank = 2 Row =    1, Col = 222, Dqm = 00, Data = 02e6
+sdram_control_tb.sdram_model : at time 1166293.0 ns READ : Bank = 2 Row =    1, Col = 223, Dqm = 00, Data = 02e7
+sdram_control_tb.sdram_model : at time 1169505.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time 1169605.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time 1171185.0 ns ACT  : Bank = 2 Row =    1
+sdram_control_tb.sdram_model : at time 1171233.0 ns READ : Bank = 2 Row =    1, Col = 224, Dqm = 00, Data = 02e8
+sdram_control_tb.sdram_model : at time 1171243.0 ns READ : Bank = 2 Row =    1, Col = 225, Dqm = 00, Data = 02e9
+sdram_control_tb.sdram_model : at time 1171253.0 ns READ : Bank = 2 Row =    1, Col = 226, Dqm = 00, Data = 02ea
+sdram_control_tb.sdram_model : at time 1171263.0 ns READ : Bank = 2 Row =    1, Col = 227, Dqm = 00, Data = 02eb
+sdram_control_tb.sdram_model : at time 1171273.0 ns READ : Bank = 2 Row =    1, Col = 228, Dqm = 00, Data = 02ec
+sdram_control_tb.sdram_model : at time 1171283.0 ns READ : Bank = 2 Row =    1, Col = 229, Dqm = 00, Data = 02ed
+sdram_control_tb.sdram_model : at time 1171293.0 ns READ : Bank = 2 Row =    1, Col = 230, Dqm = 00, Data = 02ee
+sdram_control_tb.sdram_model : at time 1171303.0 ns READ : Bank = 2 Row =    1, Col = 231, Dqm = 00, Data = 02ef
+sdram_control_tb.sdram_model : at time 1176195.0 ns ACT  : Bank = 2 Row =    1
+sdram_control_tb.sdram_model : at time 1176243.0 ns READ : Bank = 2 Row =    1, Col = 232, Dqm = 00, Data = 02f0
+sdram_control_tb.sdram_model : at time 1176253.0 ns READ : Bank = 2 Row =    1, Col = 233, Dqm = 00, Data = 02f1
+sdram_control_tb.sdram_model : at time 1176263.0 ns READ : Bank = 2 Row =    1, Col = 234, Dqm = 00, Data = 02f2
+sdram_control_tb.sdram_model : at time 1176273.0 ns READ : Bank = 2 Row =    1, Col = 235, Dqm = 00, Data = 02f3
+sdram_control_tb.sdram_model : at time 1176283.0 ns READ : Bank = 2 Row =    1, Col = 236, Dqm = 00, Data = 02f4
+sdram_control_tb.sdram_model : at time 1176293.0 ns READ : Bank = 2 Row =    1, Col = 237, Dqm = 00, Data = 02f5
+sdram_control_tb.sdram_model : at time 1176303.0 ns READ : Bank = 2 Row =    1, Col = 238, Dqm = 00, Data = 02f6
+sdram_control_tb.sdram_model : at time 1176313.0 ns READ : Bank = 2 Row =    1, Col = 239, Dqm = 00, Data = 02f7
+sdram_control_tb.sdram_model : at time 1181205.0 ns ACT  : Bank = 2 Row =    1
+sdram_control_tb.sdram_model : at time 1181253.0 ns READ : Bank = 2 Row =    1, Col = 240, Dqm = 00, Data = 02f8
+sdram_control_tb.sdram_model : at time 1181263.0 ns READ : Bank = 2 Row =    1, Col = 241, Dqm = 00, Data = 02f9
+sdram_control_tb.sdram_model : at time 1181273.0 ns READ : Bank = 2 Row =    1, Col = 242, Dqm = 00, Data = 02fa
+sdram_control_tb.sdram_model : at time 1181283.0 ns READ : Bank = 2 Row =    1, Col = 243, Dqm = 00, Data = 02fb
+sdram_control_tb.sdram_model : at time 1181293.0 ns READ : Bank = 2 Row =    1, Col = 244, Dqm = 00, Data = 02fc
+sdram_control_tb.sdram_model : at time 1181303.0 ns READ : Bank = 2 Row =    1, Col = 245, Dqm = 00, Data = 02fd
+sdram_control_tb.sdram_model : at time 1181313.0 ns READ : Bank = 2 Row =    1, Col = 246, Dqm = 00, Data = 02fe
+sdram_control_tb.sdram_model : at time 1181323.0 ns READ : Bank = 2 Row =    1, Col = 247, Dqm = 00, Data = 02ff
+sdram_control_tb.sdram_model : at time 1185105.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time 1185205.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time 1186215.0 ns ACT  : Bank = 2 Row =    1
+sdram_control_tb.sdram_model : at time 1186263.0 ns READ : Bank = 2 Row =    1, Col = 248, Dqm = 00, Data = 0300
+sdram_control_tb.sdram_model : at time 1186273.0 ns READ : Bank = 2 Row =    1, Col = 249, Dqm = 00, Data = 0301
+sdram_control_tb.sdram_model : at time 1186283.0 ns READ : Bank = 2 Row =    1, Col = 250, Dqm = 00, Data = 0302
+sdram_control_tb.sdram_model : at time 1186293.0 ns READ : Bank = 2 Row =    1, Col = 251, Dqm = 00, Data = 0303
+sdram_control_tb.sdram_model : at time 1186303.0 ns READ : Bank = 2 Row =    1, Col = 252, Dqm = 00, Data = 0304
+sdram_control_tb.sdram_model : at time 1186313.0 ns READ : Bank = 2 Row =    1, Col = 253, Dqm = 00, Data = 0305
+sdram_control_tb.sdram_model : at time 1186323.0 ns READ : Bank = 2 Row =    1, Col = 254, Dqm = 00, Data = 0306
+sdram_control_tb.sdram_model : at time 1186333.0 ns READ : Bank = 2 Row =    1, Col = 255, Dqm = 00, Data = 0307
+sdram_control_tb.sdram_model : at time 1191225.0 ns ACT  : Bank = 2 Row =    1
+sdram_control_tb.sdram_model : at time 1191273.0 ns READ : Bank = 2 Row =    1, Col = 256, Dqm = 00, Data = 0308
+sdram_control_tb.sdram_model : at time 1191283.0 ns READ : Bank = 2 Row =    1, Col = 257, Dqm = 00, Data = 0309
+sdram_control_tb.sdram_model : at time 1191293.0 ns READ : Bank = 2 Row =    1, Col = 258, Dqm = 00, Data = 030a
+sdram_control_tb.sdram_model : at time 1191303.0 ns READ : Bank = 2 Row =    1, Col = 259, Dqm = 00, Data = 030b
+sdram_control_tb.sdram_model : at time 1191313.0 ns READ : Bank = 2 Row =    1, Col = 260, Dqm = 00, Data = 030c
+sdram_control_tb.sdram_model : at time 1191323.0 ns READ : Bank = 2 Row =    1, Col = 261, Dqm = 00, Data = 030d
+sdram_control_tb.sdram_model : at time 1191333.0 ns READ : Bank = 2 Row =    1, Col = 262, Dqm = 00, Data = 030e
+sdram_control_tb.sdram_model : at time 1191343.0 ns READ : Bank = 2 Row =    1, Col = 263, Dqm = 00, Data = 030f
+sdram_control_tb.sdram_model : at time 1196235.0 ns ACT  : Bank = 2 Row =    1
+sdram_control_tb.sdram_model : at time 1196283.0 ns READ : Bank = 2 Row =    1, Col = 264, Dqm = 00, Data = 0310
+sdram_control_tb.sdram_model : at time 1196293.0 ns READ : Bank = 2 Row =    1, Col = 265, Dqm = 00, Data = 0311
+sdram_control_tb.sdram_model : at time 1196303.0 ns READ : Bank = 2 Row =    1, Col = 266, Dqm = 00, Data = 0312
+sdram_control_tb.sdram_model : at time 1196313.0 ns READ : Bank = 2 Row =    1, Col = 267, Dqm = 00, Data = 0313
+sdram_control_tb.sdram_model : at time 1196323.0 ns READ : Bank = 2 Row =    1, Col = 268, Dqm = 00, Data = 0314
+sdram_control_tb.sdram_model : at time 1196333.0 ns READ : Bank = 2 Row =    1, Col = 269, Dqm = 00, Data = 0315
+sdram_control_tb.sdram_model : at time 1196343.0 ns READ : Bank = 2 Row =    1, Col = 270, Dqm = 00, Data = 0316
+sdram_control_tb.sdram_model : at time 1196353.0 ns READ : Bank = 2 Row =    1, Col = 271, Dqm = 00, Data = 0317
+sdram_control_tb.sdram_model : at time 1200705.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time 1200805.0 ns AREF : Auto Refresh
+sdram_control_tb.sdram_model : at time 1201245.0 ns ACT  : Bank = 2 Row =    1
+sdram_control_tb.sdram_model : at time 1201293.0 ns READ : Bank = 2 Row =    1, Col = 272, Dqm = 00, Data = 0318
+sdram_control_tb.sdram_model : at time 1201303.0 ns READ : Bank = 2 Row =    1, Col = 273, Dqm = 00, Data = 0319
+sdram_control_tb.sdram_model : at time 1201313.0 ns READ : Bank = 2 Row =    1, Col = 274, Dqm = 00, Data = 031a
+sdram_control_tb.sdram_model : at time 1201323.0 ns READ : Bank = 2 Row =    1, Col = 275, Dqm = 00, Data = 031b
+sdram_control_tb.sdram_model : at time 1201333.0 ns READ : Bank = 2 Row =    1, Col = 276, Dqm = 00, Data = 031c
+sdram_control_tb.sdram_model : at time 1201343.0 ns READ : Bank = 2 Row =    1, Col = 277, Dqm = 00, Data = 031d
+sdram_control_tb.sdram_model : at time 1201353.0 ns READ : Bank = 2 Row =    1, Col = 278, Dqm = 00, Data = 031e
+sdram_control_tb.sdram_model : at time 1201363.0 ns READ : Bank = 2 Row =    1, Col = 279, Dqm = 00, Data = 031f
+sdram_control_tb.sdram_model : at time 1206255.0 ns ACT  : Bank = 2 Row =    1
+sdram_control_tb.sdram_model : at time 1206303.0 ns READ : Bank = 2 Row =    1, Col = 280, Dqm = 00, Data = 0320
+sdram_control_tb.sdram_model : at time 1206313.0 ns READ : Bank = 2 Row =    1, Col = 281, Dqm = 00, Data = 0321
+sdram_control_tb.sdram_model : at time 1206323.0 ns READ : Bank = 2 Row =    1, Col = 282, Dqm = 00, Data = 0322
+sdram_control_tb.sdram_model : at time 1206333.0 ns READ : Bank = 2 Row =    1, Col = 283, Dqm = 00, Data = 0323
+sdram_control_tb.sdram_model : at time 1206343.0 ns READ : Bank = 2 Row =    1, Col = 284, Dqm = 00, Data = 0324
+sdram_control_tb.sdram_model : at time 1206353.0 ns READ : Bank = 2 Row =    1, Col = 285, Dqm = 00, Data = 0325
+sdram_control_tb.sdram_model : at time 1206363.0 ns READ : Bank = 2 Row =    1, Col = 286, Dqm = 00, Data = 0326
+sdram_control_tb.sdram_model : at time 1206373.0 ns READ : Bank = 2 Row =    1, Col = 287, Dqm = 00, Data = 0327
+$stop called at time : 1216250 ns : File "H:/FPGA/souce/23_sdram_control/sdram_control.srcs/sim_1/new/sdram_control_tb.v" Line 129
