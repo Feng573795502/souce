@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/FPGA/souce/19_fifo/project_1.gen/sources_1/ip/fifo_generator_0/sim/fifo_generator_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_generator_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/FPGA/souce/19_fifo/project_1.srcs/sim_1/new/dc_fifo_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dc_fifo_tb

@@ -1,6 +1,6 @@
 webtalk_init -webtalk_dir H:/FPGA/souce/23_sdram_control/sdram_control.sim/sim_1/behav/xsim/xsim.dir/sdram_control_tb_behav/webtalk/
 webtalk_register_client -client project
-webtalk_add_data -client project -key date_generated -value "Wed Jul 19 17:01:36 2023" -context "software_version_and_target_device"
+webtalk_add_data -client project -key date_generated -value "Fri Jul 21 15:46:19 2023" -context "software_version_and_target_device"
 webtalk_add_data -client project -key product_version -value "XSIM v2020.2 (64-bit)" -context "software_version_and_target_device"
 webtalk_add_data -client project -key build_version -value "3064766" -context "software_version_and_target_device"
 webtalk_add_data -client project -key os_platform -value "WIN64" -context "software_version_and_target_device"
@@ -14,7 +14,7 @@ webtalk_add_data -client project -key target_package -value "not_applicable" -co
 webtalk_add_data -client project -key target_speed -value "not_applicable" -context "software_version_and_target_device"
 webtalk_add_data -client project -key random_id -value "ce9f5905-8617-46e0-af73-2f426adc795f" -context "software_version_and_target_device"
 webtalk_add_data -client project -key project_id -value "ddab081e63fb4f9ebdcbe8e57e377979" -context "software_version_and_target_device"
-webtalk_add_data -client project -key project_iteration -value "18" -context "software_version_and_target_device"
+webtalk_add_data -client project -key project_iteration -value "37" -context "software_version_and_target_device"
 webtalk_add_data -client project -key os_name -value "Windows Server 2016 or Windows 10" -context "user_environment"
 webtalk_add_data -client project -key os_release -value "major release  (build 9200)" -context "user_environment"
 webtalk_add_data -client project -key cpu_name -value "AMD Ryzen 7 3800X 8-Core Processor             " -context "user_environment"
@@ -27,7 +27,7 @@ webtalk_add_data -client xsim -key Command -value "xsim" -context "xsim\\command
 webtalk_add_data -client xsim -key trace_waveform -value "true" -context "xsim\\usage"
 webtalk_add_data -client xsim -key runtime -value "1216250 ns" -context "xsim\\usage"
 webtalk_add_data -client xsim -key iteration -value "0" -context "xsim\\usage"
-webtalk_add_data -client xsim -key Simulation_Time -value "0.67_sec" -context "xsim\\usage"
-webtalk_add_data -client xsim -key Simulation_Memory -value "147228_KB" -context "xsim\\usage"
-webtalk_transmit -clientid 1669528552 -regid "" -xml H:/FPGA/souce/23_sdram_control/sdram_control.sim/sim_1/behav/xsim/xsim.dir/sdram_control_tb_behav/webtalk/usage_statistics_ext_xsim.xml -html H:/FPGA/souce/23_sdram_control/sdram_control.sim/sim_1/behav/xsim/xsim.dir/sdram_control_tb_behav/webtalk/usage_statistics_ext_xsim.html -wdm H:/FPGA/souce/23_sdram_control/sdram_control.sim/sim_1/behav/xsim/xsim.dir/sdram_control_tb_behav/webtalk/usage_statistics_ext_xsim.wdm -intro "<H3>XSIM Usage Report</H3><BR>"
+webtalk_add_data -client xsim -key Simulation_Time -value "0.70_sec" -context "xsim\\usage"
+webtalk_add_data -client xsim -key Simulation_Memory -value "147252_KB" -context "xsim\\usage"
+webtalk_transmit -clientid 3574974908 -regid "" -xml H:/FPGA/souce/23_sdram_control/sdram_control.sim/sim_1/behav/xsim/xsim.dir/sdram_control_tb_behav/webtalk/usage_statistics_ext_xsim.xml -html H:/FPGA/souce/23_sdram_control/sdram_control.sim/sim_1/behav/xsim/xsim.dir/sdram_control_tb_behav/webtalk/usage_statistics_ext_xsim.html -wdm H:/FPGA/souce/23_sdram_control/sdram_control.sim/sim_1/behav/xsim/xsim.dir/sdram_control_tb_behav/webtalk/usage_statistics_ext_xsim.wdm -intro "<H3>XSIM Usage Report</H3><BR>"
 webtalk_terminate

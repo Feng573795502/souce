@@ -14,7 +14,6 @@ module sdram_init(
     
     output reg[3:0]command;
     output reg[`ASIZE-1:0] saddr;
-    
     output init_done;
 
 
@@ -33,7 +32,7 @@ module sdram_init(
         else if(init_cnt < INIT_END_TIME)
             init_cnt <= init_cnt + 16'd1;
         else 
-            init_cnt <= 16'd0;
+            init_cnt <= INIT_END_TIME + 16'd1;
     end
     
     assign init_done = (init_cnt == INIT_END_TIME);

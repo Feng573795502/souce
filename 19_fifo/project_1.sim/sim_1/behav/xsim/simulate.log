@@ -1,4 +1,4 @@
 Vivado Simulator 2020.2
 Time resolution is 1 ps
 WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
-$stop called at time : 13130100 ps : File "H:/FPGA/souce/19_fifo/project_1.srcs/sim_1/new/dc_fifo_tb.v" Line 89
+$stop called at time : 7790100 ps : File "H:/FPGA/souce/19_fifo/project_1.srcs/sim_1/new/dc_fifo_tb.v" Line 89
