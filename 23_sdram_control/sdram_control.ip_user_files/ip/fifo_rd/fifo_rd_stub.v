@@ -1,7 +1,7 @@
 // Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
-// Date        : Fri Jul 21 11:00:28 2023
+// Date        : Mon Jul 24 11:28:53 2023
 // Host        : Snail running 64-bit major release  (build 9200)
 // Command     : write_verilog -force -mode synth_stub
 //               h:/FPGA/souce/23_sdram_control/sdram_control.gen/sources_1/ip/fifo_rd/fifo_rd_stub.v
@@ -16,7 +16,7 @@
 (* x_core_info = "fifo_generator_v13_2_5,Vivado 2020.2" *)
 module fifo_rd(rst, wr_clk, rd_clk, din, wr_en, rd_en, dout, full, 
   empty, rd_data_count, wr_data_count)
-/* synthesis syn_black_box black_box_pad_pin="rst,wr_clk,rd_clk,din[15:0],wr_en,rd_en,dout[15:0],full,empty,rd_data_count[6:0],wr_data_count[6:0]" */;
+/* synthesis syn_black_box black_box_pad_pin="rst,wr_clk,rd_clk,din[15:0],wr_en,rd_en,dout[15:0],full,empty,rd_data_count[7:0],wr_data_count[7:0]" */;
   input rst;
   input wr_clk;
   input rd_clk;
@@ -26,6 +26,6 @@ module fifo_rd(rst, wr_clk, rd_clk, din, wr_en, rd_en, dout, full,
   output [15:0]dout;
   output full;
   output empty;
-  output [6:0]rd_data_count;
-  output [6:0]wr_data_count;
+  output [7:0]rd_data_count;
+  output [7:0]wr_data_count;
 endmodule

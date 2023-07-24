@@ -1,0 +1,3 @@
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+$stop called at time : 689 ns : File "H:/FPGA/souce/24_eth_udp/eth_udp.srcs/sim_1/new/crc32_d8_tb.v" Line 58

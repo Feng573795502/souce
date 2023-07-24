@@ -14,7 +14,7 @@ module sdram_control_top_tb;
     reg               wr_en;
     reg               wr_load;
     reg               wr_clk;
-    reg[`DSIZE-1:0]   rd_data;
+    wire[`DSIZE-1:0]   rd_data;
     reg               rd_en;
     reg               rd_load;
     reg               rd_clk;
@@ -84,5 +84,45 @@ sdr sdram_model(
 );
 
 //sdram时钟控制器
+initial clk = 1'b1;
+always #(`CLK100_PERIOD/2)clk = ~clk;
+//写数据到SDRAM时钟
+initial wr_clk = 1'b1;
+always #(`WCLK_PERIOD/2)wr_clk = ~wr_clk;
+//读数据到SDRAM时钟
+initial rd_clk = 1'b1;
+always #(`RCLK_PERIOD/2)rd_clk = ~rd_clk;
+
+initial begin
+    rst_n = 0;
+    wr_load = 1;
+    rd_load = 1;
+    wr_data = 0;
+    wr_en = 0;
+    rd_en = 0;
+    #(`CLK100_PERIOD*200+1)
+    rst_n = 1;
+    wr_load = 0;
+    rd_load = 0;
+    
+    @(posedge sdram_control_top.sdram_control.init_done)
+    #2000;
+    
+    //读写数据
+    wr_en = 1;
+    rd_en = 1;
+    repeat(2000)begin
+        #(`RCLK_PERIOD);
+        wr_data = wr_data + 1;
+    end
+    
+    #(`CLK100_PERIOD * 2)
+    wr_en = 1'b0;
+    #50000;
+    rd_en = 1'b0;  //光闭读使能
+    #5000;
+    $stop;
+end
+
 
 endmodule

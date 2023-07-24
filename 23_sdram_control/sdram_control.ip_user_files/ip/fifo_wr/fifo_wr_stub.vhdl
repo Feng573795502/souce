@@ -1,7 +1,7 @@
 -- Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
--- Date        : Fri Jul 21 09:33:42 2023
+-- Date        : Mon Jul 24 11:22:38 2023
 -- Host        : Snail running 64-bit major release  (build 9200)
 -- Command     : write_vhdl -force -mode synth_stub
 --               h:/FPGA/souce/23_sdram_control/sdram_control.gen/sources_1/ip/fifo_wr/fifo_wr_stub.vhdl
@@ -23,8 +23,8 @@ entity fifo_wr is
     dout : out STD_LOGIC_VECTOR ( 15 downto 0 );
     full : out STD_LOGIC;
     empty : out STD_LOGIC;
-    rd_data_count : out STD_LOGIC_VECTOR ( 6 downto 0 );
-    wr_data_count : out STD_LOGIC_VECTOR ( 6 downto 0 )
+    rd_data_count : out STD_LOGIC_VECTOR ( 7 downto 0 );
+    wr_data_count : out STD_LOGIC_VECTOR ( 7 downto 0 )
   );
 
 end fifo_wr;
@@ -33,7 +33,7 @@ architecture stub of fifo_wr is
 attribute syn_black_box : boolean;
 attribute black_box_pad_pin : string;
 attribute syn_black_box of stub : architecture is true;
-attribute black_box_pad_pin of stub : architecture is "rst,wr_clk,rd_clk,din[15:0],wr_en,rd_en,dout[15:0],full,empty,rd_data_count[6:0],wr_data_count[6:0]";
+attribute black_box_pad_pin of stub : architecture is "rst,wr_clk,rd_clk,din[15:0],wr_en,rd_en,dout[15:0],full,empty,rd_data_count[7:0],wr_data_count[7:0]";
 attribute x_core_info : string;
 attribute x_core_info of stub : architecture is "fifo_generator_v13_2_5,Vivado 2020.2";
 begin

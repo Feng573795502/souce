@@ -70,7 +70,7 @@ module sdram_control_top(
     output             wr_full;     //写FIFO满信号
     output [7:0]       wr_use;      //写FIFO数据可用数据量
     
-    input [`DSIZE-1:0] rd_data;     //读取的数据
+    output [`DSIZE-1:0] rd_data;     //读取的数据
     input              rd_en;       //读数据使能信号
     input [23:0]       rd_addr;
     input [23:0]       rd_max_addr;
@@ -88,13 +88,13 @@ module sdram_control_top(
     output              cas_n;
     output              we_n;
     inout[`DSIZE-1:0]   dq;
-    output[`DSIZE-1:0]  dqm;
+    output[`DSIZE/8-1:0]  dqm;
     
     reg                 sd_wr;   //写sdram使能信号
     reg                 sd_rd;   //读sdram使能信号
     reg [`ASIZE-1:0]   sd_caddr; //写sdram时列地址
     reg [`ASIZE-1:0]   sd_raddr; //写sdram时行地址
-    reg [`ASIZE-1:0]   sd_baddr; //写sdram时bank地址
+    reg [`BSIZE-1:0]   sd_baddr; //写sdram时bank地址
     wire [`DSIZE-1:0]  sd_wr_data; //写入sdram数据
     wire [`DSIZE-1:0]  sd_rd_data; //读出sdram的数据
     wire               sd_rdata_vaild;
@@ -202,7 +202,7 @@ fifo_rd sd_rd_fifo(
     //写SDRAM请求信号
     assign sd_wr_req = (fifo_rduse >= SC_BL)?1'b1 : 1'b0;
     //读SDRAM请求信号
-    assign sd_rd_req = (!rd_load)&&(fifo_wruse[7] == 1'b0)?1'b1:1'b0;
+    assign sd_rd_req = (!rd_load)&&(fifo_wruse[7] == 1'b0)?1'b1:1'b0; //默认自动读满
     
     //写sdram使能信号
     always@(posedge clk or negedge rst_n)begin
@@ -227,7 +227,7 @@ fifo_rd sd_rd_fifo(
     //sdram的列地址
     always@(*)begin
         if(!rst_n)
-            sd_caddr <= 9'd0;
+            sd_caddr = 9'd0;
         else if(sd_wr_req)
             sd_caddr = wr_sdram_addr[8:0];
         else if(sd_rd_req)
@@ -239,7 +239,7 @@ fifo_rd sd_rd_fifo(
     //sdram的行地址
     always@(*)begin
         if(!rst_n)
-            sd_raddr <= 13'd0;
+            sd_raddr = 13'd0;
         else if(sd_wr_req)
             sd_raddr = wr_sdram_addr[21:9];
         else if(sd_rd_req)
@@ -251,7 +251,7 @@ fifo_rd sd_rd_fifo(
     //sdram的bank地址
     always@(*)begin
         if(!rst_n)
-            sd_baddr <= 13'd0;
+            sd_baddr = 2'd0;
         else if(sd_wr_req)
             sd_baddr = wr_sdram_addr[23:22];
         else if(sd_rd_req)
