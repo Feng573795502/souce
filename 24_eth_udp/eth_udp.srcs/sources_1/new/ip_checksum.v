@@ -37,7 +37,7 @@ module ip_checksum(
     input [12:0]ip_frag_offset,
     input [7:0] ip_ttl,
     input [7:0] ip_protocol,
-    input [31:0]srv_ip,
+    input [31:0]src_ip,
     input [31:0]dst_ip,
     
     output [15:0]check_sum
@@ -53,7 +53,7 @@ module ip_checksum(
         else if(cal_en)//每16bit进行二进制求和
             suma <= {ip_ver, ip_hdr_len, ip_tos} + ip_total_len + ip_id +
             {ip_rsv, ip_df,ip_mf, ip_frag_offset} + {ip_ttl, ip_protocol}+
-            srv_ip[31:16] + srv_ip[15:0] + dst_ip[31:16] + dst_ip[15:0];
+            src_ip[31:16] + src_ip[15:0] + dst_ip[31:16] + dst_ip[15:0];
         else 
             suma <= suma;
             
@@ -61,6 +61,6 @@ module ip_checksum(
     assign sumc = sumb[16] + sumb[15:0];
     
     //将16bit的值取反,即为最终计算的check sum值
-    assign checksum = ~sumc;
+    assign check_sum = ~sumc;
         
 endmodule

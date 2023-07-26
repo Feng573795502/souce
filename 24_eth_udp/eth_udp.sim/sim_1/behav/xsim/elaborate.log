@@ -1,8 +1,19 @@
 Vivado Simulator 2020.2
 Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
-Running: H:/FPGA/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto ef0cb65ac85a461ca37dae84893af189 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot crc32_d8_tb_behav xil_defaultlib.crc32_d8_tb xil_defaultlib.glbl -log elaborate.log 
+Running: H:/FPGA/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto ef0cb65ac85a461ca37dae84893af189 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot eth_udp_tx_gmii_tb_behav xil_defaultlib.eth_udp_tx_gmii_tb xil_defaultlib.glbl -log elaborate.log 
 Using 2 slave threads.
 Starting static elaboration
 Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 16 for port 'data_len' [H:/FPGA/souce/24_eth_udp/eth_udp.srcs/sim_1/new/eth_udp_tx_gmii_tb.v:52]
 Completed static elaboration
-INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "H:/FPGA/souce/24_eth_udp/eth_udp.srcs/sources_1/new/crc32_d8.v" Line 19. Module crc32_d8 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "H:/FPGA/souce/24_eth_udp/eth_udp.srcs/sources_1/new/crc32_d8.v" Line 19. Module crc32_d8 doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ip_checksum
+Compiling module xil_defaultlib.crc32_d8
+Compiling module xil_defaultlib.eth_udp_tx_gmii
+Compiling module xil_defaultlib.eth_udp_tx_gmii_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot eth_udp_tx_gmii_tb_behav
