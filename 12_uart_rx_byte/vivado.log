@@ -1,0 +1,11 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Aug 14 11:35:36 2023
+# Process ID: 4252
+# Current directory: H:/FPGA/souce/12_uart_rx_byte
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16060 H:\FPGA\souce\12_uart_rx_byte\uart_rx_byte.xpr
+# Log file: H:/FPGA/souce/12_uart_rx_byte/vivado.log
+# Journal file: H:/FPGA/souce/12_uart_rx_byte\vivado.jou
+#-----------------------------------------------------------

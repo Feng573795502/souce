@@ -56,28 +56,28 @@ module sdram_control_top(
 );
     
     `include "sdram_params.h"
-    input clk;        //ÏµÍ³Ê±ÖÓ
-    input rst_n;      //¸´Î»ĞÅºÅ
-    input sd_clk;     //sdramÊ±ÖÓĞÅºÅ
+    input clk;        //ç³»ç»Ÿæ—¶é’Ÿ
+    input rst_n;      //å¤ä½ä¿¡å·
+    input sd_clk;     //sdramæ—¶é’Ÿä¿¡å·
     
-    //Óë
-    input [`DSIZE-1:0] wr_data;     //´ıĞ´ÈëÊı¾İ
-    input              wr_en;       //Ğ´Êı¾İÊ¹ÄÜĞÅºÅ
-    input [23:0]       wr_addr;     //Ğ´Êı¾İÆğÊ¼µØÖ·
-    input [23:0]       wr_max_addr; //Ğ´Êı¾İ×î´óµØÖ·(SC_BLµÄÕûÊı±¶)
-    input              wr_load;     //Ğ´FIFOÇåÁãĞÅºÅ
-    input              wr_clk;      //Ğ´FIFOÊ±ÖÓĞÅºÅ
-    output             wr_full;     //Ğ´FIFOÂúĞÅºÅ
-    output [7:0]       wr_use;      //Ğ´FIFOÊı¾İ¿ÉÓÃÊı¾İÁ¿
+    //ä¸
+    input [`DSIZE-1:0] wr_data;     //å¾…å†™å…¥æ•°æ®
+    input              wr_en;       //å†™æ•°æ®ä½¿èƒ½ä¿¡å·
+    input [23:0]       wr_addr;     //å†™æ•°æ®èµ·å§‹åœ°å€
+    input [23:0]       wr_max_addr; //å†™æ•°æ®æœ€å¤§åœ°å€(SC_BLçš„æ•´æ•°å€)
+    input              wr_load;     //å†™FIFOæ¸…é›¶ä¿¡å·
+    input              wr_clk;      //å†™FIFOæ—¶é’Ÿä¿¡å·
+    output             wr_full;     //å†™FIFOæ»¡ä¿¡å·
+    output [7:0]       wr_use;      //å†™FIFOæ•°æ®å¯ç”¨æ•°æ®é‡
     
-    output [`DSIZE-1:0] rd_data;     //¶ÁÈ¡µÄÊı¾İ
-    input              rd_en;       //¶ÁÊı¾İÊ¹ÄÜĞÅºÅ
+    output [`DSIZE-1:0] rd_data;     //è¯»å–çš„æ•°æ®
+    input              rd_en;       //è¯»æ•°æ®ä½¿èƒ½ä¿¡å·
     input [23:0]       rd_addr;
     input [23:0]       rd_max_addr;
     input              rd_load;
     input              rd_clk;
-    output             rd_empty;    //¶ÁFIFO¿ÕĞÅºÅ
-    output [7:0]       rd_use;     //¶ÁFIFO¿ÉÓÃÊı¾İÁ¿
+    output             rd_empty;    //è¯»FIFOç©ºä¿¡å·
+    output [7:0]       rd_use;     //è¯»FIFOå¯ç”¨æ•°æ®é‡
     
     //sdram
     output [`ASIZE-1:0] sa;
@@ -90,24 +90,24 @@ module sdram_control_top(
     inout[`DSIZE-1:0]   dq;
     output[`DSIZE/8-1:0]  dqm;
     
-    reg                 sd_wr;   //Ğ´sdramÊ¹ÄÜĞÅºÅ
-    reg                 sd_rd;   //¶ÁsdramÊ¹ÄÜĞÅºÅ
-    reg [`ASIZE-1:0]   sd_caddr; //Ğ´sdramÊ±ÁĞµØÖ·
-    reg [`ASIZE-1:0]   sd_raddr; //Ğ´sdramÊ±ĞĞµØÖ·
-    reg [`BSIZE-1:0]   sd_baddr; //Ğ´sdramÊ±bankµØÖ·
-    wire [`DSIZE-1:0]  sd_wr_data; //Ğ´ÈësdramÊı¾İ
-    wire [`DSIZE-1:0]  sd_rd_data; //¶Á³ösdramµÄÊı¾İ
+    reg                 sd_wr;   //å†™sdramä½¿èƒ½ä¿¡å·
+    reg                 sd_rd;   //è¯»sdramä½¿èƒ½ä¿¡å·
+    reg [`ASIZE-1:0]   sd_caddr; //å†™sdramæ—¶åˆ—åœ°å€
+    reg [`ASIZE-1:0]   sd_raddr; //å†™sdramæ—¶è¡Œåœ°å€
+    reg [`BSIZE-1:0]   sd_baddr; //å†™sdramæ—¶bankåœ°å€
+    wire [`DSIZE-1:0]  sd_wr_data; //å†™å…¥sdramæ•°æ®
+    wire [`DSIZE-1:0]  sd_rd_data; //è¯»å‡ºsdramçš„æ•°æ®
     wire               sd_rdata_vaild;
     wire               sd_wdata_vaild;
     wire               sd_rdata_done;
     wire               sd_wdata_done;
-    wire [7:0]         fifo_rduse;   //Ğ´fifoÄ£¿é¿É¶ÁÈ¡Êı¾İ
-    wire [7:0]         fifo_wruse;   //¶ÁfifoÒÑĞ´ÊıÁ¿
+    wire [7:0]         fifo_rduse;   //å†™fifoæ¨¡å—å¯è¯»å–æ•°æ®
+    wire [7:0]         fifo_wruse;   //è¯»fifoå·²å†™æ•°é‡
     
     reg[23:0]          wr_sdram_addr;
     reg[23:0]          rd_sdram_addr;
-	wire               sd_wr_req;      //ÇëÇóĞ´Êı¾İµ½SDRAM      
-	wire               sd_rd_req;      //ÇëÇóÏòSDRAM¶ÁÊı¾İ
+	wire               sd_wr_req;      //è¯·æ±‚å†™æ•°æ®åˆ°SDRAM      
+	wire               sd_rd_req;      //è¯·æ±‚å‘SDRAMè¯»æ•°æ®
 
     sdram_control sdram_control(
         .clk(clk),
@@ -137,37 +137,37 @@ module sdram_control_top(
         .dqm(dqm)
     );
     
-//Ğ´FIFOÄ£¿é
+//å†™FIFOæ¨¡å—
 fifo_wr sd_wr_fifo (
-  .wr_clk(wr_clk),             // Ğ´FIFOĞ´Ê±ÖÓ
-  .rst(wr_load),            // Ğ´FIFOÇå¿Õ
-  .rd_clk(clk),                // Óësdram controlÁ¬½Óclk
-  .din(wr_data),               // Íâ²¿ÊäÈëÊı¾İ
-  .wr_en(wr_en),               // Íâ²¿Ğ´¿ØÖÆ
-  .rd_en(sd_wdata_vaild),      // ¶ÁÈ¡Ê¹ÄÜ ÓĞSDRAM¿ØÖÆÆ÷¿ØÖÆ
-  .dout(sd_wr_data),           // Êä³öµ½sdram
-  .full(wr_full),              // Ğ´ÈëfifoÂú±êÖ¾
-  .empty(),                    // ¿ÕÏĞ×´Ì¬Ôİ²»Ê¹ÓÃ
-  .wr_data_count(wr_use),      // Ğ´ÈëÊıÁ¿²é¿´
-  .rd_data_count(fifo_rduse)   // ¿É¶ÁÈ¡
+  .wr_clk(wr_clk),             // å†™FIFOå†™æ—¶é’Ÿ
+  .rst(wr_load),            // å†™FIFOæ¸…ç©º
+  .rd_clk(clk),                // ä¸sdram controlè¿æ¥clk
+  .din(wr_data),               // å¤–éƒ¨è¾“å…¥æ•°æ®
+  .wr_en(wr_en),               // å¤–éƒ¨å†™æ§åˆ¶
+  .rd_en(sd_wdata_vaild),      // è¯»å–ä½¿èƒ½ æœ‰SDRAMæ§åˆ¶å™¨æ§åˆ¶
+  .dout(sd_wr_data),           // è¾“å‡ºåˆ°sdram
+  .full(wr_full),              // å†™å…¥fifoæ»¡æ ‡å¿—
+  .empty(),                    // ç©ºé—²çŠ¶æ€æš‚ä¸ä½¿ç”¨
+  .wr_data_count(wr_use),      // å†™å…¥æ•°é‡æŸ¥çœ‹
+  .rd_data_count(fifo_rduse)   // å¯è¯»å–
 );
 
-//¶ÔÍâ¶ÁÈ¡FIFO½Ó¿Ú
+//å¯¹å¤–è¯»å–FIFOæ¥å£
 fifo_rd sd_rd_fifo(
-  .rst(rd_load),                  // ¶ÁfifoÊı¾İÇå¿Õ
-  .wr_clk(sd_clk),                // ÓÃsdramµÃclk
-  .rd_clk(rd_clk),                // ¶ÁÊ±ÖÓÍâ²¿¿ØÖÆ
-  .din(sd_rd_data),               // fifoÊäÈëÊı¾İÓÃsdramµÃ¶ÁÊı¾İ½Ó¿Ú
-  .wr_en(sd_rdata_vaild),         // ¶ÁÊı¾İÓĞĞ§Öµ
-  .rd_en(rd_en),                  // Íâ²¿ÊäÈëÊ¹ÄÜ
-  .dout(rd_data),                 // Êä³ö¶Ë¿Ú
+  .rst(rd_load),                  // è¯»fifoæ•°æ®æ¸…ç©º
+  .wr_clk(sd_clk),                // ç”¨sdramå¾—clk
+  .rd_clk(rd_clk),                // è¯»æ—¶é’Ÿå¤–éƒ¨æ§åˆ¶
+  .din(sd_rd_data),               // fifoè¾“å…¥æ•°æ®ç”¨sdramå¾—è¯»æ•°æ®æ¥å£
+  .wr_en(sd_rdata_vaild),         // è¯»æ•°æ®æœ‰æ•ˆå€¼
+  .rd_en(rd_en),                  // å¤–éƒ¨è¾“å…¥ä½¿èƒ½
+  .dout(rd_data),                 // è¾“å‡ºç«¯å£
   .full(),                        
-  .empty(rd_empty),               // ¶ÔÍâÊä³öÊ±ºòÎª¿Õ
-  .rd_data_count(rd_use),         // Êä³ö¿É¶ÁÈ¡Êı¾İ
-  .wr_data_count(fifo_wruse)      // Ê¹ÓÃÁË¶àÉÙFIFO
+  .empty(rd_empty),               // å¯¹å¤–è¾“å‡ºæ—¶å€™ä¸ºç©º
+  .rd_data_count(rd_use),         // è¾“å‡ºå¯è¯»å–æ•°æ®
+  .wr_data_count(fifo_wruse)      // ä½¿ç”¨äº†å¤šå°‘FIFO
 );
 
-//Ğ´SDRAMÊı¾İµÃµØÖ·£¬Êı¾İĞ´ÍêÒ»´ÎÔö¼ÓÒ»´ÎÍ»·¢³¤¶È
+//å†™SDRAMæ•°æ®å¾—åœ°å€ï¼Œæ•°æ®å†™å®Œä¸€æ¬¡å¢åŠ ä¸€æ¬¡çªå‘é•¿åº¦
     always @(posedge clk or negedge rst_n)begin
         if(!rst_n)
             wr_sdram_addr <= wr_addr;
@@ -183,7 +183,7 @@ fifo_rd sd_rd_fifo(
             wr_sdram_addr <= wr_sdram_addr;
     end
 
-//¶ÁSDRAMÊı¾İµÃµØÖ·£¬Êı¾İ¶ÁÍêÒ»´ÎÔö¼ÓÒ»´ÎÍ»·¢³¤¶È£¬²Î¿¼ÉÏÃæµÃ×¢ÊÍ
+//è¯»SDRAMæ•°æ®å¾—åœ°å€ï¼Œæ•°æ®è¯»å®Œä¸€æ¬¡å¢åŠ ä¸€æ¬¡çªå‘é•¿åº¦ï¼Œå‚è€ƒä¸Šé¢å¾—æ³¨é‡Š
     always @(posedge clk or negedge rst_n)begin
         if(!rst_n)
             rd_sdram_addr <= rd_addr;
@@ -199,12 +199,12 @@ fifo_rd sd_rd_fifo(
             rd_sdram_addr <= rd_sdram_addr;
     end
     
-    //Ğ´SDRAMÇëÇóĞÅºÅ
+    //å†™SDRAMè¯·æ±‚ä¿¡å·
     assign sd_wr_req = (fifo_rduse >= SC_BL)?1'b1 : 1'b0;
-    //¶ÁSDRAMÇëÇóĞÅºÅ
-    assign sd_rd_req = (!rd_load)&&(fifo_wruse[7] == 1'b0)?1'b1:1'b0; //Ä¬ÈÏ×Ô¶¯¶ÁÂú
+    //è¯»SDRAMè¯·æ±‚ä¿¡å·
+    assign sd_rd_req = (!rd_load)&&(fifo_wruse[7] == 1'b0)?1'b1:1'b0; //é»˜è®¤è‡ªåŠ¨è¯»æ»¡
     
-    //Ğ´sdramÊ¹ÄÜĞÅºÅ
+    //å†™sdramä½¿èƒ½ä¿¡å·
     always@(posedge clk or negedge rst_n)begin
         if(!rst_n)
             sd_wr <= 1'b0;
@@ -214,7 +214,7 @@ fifo_rd sd_rd_fifo(
             sd_wr <= 1'b0;
     end
     
-    //¶ÁSDRAMÊ¹ÄÜĞÅºÅ
+    //è¯»SDRAMä½¿èƒ½ä¿¡å·
     always@(posedge clk or negedge rst_n)begin
         if(!rst_n)
 			sd_rd <= 1'b0;
@@ -224,7 +224,7 @@ fifo_rd sd_rd_fifo(
 			sd_rd <= 1'b0;
     end
     
-    //sdramµÄÁĞµØÖ·
+    //sdramçš„åˆ—åœ°å€
     always@(*)begin
         if(!rst_n)
             sd_caddr = 9'd0;
@@ -236,7 +236,7 @@ fifo_rd sd_rd_fifo(
             sd_caddr = sd_caddr;
     end
     
-    //sdramµÄĞĞµØÖ·
+    //sdramçš„è¡Œåœ°å€
     always@(*)begin
         if(!rst_n)
             sd_raddr = 13'd0;
@@ -248,7 +248,7 @@ fifo_rd sd_rd_fifo(
             sd_raddr = sd_raddr;
     end
     
-    //sdramµÄbankµØÖ·
+    //sdramçš„bankåœ°å€
     always@(*)begin
         if(!rst_n)
             sd_baddr = 2'd0;

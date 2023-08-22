@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Aug 16 08:50:01 2023
+# Process ID: 26384
+# Current directory: H:/FPGA/souce/24_eth_udp
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12060 H:\FPGA\souce\24_eth_udp\eth_udp.xpr
+# Log file: H:/FPGA/souce/24_eth_udp/vivado.log
+# Journal file: H:/FPGA/souce/24_eth_udp\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project H:/FPGA/souce/24_eth_udp/eth_udp.xpr
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+INFO: [Common 17-344] 'open_project' was cancelled
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Aug 16 09:09:08 2023...

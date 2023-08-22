@@ -1,0 +1,119 @@
+/*
+
+Xilinx Vivado v2020.2 (64-bit) [Major: 2020, Minor: 2]
+SW Build: 3064766 on Wed Nov 18 09:12:45 MST 2020
+IP Build: 3064653 on Wed Nov 18 14:17:31 MST 2020
+
+Process ID (PID): 4252
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Mon Aug 14 11:35:48 CST 2023
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 16
+
+Screen size: 1920x1080
+Screen resolution (DPI): 100
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+Scale size: 12
+
+Java version: 	11.0.2 64-bit
+Java home: 	H:/FPGA/Xilinx/Vivado/2020.2/tps/win64/jre11.0.2
+Java executable location: 	H:/FPGA/Xilinx/Vivado/2020.2/tps/win64/jre11.0.2/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	Snail
+User home directory: C:/Users/Snail
+User working directory: H:/FPGA/souce/12_uart_rx_byte
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: H:/FPGA/Xilinx/Vivado
+HDI_APPROOT: H:/FPGA/Xilinx/Vivado/2020.2
+RDI_DATADIR: H:/FPGA/Xilinx/Vivado/2020.2/data
+RDI_BINDIR: H:/FPGA/Xilinx/Vivado/2020.2/bin
+
+Vivado preferences file location: C:/Users/Snail/AppData/Roaming/Xilinx/Vivado/2020.2/vivado.xml
+Vivado preferences directory: C:/Users/Snail/AppData/Roaming/Xilinx/Vivado/2020.2/
+Vivado layouts directory: C:/Users/Snail/AppData/Roaming/Xilinx/Vivado/2020.2/data/layouts
+PlanAhead jar file location: 	H:/FPGA/Xilinx/Vivado/2020.2/lib/classes/planAhead.jar
+Vivado log file location: 	H:/FPGA/souce/12_uart_rx_byte/vivado.log
+Vivado journal file location: 	H:/FPGA/souce/12_uart_rx_byte/vivado.jou
+Engine tmp dir: 	H:/FPGA/souce/12_uart_rx_byte/.Xil/Vivado-4252-Snail
+
+Xilinx Environment Variables
+----------------------------
+XILINX: H:/FPGA/Xilinx/Vivado/2020.2/ids_lite/ISE
+XILINX_DSP: H:/FPGA/Xilinx/Vivado/2020.2/ids_lite/ISE
+XILINX_HLS: H:/FPGA/Xilinx/Vitis_HLS/2020.2
+XILINX_PLANAHEAD: H:/FPGA/Xilinx/Vivado/2020.2
+XILINX_SDK: H:/FPGA/Xilinx/Vitis/2020.2
+XILINX_VITIS: H:/FPGA/Xilinx/Vitis/2020.2
+XILINX_VIVADO: H:/FPGA/Xilinx/Vivado/2020.2
+XILINX_VIVADO_HLS: H:/FPGA/Xilinx/Vivado/2020.2
+
+
+GUI allocated memory:	218 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,143 MB
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// TclEventType: PROJECT_OPEN_DIALOG
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 68 MB (+68620kb) [00:00:04]
+// [Engine Memory]: 1,143 MB (+1047542kb) [00:00:04]
+// bz (cr):  Open Project : addNotify
+// Opening Vivado Project: H:\FPGA\souce\12_uart_rx_byte\uart_rx_byte.xpr. Version: Vivado v2020.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project H:/FPGA/souce/12_uart_rx_byte/uart_rx_byte.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 76 MB (+5468kb) [00:00:07]
+// [GUI Memory]: 108 MB (+28994kb) [00:00:08]
+// WARNING: HEventQueue.dispatchEvent() is taking  1836 ms.
+// Tcl Message: open_project H:/FPGA/souce/12_uart_rx_byte/uart_rx_byte.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'H:/FPGA/Xilinx/Vivado/2020.2/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,143 MB. GUI used memory: 55 MB. Current time: 8/14/23, 11:35:49 AM CST
+// Project name: uart_rx_byte; location: H:/FPGA/souce/12_uart_rx_byte; part: xc7z020clg484-2
+dismissDialog("Open Project"); // bz
