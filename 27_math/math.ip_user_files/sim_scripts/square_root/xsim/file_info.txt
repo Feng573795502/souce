@@ -1,0 +1,2 @@
+square_root.v,verilog,xil_defaultlib,../../../../math.gen/sources_1/ip/square_root/sim/square_root.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

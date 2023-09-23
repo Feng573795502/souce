@@ -1,0 +1,7 @@
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING in c_addsub_0_tb.your_instance_name.inst at time            400205000 ns: 
+Reading from out-of-range address. Max address in c_addsub_0_tb.your_instance_name.inst is       39999
+$stop called at time : 402405 ns : File "H:/FPGA/souce/27_math/math.srcs/sim_1/new/c_addsub_0_tb.v" Line 76

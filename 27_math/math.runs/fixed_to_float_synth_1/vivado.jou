@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sat Sep 23 17:39:13 2023
+# Process ID: 13548
+# Current directory: H:/FPGA/souce/27_math/math.runs/fixed_to_float_synth_1
+# Command line: vivado.exe -log fixed_to_float.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source fixed_to_float.tcl
+# Log file: H:/FPGA/souce/27_math/math.runs/fixed_to_float_synth_1/fixed_to_float.vds
+# Journal file: H:/FPGA/souce/27_math/math.runs/fixed_to_float_synth_1\vivado.jou
+#-----------------------------------------------------------
+source fixed_to_float.tcl -notrace

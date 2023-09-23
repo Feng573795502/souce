@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sat Sep 23 15:43:31 2023
+# Process ID: 24984
+# Current directory: H:/FPGA/souce/27_math/math.runs/synth_1
+# Command line: vivado.exe -log addsub_test.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source addsub_test.tcl
+# Log file: H:/FPGA/souce/27_math/math.runs/synth_1/addsub_test.vds
+# Journal file: H:/FPGA/souce/27_math/math.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source addsub_test.tcl -notrace

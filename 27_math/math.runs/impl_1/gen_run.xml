@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xa7z020clg484-1I" LaunchTime="1695455009">
+  <File Type="ROUTE-PWR" Name="addsub_test_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="addsub_test.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="addsub_test_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="addsub_test_reports.tcl"/>
+  <File Type="BITSTR-MSK" Name="addsub_test.msk"/>
+  <File Type="ROUTE-CLK" Name="addsub_test_clock_utilization_routed.rpt"/>
+  <File Type="RDI-RDI" Name="addsub_test.vdi"/>
+  <File Type="BG-BIT" Name="addsub_test.bit"/>
+  <File Type="BG-DRC" Name="addsub_test.drc"/>
+  <File Type="BG-BGN" Name="addsub_test.bgn"/>
+  <File Type="BG-BIN" Name="addsub_test.bin"/>
+  <File Type="BITSTR-RBT" Name="addsub_test.rbt"/>
+  <File Type="BITSTR-NKY" Name="addsub_test.nky"/>
+  <File Type="BITSTR-BMM" Name="addsub_test_bd.bmm"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="addsub_test_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-MMI" Name="addsub_test.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="addsub_test.sysdef"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="addsub_test.ltx"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="OPT-DRC" Name="addsub_test_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="addsub_test.hwdef"/>
+  <File Type="PLACE-IO" Name="addsub_test_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="addsub_test_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="addsub_test_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="addsub_test_control_sets_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="addsub_test_incremental_reuse_pre_placed.rpt"/>
+  <File Type="ROUTE-DRC" Name="addsub_test_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="addsub_test_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="addsub_test_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="addsub_test_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="addsub_test_route_status.pb"/>
+  <File Type="ROUTE-DCP" Name="addsub_test_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="addsub_test_routed_error.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="addsub_test_routed_bb.dcp"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="addsub_test_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="addsub_test_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="addsub_test_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-BUS-SKEW" Name="addsub_test_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="addsub_test_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="addsub_test_bus_skew_routed.rpx"/>
+  <File Type="OPT-DCP" Name="addsub_test_opt.dcp"/>
+  <File Type="PLACE-DCP" Name="addsub_test_placed.dcp"/>
+  <File Type="PWROPT-DCP" Name="addsub_test_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="addsub_test_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="addsub_test_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="addsub_test_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="addsub_test_postroute_physopt_bb.dcp"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="addsub_test_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="addsub_test_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="addsub_test_methodology_drc_routed.rpx"/>
+  <File Type="PDI-FILE" Name="addsub_test.pdi"/>
+  <File Type="RCFI_FILE" Name="addsub_test.rcfi"/>
+  <File Type="CFI_FILE" Name="addsub_test.cfi"/>
+  <File Type="RNPI_FILE" Name="addsub_test.rnpi"/>
+  <File Type="NPI_FILE" Name="addsub_test.npi"/>
+  <File Type="RBD_FILE" Name="addsub_test.rbd"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/ip/mult_gen_0/mult_gen_0.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/addsub_test.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="d:/sin.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="addsub_test"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+    <Step Id="write_device_image"/>
+  </Strategy>
+</GenRun>
